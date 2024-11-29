@@ -1,0 +1,11 @@
+# Basic GitHub Use For Lab Members
+
+(To be completed)
+
+## Create a private repository for each project you are working
+
+How to build a good repository?
+
+## Create/update a repository to public if it is included in a scientific article.
+
+## Get training in the Basic Git Workflow

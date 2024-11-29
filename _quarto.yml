@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Stringhini's Lab GitHub Procedures"
+  author: "Florencia D'Andrea"
+  date: "11/29/2024"
+  chapters:
+    - index.qmd
+    - onboarding.qmd
+    - dailytasks.qmd
+    - offboarding.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    documentclass: scrreprt
+
+
+

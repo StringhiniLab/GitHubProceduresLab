@@ -1,0 +1,10 @@
+# Goal {.unnumbered}
+
+
+The purpose of this manual is to summarize the steps necessary for using GitHub as Lab Member.
+
+## Objectives
+- Ensure the privacy of the datasets used, having clear steps to avoid pushing sensitive code or data to GitHub
+- Guide new students in best practices for handling data and code when preparing scientific publications
+- Maintain repositories of code associated with publications as open science, ensuring transparency in analyses and reproducibility of results.
+- Ensure consistency in managing software over time, as well as the preservation and centralization of the knowledge generated in the lab for future fellows.

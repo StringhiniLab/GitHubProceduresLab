@@ -1,0 +1,9 @@
+# Offboarding
+
+(To be completed)
+
+Tasks before leaving the lab:
+
+## Be removed from the GitHub team
+
+...
