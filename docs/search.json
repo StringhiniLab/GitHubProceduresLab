@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stringhini’s Lab GitHub Procedures",
+    "section": "",
+    "text": "Goal\nThe purpose of this manual is to summarize the steps necessary for using GitHub as Lab Member."
+  },
+  {
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "Stringhini’s Lab GitHub Procedures",
+    "section": "Objectives",
+    "text": "Objectives\n\nEnsure the privacy of the datasets used, having clear steps to avoid pushing sensitive code or data to GitHub\nGuide new students in best practices for handling data and code when preparing scientific publications\nMaintain repositories of code associated with publications as open science, ensuring transparency in analyses and reproducibility of results.\nEnsure consistency in managing software over time, as well as the preservation and centralization of the knowledge generated in the lab for future fellows."
+  },
+  {
+    "objectID": "onboarding.html#create-your-personal-github-repository",
+    "href": "onboarding.html#create-your-personal-github-repository",
+    "title": "1  Onboarding",
+    "section": "1.1 Create your personal GitHub repository",
+    "text": "1.1 Create your personal GitHub repository"
+  },
+  {
+    "objectID": "onboarding.html#be-included-in-the-github-team",
+    "href": "onboarding.html#be-included-in-the-github-team",
+    "title": "1  Onboarding",
+    "section": "1.2 Be included in the GitHub team",
+    "text": "1.2 Be included in the GitHub team"
+  },
+  {
+    "objectID": "onboarding.html#basic-github-training",
+    "href": "onboarding.html#basic-github-training",
+    "title": "1  Onboarding",
+    "section": "1.3 Basic GitHub training",
+    "text": "1.3 Basic GitHub training"
+  },
+  {
+    "objectID": "dailytasks.html#create-a-private-repository-for-each-project-you-are-working",
+    "href": "dailytasks.html#create-a-private-repository-for-each-project-you-are-working",
+    "title": "2  Basic GitHub Use For Lab Members",
+    "section": "2.1 Create a private repository for each project you are working",
+    "text": "2.1 Create a private repository for each project you are working\nHow to build a good repository?"
+  },
+  {
+    "objectID": "dailytasks.html#createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article.",
+    "href": "dailytasks.html#createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article.",
+    "title": "2  Basic GitHub Use For Lab Members",
+    "section": "2.2 Create/update a repository to public if it is included in a scientific article.",
+    "text": "2.2 Create/update a repository to public if it is included in a scientific article."
+  },
+  {
+    "objectID": "dailytasks.html#get-training-in-the-basic-git-workflow",
+    "href": "dailytasks.html#get-training-in-the-basic-git-workflow",
+    "title": "2  Basic GitHub Use For Lab Members",
+    "section": "2.3 Get training in the Basic Git Workflow",
+    "text": "2.3 Get training in the Basic Git Workflow"
+  },
+  {
+    "objectID": "offboarding.html#be-removed-from-the-github-team",
+    "href": "offboarding.html#be-removed-from-the-github-team",
+    "title": "3  Offboarding",
+    "section": "3.1 Be removed from the GitHub team",
+    "text": "3.1 Be removed from the GitHub team\n…"
+  }
+]

@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Stringhini's Lab GitHub Procedures"
@@ -19,6 +20,8 @@ format:
     toc: true
   pdf:
     documentclass: scrreprt
+
+
 
 
 
