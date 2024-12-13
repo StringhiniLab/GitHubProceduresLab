@@ -4,7 +4,7 @@ These steps only need to be completed once, at the beginning of a project.
 
 ---
 
-## Checklist ✅
+## Checklist ✅ {.unnumbered}
 
 - [ ] Create a private repository by new project.  
 - [ ] Add the Lab Team to the repository. 

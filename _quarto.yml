@@ -4,7 +4,7 @@ project:
 
 book:
   title: "GitHub Lab Procedures"
-  subtitle: "A quick guide to effective repository management for research purposes"
+  subtitle: "A repository management start kit for new lab members"
   author: "Florencia D'Andrea"
   date: "11/29/2024"
   chapters:
@@ -29,6 +29,7 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+
 
 
 

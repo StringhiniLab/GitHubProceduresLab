@@ -4,7 +4,7 @@ These steps should be completed every day you work on the project. Although they
 
 ---
 
-## Checklist ✅  
+## Checklist ✅  {.unnumbered}
 
 - [ ] Add all the files you want to commit to the staging area.  
 - [ ] Create a commit message.  
