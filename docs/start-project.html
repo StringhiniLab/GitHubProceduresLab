@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GitHub Lab Procedures - 2&nbsp; Onboarding</title>
+<title>GitHub Lab Procedures - 3&nbsp; Starting a New Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./start-project.html" rel="next">
-<link href="./mantainer.html" rel="prev">
+<link href="./dailytasks.html" rel="next">
+<link href="./onboarding.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./onboarding.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./start-project.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -113,13 +113,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./onboarding.html" class="sidebar-item-text sidebar-link active">
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./start-project.html" class="sidebar-item-text sidebar-link">
+  <a href="./start-project.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
   </div>
 </li>
@@ -145,12 +145,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist"><span class="header-section-number">2.1</span> Checklist ✅</a></li>
-  <li><a href="#create-your-personal-github-account" id="toc-create-your-personal-github-account" class="nav-link" data-scroll-target="#create-your-personal-github-account"><span class="header-section-number">2.2</span> Create Your Personal GitHub Account 🧑‍💻</a></li>
-  <li><a href="#request-access-to-the-github-organization" id="toc-request-access-to-the-github-organization" class="nav-link" data-scroll-target="#request-access-to-the-github-organization"><span class="header-section-number">2.3</span> Request Access to the GitHub Organization 🏢</a></li>
-  <li><a href="#request-access-to-the-lab-team" id="toc-request-access-to-the-lab-team" class="nav-link" data-scroll-target="#request-access-to-the-lab-team"><span class="header-section-number">2.4</span> Request Access to the Lab Team 🔑</a></li>
-  <li><a href="#installation-instructions" id="toc-installation-instructions" class="nav-link" data-scroll-target="#installation-instructions"><span class="header-section-number">2.5</span> Installation Instructions 🛠️</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.6</span> References</a></li>
+  <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist"><span class="header-section-number">3.1</span> Checklist ✅</a></li>
+  <li><a href="#create-a-private-repository-by-new-project" id="toc-create-a-private-repository-by-new-project" class="nav-link" data-scroll-target="#create-a-private-repository-by-new-project"><span class="header-section-number">3.2</span> Create a private repository by new project</a></li>
+  <li><a href="#add-the-lab-team-to-the-repository" id="toc-add-the-lab-team-to-the-repository" class="nav-link" data-scroll-target="#add-the-lab-team-to-the-repository"><span class="header-section-number">3.3</span> Add the Lab Team to the repository</a></li>
+  <li><a href="#clone-the-repository-and-associate-it-with-an-rstudio-project" id="toc-clone-the-repository-and-associate-it-with-an-rstudio-project" class="nav-link" data-scroll-target="#clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">3.4</span> Clone the repository and associate it with an RStudio Project</a>
+  <ul class="collapse">
+  <li><a href="#add-your-data-folder-to-.gitignore" id="toc-add-your-data-folder-to-.gitignore" class="nav-link" data-scroll-target="#add-your-data-folder-to-.gitignore"><span class="header-section-number">3.4.1</span> Add your Data folder to <code>.gitignore</code></a></li>
+  </ul></li>
+  <li><a href="#complete-the-readme-using-the-template" id="toc-complete-the-readme-using-the-template" class="nav-link" data-scroll-target="#complete-the-readme-using-the-template"><span class="header-section-number">3.5</span> Complete the README using the template</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.6</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -159,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></h1>
 </div>
 
 
@@ -174,65 +177,152 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>These steps only need to be completed once, at the beginning of a project.</p>
 <hr>
-<section id="checklist" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="checklist"><span class="header-section-number">2.1</span> Checklist ✅</h2>
+<section id="checklist" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="checklist"><span class="header-section-number">3.1</span> Checklist ✅</h2>
 <ul class="task-list">
-<li><input type="checkbox">Create your personal GitHub account.<br>
+<li><input type="checkbox">Create a private repository by new project.<br>
 </li>
-<li><input type="checkbox">Request access to the GitHub Organization.<br>
-</li>
-<li><input type="checkbox">Request access to the Lab Team.<br>
-</li>
-<li><input type="checkbox">Install Git, R and RStudio.</li>
+<li><input type="checkbox">Add the Lab Team to the repository.</li>
+<li><input type="checkbox">Clone the repository and associate it with an RStudio Project.</li>
+<li><input type="checkbox">Add your Data folder to <code>.gitignore</code>.</li>
+<li><input type="checkbox">Complete the <code>README</code> file using the template.</li>
 </ul>
 <hr>
 </section>
-<section id="create-your-personal-github-account" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="create-your-personal-github-account"><span class="header-section-number">2.2</span> Create Your Personal GitHub Account 🧑‍💻</h2>
-<p>First, you need to create an account on GitHub by following these steps: <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Creating an account on GitHub</a>.</p>
-<p>After creating your GitHub account, you’ll notice that your profile is associated with a specific URL, structured as follows:</p>
-<ul>
-<li><code>https://github.com/&lt;username&gt;</code></li>
+<section id="create-a-private-repository-by-new-project" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="create-a-private-repository-by-new-project"><span class="header-section-number">3.2</span> Create a private repository by new project</h2>
+<p>When starting to work on a new project, your first step is to create a <strong>private</strong> repository in the lab’s GitHub organization: <a href="https://github.com/StringhiniLab">StringhiniLab GitHub</a>.</p>
+<ol type="1">
+<li>Click the green <strong>New</strong> button to open a window like this:</li>
+</ol>
+<p><img src="img/create_repository.png" class="img-fluid" style="width:70.0%"></p>
+<ol start="2" type="1">
+<li>Complete/select using the following criteria:</li>
+</ol>
+<ul class="task-list">
+<li><p><input type="checkbox"><strong>Owner</strong><br>
+Select <code>StringhiniLab</code> as the owner, not your personal GitHub account.</p></li>
+<li><p><input type="checkbox"><strong>Repository Name</strong><br>
+Choose a name that represents your project. Since this repository will be private, append <code>_private</code> to the name.<br>
+For example, if the repository name is <code>chronic-diseases</code>, name it <code>chronic-diseases_private</code>.</p></li>
+<li><p><input type="checkbox"><strong>Description</strong><br>
+Provide a more detailed description of the project here. This helps identify the repository’s content in the organization.</p></li>
+<li><p><input type="checkbox"><strong>Public or Private?</strong><br>
+Ensure the repository is set to <code>Private</code>.</p></li>
+<li><p><input type="checkbox"><strong>Initialize Repository With</strong><br>
+Add a <code>README.md</code>.</p></li>
 </ul>
-<p>This page allows you to access your account settings and all repositories you create.</p>
+<p>Ignore the other options for now.<br>
+If everything works, you’ll see your repository within <a href="https://github.com/StringhiniLab">the GitHub organization</a> labeled as <code>Private</code>.</p>
+<hr>
 </section>
-<section id="request-access-to-the-github-organization" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="request-access-to-the-github-organization"><span class="header-section-number">2.3</span> Request Access to the GitHub Organization 🏢</h2>
-<p>Our lab has a <a href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations">GitHub organization</a> that centralizes the repositories for everything produced in the lab.<br>
-Notice that the organization’s URL is different from your profile’s:</p>
-<ul>
-<li><a href="https://github.com/StringhiniLab">https://github.com/StringhiniLab</a></li>
-</ul>
-<p>To gain access, you need to provide your GitHub username to the person managing the organization. Having access to the organization will enable you to create repositories within it.</p>
+<section id="add-the-lab-team-to-the-repository" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="add-the-lab-team-to-the-repository"><span class="header-section-number">3.3</span> Add the Lab Team to the repository</h2>
+<p><img src="img/teams.png" class="img-fluid" style="width:100.0%"></p>
+<ol type="1">
+<li><p><strong>Navigate to the repository’s <code>Settings</code> tab.</strong><br>
+In the left-hand sidebar, find and click on <code>Collaborators and teams</code>.</p></li>
+<li><p>Click <strong>Add teams</strong> and add <code>Lab Team</code>.<br>
+By default, you will select the Read role for the team. The idea is that other Lab Members can view the repository but will not be able to edit it by mistake.</p></li>
+</ol>
+<p><img src="img/add-teams.png" class="img-fluid" style="width:70.0%"></p>
+<p>This allows all current Lab Members to view (but not modify) your project.<br>
+If you don’t want to share an analysis with other Lab Members, you can create a repository in your personal GitHub account instead. However, <strong>always ensure sensitive data is not pushed to GitHub</strong> for confidentiality reasons.</p>
+<p>All repositories in <code>StringhiniLab</code> should be accessible to the Lab Team, which is why these repositories are hosted in the organization instead of personal accounts. Remember that individuals who are Owners of the organization can view all repositories even if there are not part of the Team.</p>
+<hr>
 </section>
-<section id="request-access-to-the-lab-team" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="request-access-to-the-lab-team"><span class="header-section-number">2.4</span> Request Access to the Lab Team 🔑</h2>
-<p>Not all lab repositories are public. To access repositories owned by other lab members, you must also be added to the Lab Team.<br>
-Dr.&nbsp;Stringhini, as the owner of the organization, always has access to all repositories.</p>
+<section id="clone-the-repository-and-associate-it-with-an-rstudio-project" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">3.4</span> Clone the repository and associate it with an RStudio Project</h2>
+<ol type="1">
+<li><p><strong>Open RStudio</strong><br>
+If RStudio is not installed, complete first the installation instructions in the Onboarding section.</p></li>
+<li><p><strong>Clone the Repository</strong><br>
+In RStudio:<br>
+<code>File</code> &gt; <code>New Project</code> &gt; <code>Version Control</code> &gt; <code>Clone a Project from a Git Repository</code>.</p></li>
+</ol>
+<p><img src="img/rstudio-versioncontrol.png" class="img-fluid" style="width:70.0%"> <img src="img/rstudio-versioncontrol2.png" class="img-fluid" style="width:70.0%"></p>
+<p>Go back to the repository and copy the repository’s URL.</p>
+<p><img src="img/github-url.png" class="img-fluid" style="width:70.0%"></p>
+<p>And paste it in the correct field:</p>
+<p><img src="img/rstudio-versioncontrol3.png" class="img-fluid" style="width:70.0%"></p>
+<p>If successful, you’ll see a folder containing your project, including the <code>README</code> file that we created on GitHub, in the <code>Files</code> tab at the bottom-right of RStudio.</p>
+<p>Note that an <code>.Rproj</code> icon has appeared. Clicking on this icon outside of RStudio will open RStudio directly within the project.</p>
+<p>Additionally, the project name now appears in the top-right corner. By opening that menu, you can easily switch between projects without leaving the RStudio IDE.</p>
+<p>You’ll also notice a tab named Git in the top-right panel.</p>
+<p><img src="img/rstudio-project.png" class="img-fluid" style="width:100.0%"></p>
+<hr>
+<section id="add-your-data-folder-to-.gitignore" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="add-your-data-folder-to-.gitignore"><span class="header-section-number">3.4.1</span> Add your Data folder to <code>.gitignore</code></h3>
+<p>We work with sensitive data. If working locally, create a <code>data</code> folder (e.g., click the <code>+ Folder</code> icon in the <code>Files</code> tab). Move your data files into this folder.</p>
+<p>Open the <code>.gitignore</code> file and add the line <code>data/</code>. This tells Git to ignore the contents of the <code>data</code> folder, preventing accidental data pushes.</p>
+<p>We recommend creating at least two sub-folders within <code>data/</code>:</p>
 <ul>
-<li><a href="https://docs.github.com/en/organizations/organizing-members-into-teams/adding-organization-members-to-a-team">Adding organization members to a team</a></li>
-<li><a href="https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/managing-team-access-to-an-organization-repository">Managing team access to an organization repository</a></li>
+<li><code>raw/</code>: Use this folder to store the original datasets.</li>
+<li><code>processed/</code>: Use this folder to save any datasets generated as preliminary or final results from your analyses.</li>
 </ul>
+<p>If <code>data/</code> is listed in your <code>.gitignore</code> file, both subfolders will automatically be ignored by Git since they are located within the <code>data/</code> folder.</p>
+<p>If the folder is not in the project root or has a different name, adjust the <code>.gitignore</code> settings accordingly.</p>
+<p>Your project structure should look like this:</p>
+<pre><code>project-folder/ 
+├── .gitignore # Specifies files and folders to ignore in version control 
+├── README.md # Documentation about the project 
+├── data/ # Folder to store datasets 
+    ├── raw/ # Original datasets (never modified directly) │
+    └── processed/ # Cleaned and processed datasets</code></pre>
+<p>and you <code>.gitignore</code> file should look like this:</p>
+<pre><code>.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+data/</code></pre>
+<hr>
 </section>
-<section id="installation-instructions" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="installation-instructions"><span class="header-section-number">2.5</span> Installation Instructions 🛠️</h2>
-<p>To work in the lab, you will need to have Git, R, and RStudio installed.<br>
-Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.</p>
-<ul>
-<li><strong>Git</strong>: <a href="https://git-scm.com/downloads">Download Git</a><br>
-</li>
-<li><strong>R</strong>: <a href="https://cran.r-project.org/">Download R</a><br>
-</li>
-<li><strong>RStudio</strong>: <a href="https://posit.co/download/rstudio-desktop/">Download RStudio</a></li>
-</ul>
-<p>Once you’ve completed these steps, you can move on to the next section. 🎉</p>
 </section>
-<section id="references" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="references"><span class="header-section-number">2.6</span> References</h2>
-<ul>
-<li><a href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations">Best practices for organizations</a></li>
-</ul>
+<section id="complete-the-readme-using-the-template" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="complete-the-readme-using-the-template"><span class="header-section-number">3.5</span> Complete the README using the template</h2>
+<p>Before starting work, fill out the <code>README.md</code> file with the following information:</p>
+<pre><code># Title
+
+## Author  
+**Name:** [Your Name]  
+**Email:** [Your Email]  
+
+## Start Date  
+**Initial Commit:** [YYYY-MM-DD]  
+
+## Objective  
+The objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  
+
+## Database Used and Version  
+**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  
+**Data Version:** [Specify version or date accessed]  
+
+-[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`
+-[] All analyses comply with CLSA data use agreements.
+
+## Project Structure  
+
+chronic-diseases/
+├── data/ # Folder for datasets
+│ ├── raw/ # Original datasets (never modified directly)
+│ └── processed/ # Cleaned and processed datasets
+├── scripts/ # R scripts for analysis
+├── outputs/ # Figures, tables, and other results
+├── README.md # Project overview and documentation
+└── .Rproj # RStudio project file
+
+
+## Reproducibility
+
+sessionInfo()
+</code></pre>
+<p>Now you’re ready to start writing code! 🎉</p>
+</section>
+<section id="references" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="references"><span class="header-section-number">3.6</span> References</h2>
 
 
 </section>
@@ -473,13 +563,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./mantainer.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">GitHub Team Maintainer (Role) ️</span></span>
+      <a href="./onboarding.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./start-project.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./dailytasks.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

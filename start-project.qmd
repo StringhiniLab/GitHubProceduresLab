@@ -1,0 +1,183 @@
+# Starting a New Project 
+
+These steps only need to be completed once, at the beginning of a project.
+
+---
+
+## Checklist ✅
+
+- [ ] Create a private repository by new project.  
+- [ ] Add the Lab Team to the repository. 
+- [ ] Clone the repository and associate it with an RStudio Project. 
+- [ ] Add your Data folder to `.gitignore`. 
+- [ ] Complete the `README` file using the template. 
+
+---
+
+## Create a private repository by new project 
+
+When starting to work on a new project, your first step is to create a **private** repository in the lab's GitHub organization: [StringhiniLab GitHub](https://github.com/StringhiniLab).
+
+1. Click the green **New** button to open a window like this:
+
+![](img/create_repository.png){width=70%}
+
+2. Complete/select using the following criteria:
+
+- [ ] **Owner**  
+  Select `StringhiniLab` as the owner, not your personal GitHub account.
+
+- [ ] **Repository Name**  
+  Choose a name that represents your project. Since this repository will be private, append `_private` to the name.  
+  For example, if the repository name is `chronic-diseases`, name it `chronic-diseases_private`.
+
+- [ ] **Description**  
+  Provide a more detailed description of the project here. This helps identify the repository's content in the organization.
+
+- [ ] **Public or Private?**  
+  Ensure the repository is set to `Private`.
+
+- [ ] **Initialize Repository With**  
+  Add a `README.md`.
+
+Ignore the other options for now.  
+If everything works, you’ll see your repository within [the GitHub organization](https://github.com/StringhiniLab) labeled as `Private`.
+
+---
+
+## Add the Lab Team to the repository
+
+![](img/teams.png){width=100%}
+
+1. **Navigate to the repository’s `Settings` tab.**  
+In the left-hand sidebar, find and click on `Collaborators and teams`.  
+
+2. Click **Add teams** and add `Lab Team`.  
+By default, you will select the Read role for the team. The idea is that other Lab Members can view the repository but will not be able to edit it by mistake.
+
+![](img/add-teams.png){width=70%}
+
+This allows all current Lab Members to view (but not modify) your project.  
+If you don't want to share an analysis with other Lab Members, you can create a repository in your personal GitHub account instead. However, **always ensure sensitive data is not pushed to GitHub** for confidentiality reasons.  
+
+All repositories in `StringhiniLab` should be accessible to the Lab Team, which is why these repositories are hosted in the organization instead of personal accounts. Remember that individuals who are Owners of the organization can view all repositories even if there are not part of the Team.
+
+---
+
+## Clone the repository and associate it with an RStudio Project
+
+1. **Open RStudio**  
+   If RStudio is not installed, complete first the installation instructions in the Onboarding section.  
+
+2. **Clone the Repository**  
+   In RStudio:  
+   `File` > `New Project` > `Version Control` > `Clone a Project from a Git Repository`.  
+   
+![](img/rstudio-versioncontrol.png){width=70%}
+![](img/rstudio-versioncontrol2.png){width=70%}
+
+ Go back to the repository and copy the repository’s URL.
+   
+   
+   ![](img/github-url.png){width=70%}
+
+And paste it in the correct field:
+
+![](img/rstudio-versioncontrol3.png){width=70%}
+
+If successful, you’ll see a folder containing your project, including the `README` file that we created on GitHub, in the `Files` tab at the bottom-right of RStudio. 
+
+Note that an `.Rproj` icon has appeared. Clicking on this icon outside of RStudio will open RStudio directly within the project. 
+
+Additionally, the project name now appears in the top-right corner. By opening that menu, you can easily switch between projects without leaving the RStudio IDE.
+
+You’ll also notice a tab named Git in the top-right panel.
+
+![](img/rstudio-project.png){width=100%}
+---
+
+### Add your Data folder to `.gitignore` 
+
+We work with sensitive data. If working locally, create a `data` folder (e.g., click the `+ Folder` icon in the `Files` tab). Move your data files into this folder.  
+
+Open the `.gitignore` file and add the line `data/`. This tells Git to ignore the contents of the `data` folder, preventing accidental data pushes.  
+
+We recommend creating at least two sub-folders within `data/`:
+
+- `raw/`: Use this folder to store the original datasets.
+- `processed/`: Use this folder to save any datasets generated as preliminary or final results from your analyses.
+
+If `data/` is listed in your `.gitignore` file, both subfolders will automatically be ignored by Git since they are located within the `data/` folder.
+
+If the folder is not in the project root or has a different name, adjust the `.gitignore` settings accordingly.
+
+Your project structure should look like this:
+
+```
+project-folder/ 
+├── .gitignore # Specifies files and folders to ignore in version control 
+├── README.md # Documentation about the project 
+├── data/ # Folder to store datasets 
+    ├── raw/ # Original datasets (never modified directly) │
+    └── processed/ # Cleaned and processed datasets
+```
+
+and you `.gitignore` file should look like this:
+
+```
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+data/
+```
+
+---
+
+## Complete the README using the template
+
+Before starting work, fill out the `README.md` file with the following information:  
+
+```
+# Title
+
+## Author  
+**Name:** [Your Name]  
+**Email:** [Your Email]  
+
+## Start Date  
+**Initial Commit:** [YYYY-MM-DD]  
+
+## Objective  
+The objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  
+
+## Database Used and Version  
+**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  
+**Data Version:** [Specify version or date accessed]  
+
+-[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`
+-[] All analyses comply with CLSA data use agreements.
+
+## Project Structure  
+
+chronic-diseases/
+├── data/ # Folder for datasets
+│ ├── raw/ # Original datasets (never modified directly)
+│ └── processed/ # Cleaned and processed datasets
+├── scripts/ # R scripts for analysis
+├── outputs/ # Figures, tables, and other results
+├── README.md # Project overview and documentation
+└── .Rproj # RStudio project file
+
+
+## Reproducibility
+
+sessionInfo()
+
+```
+
+Now you're ready to start writing code! 🎉
+
+## References
+

@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 book:
-  title: "Stringhini's Lab GitHub Procedures"
+  title: "GitHub Lab Procedures"
+  subtitle: "Stringhini's Lab - University of British Columbia"
   author: "Florencia D'Andrea"
   date: "11/29/2024"
   chapters:
     - index.qmd
+    - mantainer.qmd
     - onboarding.qmd
+    - start-project.qmd
     - dailytasks.qmd
     - offboarding.qmd
 
@@ -16,8 +19,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: flatly
   pdf:
     documentclass: scrreprt
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Stringhini’s Lab GitHub Procedures - 2&nbsp; Basic GitHub Use For Lab Members</title>
+<title>GitHub Lab Procedures - 4&nbsp; Regular Project Workflow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./offboarding.html" rel="next">
-<link href="./onboarding.html" rel="prev">
+<link href="./start-project.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dailytasks.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic GitHub Use For Lab Members</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dailytasks.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Stringhini’s Lab GitHub Procedures</a> 
+      <a href="./">GitHub Lab Procedures</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -107,20 +107,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./mantainer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">GitHub Team Maintainer (Role) ️</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./start-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dailytasks.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic GitHub Use For Lab Members</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./offboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
   </div>
 </li>
     </ul>
@@ -133,9 +145,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#create-a-private-repository-for-each-project-you-are-working" id="toc-create-a-private-repository-for-each-project-you-are-working" class="nav-link active" data-scroll-target="#create-a-private-repository-for-each-project-you-are-working"><span class="header-section-number">2.1</span> Create a private repository for each project you are working</a></li>
-  <li><a href="#createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article." id="toc-createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article." class="nav-link" data-scroll-target="#createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article."><span class="header-section-number">2.2</span> Create/update a repository to public if it is included in a scientific article.</a></li>
-  <li><a href="#get-training-in-the-basic-git-workflow" id="toc-get-training-in-the-basic-git-workflow" class="nav-link" data-scroll-target="#get-training-in-the-basic-git-workflow"><span class="header-section-number">2.3</span> Get training in the Basic Git Workflow</a></li>
+  <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist"><span class="header-section-number">4.1</span> Checklist ✅</a></li>
+  <li><a href="#how-to-use-the-git-tab-in-rstudio" id="toc-how-to-use-the-git-tab-in-rstudio" class="nav-link" data-scroll-target="#how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">4.2</span> How to use the Git tab in RStudio</a>
+  <ul class="collapse">
+  <li><a href="#add-all-the-files-you-want-to-commit-to-the-staging-area." id="toc-add-all-the-files-you-want-to-commit-to-the-staging-area." class="nav-link" data-scroll-target="#add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">4.2.1</span> Add all the files you want to commit to the staging area.</a></li>
+  <li><a href="#create-a-commit-message." id="toc-create-a-commit-message." class="nav-link" data-scroll-target="#create-a-commit-message."><span class="header-section-number">4.2.2</span> Create a commit message.</a></li>
+  </ul></li>
+  <li><a href="#push-the-changes-to-the-github-repository." id="toc-push-the-changes-to-the-github-repository." class="nav-link" data-scroll-target="#push-the-changes-to-the-github-repository."><span class="header-section-number">4.3</span> Push the changes to the GitHub repository.</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -144,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic GitHub Use For Lab Members</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></h1>
 </div>
 
 
@@ -159,16 +176,68 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>(To be completed)</p>
-<section id="create-a-private-repository-for-each-project-you-are-working" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="create-a-private-repository-for-each-project-you-are-working"><span class="header-section-number">2.1</span> Create a private repository for each project you are working</h2>
-<p>How to build a good repository?</p>
+<p>These steps should be completed every day you work on the project. Although they may seem complex at first, once you get accustomed to them, you won’t need to think about it anymore.</p>
+<hr>
+<section id="checklist" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="checklist"><span class="header-section-number">4.1</span> Checklist ✅</h2>
+<ul class="task-list">
+<li><input type="checkbox">Add all the files you want to commit to the staging area.<br>
+</li>
+<li><input type="checkbox">Create a commit message.<br>
+</li>
+<li><input type="checkbox">Push the changes to the GitHub repository.</li>
+</ul>
+<hr>
 </section>
-<section id="createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article." class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="createupdate-a-repository-to-public-if-it-is-included-in-a-scientific-article."><span class="header-section-number">2.2</span> Create/update a repository to public if it is included in a scientific article.</h2>
+<section id="how-to-use-the-git-tab-in-rstudio" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">4.2</span> How to use the Git tab in RStudio</h2>
+<p>Pay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).</p>
+<p>Keep in mind that when we cloned the project from GitHub, two new files were added:</p>
+<ul>
+<li>The <code>.Rproj</code> file, created because we based our RStudio project on the repository.<br>
+</li>
+<li>The <code>.gitignore</code> file, automatically generated as part of the project setup in RStudio.</li>
+</ul>
+<p>These files will appear with a yellow question mark, indicating they are <em>untracked</em>—in other words, Git is aware of them but has not yet saved them under version control.</p>
+<p>The <code>README.md</code> file initially did not appear in the Git tab. However, after adding the template and saving the changes, it now shows a blue “M,” which indicates that the file has been <em>modified</em>.</p>
+<p>If you were to remove a file, you would see it next to a red ‘D’, indicating that it has been <em>deleted</em> from the project.</p>
+<p><img src="img/git-tab.png" class="img-fluid" style="width:70.0%"></p>
+<p>The next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.</p>
+<section id="add-all-the-files-you-want-to-commit-to-the-staging-area." class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">4.2.1</span> Add all the files you want to commit to the staging area.</h3>
+<p>The first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green ‘A’ appears. You can ignore this. The important part is that you check all the changes you want to save.</p>
+<p>In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there’s no need to focus too much on the details in this section.</p>
+<p><img src="img/git-tab-staged.png" class="img-fluid" style="width:70.0%"></p>
 </section>
-<section id="get-training-in-the-basic-git-workflow" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="get-training-in-the-basic-git-workflow"><span class="header-section-number">2.3</span> Get training in the Basic Git Workflow</h2>
+<section id="create-a-commit-message." class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="create-a-commit-message."><span class="header-section-number">4.2.2</span> Create a commit message.</h3>
+<p>After doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the <code>Commit</code> button.</p>
+<p><img src="img/commit.png" class="img-fluid" style="width:70.0%"></p>
+<div class="important">
+<p><strong>How Often Should You Commit?</strong></p>
+<p>Think of commits as checkpoints for related changes. If you might want to revert a set of changes later, commit them together.</p>
+</div>
+</section>
+</section>
+<section id="push-the-changes-to-the-github-repository." class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="push-the-changes-to-the-github-repository."><span class="header-section-number">4.3</span> Push the changes to the GitHub repository.</h2>
+<p>Finally, to push the changes to GitHub, click the <code>Push</code> button.</p>
+<p><img src="img/push.png" class="img-fluid" style="width:70.0%"></p>
+<p>You’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.</p>
+<p>If everything went smoothly, you should navigate to the repository URL and see the changes you made.</p>
+<div class="important">
+<p><strong>How Often Should You Push?</strong></p>
+<p>Push your changes <strong>at least once a day</strong> after completing your work.</p>
+</div>
+<hr>
+</section>
+<section id="references" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="references"><span class="header-section-number">4.4</span> References</h2>
+<ul>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/">Article: Research Data Management</a><br>
+</li>
+<li><a href="https://ubc-library-rc.github.io/rdm/">UBC Research Data Management Guide</a></li>
+</ul>
 
 
 </section>
@@ -409,13 +478,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./onboarding.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span>
+      <a href="./start-project.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./offboarding.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

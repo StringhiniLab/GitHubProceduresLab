@@ -1,9 +1,55 @@
-# Onboarding
+# Onboarding 
 
-(To be completed)
+---
 
-Tasks when joining the lab
+## Checklist ✅
 
-## Create your personal GitHub repository
-## Be included in the GitHub team
-## Basic GitHub training
+- [ ] Create your personal GitHub account.    
+- [ ] Request access to the GitHub Organization.    
+- [ ] Request access to the Lab Team.    
+- [ ] Install Git, R and RStudio.  
+
+---
+
+## Create Your Personal GitHub Account 🧑‍💻
+
+First, you need to create an account on GitHub by following these steps: [Creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+
+After creating your GitHub account, you'll notice that your profile is associated with a specific URL, structured as follows: 
+
+- `https://github.com/<username>`
+
+This page allows you to access your account settings and all repositories you create.
+
+## Request Access to the GitHub Organization 🏢
+
+Our lab has a [GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) that centralizes the repositories for everything produced in the lab.  
+Notice that the organization's URL is different from your profile's:
+
+- [https://github.com/StringhiniLab](https://github.com/StringhiniLab)
+
+To gain access, you need to provide your GitHub username to the person managing the organization. Having access to the organization will enable you to create repositories within it.  
+
+## Request Access to the Lab Team 🔑
+
+Not all lab repositories are public. To access repositories owned by other lab members, you must also be added to the Lab Team.  
+Dr. Stringhini, as the owner of the organization, always has access to all repositories.  
+
+- [Adding organization members to a team](https://docs.github.com/en/organizations/organizing-members-into-teams/adding-organization-members-to-a-team)
+- [Managing team access to an organization repository](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/managing-team-access-to-an-organization-repository)
+
+## Installation Instructions 🛠️
+
+To work in the lab, you will need to have Git, R, and RStudio installed.  
+Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.  
+
+- **Git**: [Download Git](https://git-scm.com/downloads)  
+- **R**: [Download R](https://cran.r-project.org/)  
+- **RStudio**: [Download RStudio](https://posit.co/download/rstudio-desktop/)  
+
+Once you've completed these steps, you can move on to the next section. 🎉
+
+## References
+
+- [Best practices for organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations)
+

@@ -1,10 +1,30 @@
 # Goal {.unnumbered}
 
+The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 🎓
 
-The purpose of this manual is to summarize the steps necessary for using GitHub as Lab Member.
+## Why Use GitHub?
 
-## Objectives
-- Ensure the privacy of the datasets used, having clear steps to avoid pushing sensitive code or data to GitHub
-- Guide new students in best practices for handling data and code when preparing scientific publications
-- Maintain repositories of code associated with publications as open science, ensuring transparency in analyses and reproducibility of results.
-- Ensure consistency in managing software over time, as well as the preservation and centralization of the knowledge generated in the lab for future fellows.
+Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:
+
+- **Backup**  
+Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.
+
+- **Improved Documentation Practices**  
+Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.
+
+- **Version Control**  
+It is easy to see how the project has evolved over time and recover changes from previous versions.
+
+- **Reproducibility**  
+When publishing scientific articles, maintaining reproducible results is considered a quality practice.  
+
+It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
+
+## Objectives of this Manual
+
+- Provide a quick onboarding guide and basic data management practices for new lab members, including data analysis backup and how to maintain the privacy of datasets by having clear steps to prevent pushing data.  
+- Set guidelines on the use and management of code within the lab to facilitate sharing unpublished or complementary data analysis among current and former lab members.  
+- Establish basic rules to publish public repositories associated with scientific articles, ensuring transparency in analyses and reproducibility of results.  
+- Ensure consistency in managing data analyses over time and preserve and centralize the knowledge generated in the different projects.  
+
+## References  

@@ -9,7 +9,7 @@
 <meta name="author" content="Florencia D’Andrea">
 <meta name="dcterms.date" content="2024-11-29">
 
-<title>Stringhini’s Lab GitHub Procedures</title>
+<title>GitHub Lab Procedures</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./onboarding.html" rel="next">
+<link href="./mantainer.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Stringhini’s Lab GitHub Procedures</a> 
+      <a href="./">GitHub Lab Procedures</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -108,20 +108,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./mantainer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">GitHub Team Maintainer (Role) ️</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./start-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dailytasks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic GitHub Use For Lab Members</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./offboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
   </div>
 </li>
     </ul>
@@ -136,7 +148,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a>
   <ul class="collapse">
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#why-use-github" id="toc-why-use-github" class="nav-link" data-scroll-target="#why-use-github">Why Use GitHub?</a></li>
+  <li><a href="#objectives-of-this-manual" id="toc-objectives-of-this-manual" class="nav-link" data-scroll-target="#objectives-of-this-manual">Objectives of this Manual</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -146,7 +160,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Stringhini’s Lab GitHub Procedures</h1>
+<h1 class="title">GitHub Lab Procedures</h1>
+<p class="subtitle lead">Stringhini’s Lab - University of British Columbia</p>
 </div>
 
 
@@ -175,15 +190,36 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="goal" class="level1 unnumbered">
 <h1 class="unnumbered">Goal</h1>
-<p>The purpose of this manual is to summarize the steps necessary for using GitHub as Lab Member.</p>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<p>The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 🎓</p>
+<section id="why-use-github" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-github">Why Use GitHub?</h2>
+<p>Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:</p>
 <ul>
-<li>Ensure the privacy of the datasets used, having clear steps to avoid pushing sensitive code or data to GitHub</li>
-<li>Guide new students in best practices for handling data and code when preparing scientific publications</li>
-<li>Maintain repositories of code associated with publications as open science, ensuring transparency in analyses and reproducibility of results.</li>
-<li>Ensure consistency in managing software over time, as well as the preservation and centralization of the knowledge generated in the lab for future fellows.</li>
+<li><p><strong>Backup</strong><br>
+Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.</p></li>
+<li><p><strong>Improved Documentation Practices</strong><br>
+Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.</p></li>
+<li><p><strong>Version Control</strong><br>
+It is easy to see how the project has evolved over time and recover changes from previous versions.</p></li>
+<li><p><strong>Reproducibility</strong><br>
+When publishing scientific articles, maintaining reproducible results is considered a quality practice.</p></li>
 </ul>
+<p>It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.</p>
+</section>
+<section id="objectives-of-this-manual" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-of-this-manual">Objectives of this Manual</h2>
+<ul>
+<li>Provide a quick onboarding guide and basic data management practices for new lab members, including data analysis backup and how to maintain the privacy of datasets by having clear steps to prevent pushing data.<br>
+</li>
+<li>Set guidelines on the use and management of code within the lab to facilitate sharing unpublished or complementary data analysis among current and former lab members.<br>
+</li>
+<li>Establish basic rules to publish public repositories associated with scientific articles, ensuring transparency in analyses and reproducibility of results.<br>
+</li>
+<li>Ensure consistency in managing data analyses over time and preserve and centralize the knowledge generated in the different projects.</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
 </section>
@@ -427,8 +463,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./onboarding.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./mantainer.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">GitHub Team Maintainer (Role) ️</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
