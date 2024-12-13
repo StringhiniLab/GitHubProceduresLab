@@ -4,7 +4,7 @@ project:
 
 book:
   title: "GitHub Lab Procedures"
-  subtitle: "Stringhini's Lab - University of British Columbia"
+  subtitle: "A quick guide to effective repository management for research purposes"
   author: "Florencia D'Andrea"
   date: "11/29/2024"
   chapters:
@@ -14,6 +14,13 @@ book:
     - start-project.qmd
     - dailytasks.qmd
     - offboarding.qmd
+  sidebar:
+    title: |
+      Dr. Stringhini's Lab
+      School of Population and Public Health
+      University of British Columbia
+    search: true
+    logo: img/logo.png
 
 bibliography: references.bib
 
