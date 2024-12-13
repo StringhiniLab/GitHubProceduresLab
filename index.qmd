@@ -1,6 +1,6 @@
 # Goal {.unnumbered}
 
-The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 🎓
+The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 
 
 ## Why Use GitHub?
 

@@ -1,9 +1,3 @@
 # Offboarding
 
-(To be completed)
-
-Tasks before leaving the lab:
-
-## Be removed from the GitHub team
-
-...
+The Lab Member must be removed from the GitHub Lab Team.

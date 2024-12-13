@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "GitHub Lab Procedures",
     "section": "",
-    "text": "Goal\nThe purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 🎓"
+    "text": "Goal\nThe purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member."
   },
   {
     "objectID": "index.html#why-use-github",
@@ -147,10 +147,10 @@
     "text": "4.4 References\n\nArticle: Research Data Management\n\nUBC Research Data Management Guide"
   },
   {
-    "objectID": "offboarding.html#be-removed-from-the-github-team",
-    "href": "offboarding.html#be-removed-from-the-github-team",
+    "objectID": "offboarding.html",
+    "href": "offboarding.html",
     "title": "5  Offboarding",
-    "section": "5.1 Be removed from the GitHub team",
-    "text": "5.1 Be removed from the GitHub team\n…"
+    "section": "",
+    "text": "The Lab Member must be removed from the GitHub Lab Team."
   }
 ]
