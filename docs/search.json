@@ -28,128 +28,156 @@
     "text": "References"
   },
   {
-    "objectID": "mantainer.html#responsibilities-of-the-maintainer",
-    "href": "mantainer.html#responsibilities-of-the-maintainer",
-    "title": "1  GitHub Team Maintainer (Role) ️",
-    "section": "1.1 Responsibilities of the Maintainer 🎯",
-    "text": "1.1 Responsibilities of the Maintainer 🎯\n\nAdd new lab members to the Lab Team.\nRemove team members who are no longer part of the lab.\nAssign other members as Team Maintainers if necessary."
+    "objectID": "lab-design.html",
+    "href": "lab-design.html",
+    "title": "1  Design for Technology Use in the Lab",
+    "section": "",
+    "text": "Most of the databases used in our lab are private and do not contain enough data to be considered big data. These databases are used locally.\n\nIt is suggested to use a raw/ folder and a processed/ folder to separate unprocessed data from processed data.\nTo ensure that the data is not made public, it is recommended to use a .gitignore file and avoid pushing the folder where the data is stored to the repository."
+  },
+  {
+    "objectID": "roles.html",
+    "href": "roles.html",
+    "title": "2  Organization Owner on GitHub",
+    "section": "",
+    "text": "3 GitHub Team Maintainer\nAt least one person in the lab will be assigned as the Team Maintainer of the GitHub organization. This role will allow them to add and remove members from the team, granting or revoking access to private repositories.\nFor this, it’s important to assign the Lab Member in charge the Team Maintainer role for the Lab Team.\nFollow the instructions in Assigning the team maintainer role to a team member\nIf properly assigned the label mantainer should appear next to they name in this repository: https://github.com/orgs/StringhiniLab/teams/lab-team."
+  },
+  {
+    "objectID": "roles.html#github-organization-management",
+    "href": "roles.html#github-organization-management",
+    "title": "2  Organization Owner on GitHub",
+    "section": "2.1 GitHub Organization Management",
+    "text": "2.1 GitHub Organization Management\n\nAdding new members: Ensure that new lab members join the GitHub Organization once they have created their GitHub account."
+  },
+  {
+    "objectID": "roles.html#responsibilities-of-the-maintainer",
+    "href": "roles.html#responsibilities-of-the-maintainer",
+    "title": "2  Organization Owner on GitHub",
+    "section": "3.1 Responsibilities of the Maintainer 🎯",
+    "text": "3.1 Responsibilities of the Maintainer 🎯\n\nAdd new lab members to the Lab Team.\nRemove team members who are no longer part of the lab.\nAssign other members as Team Maintainers if necessary."
+  },
+  {
+    "objectID": "roles.html#references",
+    "href": "roles.html#references",
+    "title": "2  Organization Owner on GitHub",
+    "section": "3.2 References",
+    "text": "3.2 References"
   },
   {
     "objectID": "onboarding.html#checklist",
     "href": "onboarding.html#checklist",
-    "title": "2  Onboarding",
+    "title": "3  Onboarding",
     "section": "Checklist ✅",
     "text": "Checklist ✅\n\nCreate your personal GitHub account.\n\nRequest access to the GitHub Organization.\n\nRequest access to the Lab Team.\n\nInstall Git, R and RStudio."
   },
   {
     "objectID": "onboarding.html#create-your-personal-github-account",
     "href": "onboarding.html#create-your-personal-github-account",
-    "title": "2  Onboarding",
-    "section": "2.1 Create Your Personal GitHub Account 🧑‍💻",
-    "text": "2.1 Create Your Personal GitHub Account 🧑‍💻\nFirst, you need to create an account on GitHub by following these steps: Creating an account on GitHub.\nAfter creating your GitHub account, you’ll notice that your profile is associated with a specific URL, structured as follows:\n\nhttps://github.com/&lt;username&gt;\n\nThis page allows you to access your account settings and all repositories you create."
+    "title": "3  Onboarding",
+    "section": "3.1 Create Your Personal GitHub Account 🧑‍💻",
+    "text": "3.1 Create Your Personal GitHub Account 🧑‍💻\nFirst, you need to create an account on GitHub by following these steps: Creating an account on GitHub.\nAfter creating your GitHub account, you’ll notice that your profile is associated with a specific URL, structured as follows:\n\nhttps://github.com/&lt;username&gt;\n\nThis page allows you to access your account settings and all repositories you create."
   },
   {
     "objectID": "onboarding.html#request-access-to-the-github-organization",
     "href": "onboarding.html#request-access-to-the-github-organization",
-    "title": "2  Onboarding",
-    "section": "2.2 Request Access to the GitHub Organization 🏢",
-    "text": "2.2 Request Access to the GitHub Organization 🏢\nOur lab has a GitHub organization that centralizes the repositories for everything produced in the lab.\nNotice that the organization’s URL is different from your profile’s:\n\nhttps://github.com/StringhiniLab\n\nTo gain access, you need to provide your GitHub username to the person managing the organization. Having access to the organization will enable you to create repositories within it."
+    "title": "3  Onboarding",
+    "section": "3.2 Request Access to the GitHub Organization 🏢",
+    "text": "3.2 Request Access to the GitHub Organization 🏢\nOur lab has a GitHub organization that centralizes the repositories for everything produced in the lab.\nNotice that the organization’s URL is different from your profile’s:\n\nhttps://github.com/StringhiniLab\n\nTo gain access, you need to provide your GitHub username to the person managing the organization. Having access to the organization will enable you to create repositories within it."
   },
   {
     "objectID": "onboarding.html#request-access-to-the-lab-team",
     "href": "onboarding.html#request-access-to-the-lab-team",
-    "title": "2  Onboarding",
-    "section": "2.3 Request Access to the Lab Team 🔑",
-    "text": "2.3 Request Access to the Lab Team 🔑\nNot all lab repositories are public. To access repositories owned by other lab members, you must also be added to the Lab Team.\nDr. Stringhini, as the owner of the organization, always has access to all repositories.\n\nAdding organization members to a team\nManaging team access to an organization repository"
+    "title": "3  Onboarding",
+    "section": "3.3 Request Access to the Lab Team 🔑",
+    "text": "3.3 Request Access to the Lab Team 🔑\nNot all lab repositories are public. To access repositories owned by other lab members, you must also be added to the Lab Team.\nDr. Stringhini, as the owner of the organization, always has access to all repositories.\n\nAdding organization members to a team\nManaging team access to an organization repository"
   },
   {
     "objectID": "onboarding.html#installation-instructions",
     "href": "onboarding.html#installation-instructions",
-    "title": "2  Onboarding",
-    "section": "2.4 Installation Instructions 🛠️",
-    "text": "2.4 Installation Instructions 🛠️\nTo work in the lab, you will need to have Git, R, and RStudio installed.\nPlease note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.\n\nGit: Download Git\n\nR: Download R\n\nRStudio: Download RStudio\n\nOnce you’ve completed these steps, you can move on to the next section. 🎉"
+    "title": "3  Onboarding",
+    "section": "3.4 Installation Instructions 🛠️",
+    "text": "3.4 Installation Instructions 🛠️\nTo work in the lab, you will need to have Git, R, and RStudio installed.\nPlease note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.\n\nGit: Download Git\n\nR: Download R\n\nRStudio: Download RStudio\n\nOnce you’ve completed these steps, you can move on to the next section. 🎉"
   },
   {
     "objectID": "onboarding.html#references",
     "href": "onboarding.html#references",
-    "title": "2  Onboarding",
-    "section": "2.5 References",
-    "text": "2.5 References\n\nBest practices for organizations"
+    "title": "3  Onboarding",
+    "section": "3.5 References",
+    "text": "3.5 References\n\nBest practices for organizations"
   },
   {
     "objectID": "start-project.html#checklist",
     "href": "start-project.html#checklist",
-    "title": "3  Starting a New Project",
+    "title": "4  Starting a New Project",
     "section": "Checklist ✅",
     "text": "Checklist ✅\n\nCreate a private repository by new project.\n\nAdd the Lab Team to the repository.\nClone the repository and associate it with an RStudio Project.\nAdd your Data folder to .gitignore.\nComplete the README file using the template."
   },
   {
     "objectID": "start-project.html#create-a-private-repository-by-new-project",
     "href": "start-project.html#create-a-private-repository-by-new-project",
-    "title": "3  Starting a New Project",
-    "section": "3.1 Create a private repository by new project",
-    "text": "3.1 Create a private repository by new project\nWhen starting to work on a new project, your first step is to create a private repository in the lab’s GitHub organization: StringhiniLab GitHub.\n\nClick the green New button to open a window like this:\n\n\n\nComplete/select using the following criteria:\n\n\nOwner\nSelect StringhiniLab as the owner, not your personal GitHub account.\nRepository Name\nChoose a name that represents your project. Since this repository will be private, append _private to the name.\nFor example, if the repository name is chronic-diseases, name it chronic-diseases_private.\nDescription\nProvide a more detailed description of the project here. This helps identify the repository’s content in the organization.\nPublic or Private?\nEnsure the repository is set to Private.\nInitialize Repository With\nAdd a README.md.\n\nIgnore the other options for now.\nIf everything works, you’ll see your repository within the GitHub organization labeled as Private."
+    "title": "4  Starting a New Project",
+    "section": "4.1 Create a private repository by new project",
+    "text": "4.1 Create a private repository by new project\nWhen starting to work on a new project, your first step is to create a private repository in the lab’s GitHub organization: StringhiniLab GitHub.\n\nClick the green New button to open a window like this:\n\n\n\nComplete/select using the following criteria:\n\n\nOwner\nSelect StringhiniLab as the owner, not your personal GitHub account.\nRepository Name\nChoose a name that represents your project. Since this repository will be private, append _private to the name.\nFor example, if the repository name is chronic-diseases, name it chronic-diseases_private.\nDescription\nProvide a more detailed description of the project here. This helps identify the repository’s content in the organization.\nPublic or Private?\nEnsure the repository is set to Private.\nInitialize Repository With\nAdd a README.md.\n\nIgnore the other options for now.\nIf everything works, you’ll see your repository within the GitHub organization labeled as Private."
   },
   {
     "objectID": "start-project.html#add-the-lab-team-to-the-repository",
     "href": "start-project.html#add-the-lab-team-to-the-repository",
-    "title": "3  Starting a New Project",
-    "section": "3.2 Add the Lab Team to the repository",
-    "text": "3.2 Add the Lab Team to the repository\n\n\nNavigate to the repository’s Settings tab.\nIn the left-hand sidebar, find and click on Collaborators and teams.\nClick Add teams and add Lab Team.\nBy default, you will select the Read role for the team. The idea is that other Lab Members can view the repository but will not be able to edit it by mistake.\n\n\nThis allows all current Lab Members to view (but not modify) your project.\nIf you don’t want to share an analysis with other Lab Members, you can create a repository in your personal GitHub account instead. However, always ensure sensitive data is not pushed to GitHub for confidentiality reasons.\nAll repositories in StringhiniLab should be accessible to the Lab Team, which is why these repositories are hosted in the organization instead of personal accounts. Remember that individuals who are Owners of the organization can view all repositories even if there are not part of the Team."
+    "title": "4  Starting a New Project",
+    "section": "4.2 Add the Lab Team to the repository",
+    "text": "4.2 Add the Lab Team to the repository\n\n\nNavigate to the repository’s Settings tab.\nIn the left-hand sidebar, find and click on Collaborators and teams.\nClick Add teams and add Lab Team.\nBy default, you will select the Read role for the team. The idea is that other Lab Members can view the repository but will not be able to edit it by mistake.\n\n\nThis allows all current Lab Members to view (but not modify) your project.\nIf you don’t want to share an analysis with other Lab Members, you can create a repository in your personal GitHub account instead. However, always ensure sensitive data is not pushed to GitHub for confidentiality reasons.\nAll repositories in StringhiniLab should be accessible to the Lab Team, which is why these repositories are hosted in the organization instead of personal accounts. Remember that individuals who are Owners of the organization can view all repositories even if there are not part of the Team."
   },
   {
     "objectID": "start-project.html#clone-the-repository-and-associate-it-with-an-rstudio-project",
     "href": "start-project.html#clone-the-repository-and-associate-it-with-an-rstudio-project",
-    "title": "3  Starting a New Project",
-    "section": "3.3 Clone the repository and associate it with an RStudio Project",
-    "text": "3.3 Clone the repository and associate it with an RStudio Project\n\nOpen RStudio\nIf RStudio is not installed, complete first the installation instructions in the Onboarding section.\nClone the Repository\nIn RStudio:\nFile &gt; New Project &gt; Version Control &gt; Clone a Project from a Git Repository.\n\n \nGo back to the repository and copy the repository’s URL.\n\nAnd paste it in the correct field:\n\nIf successful, you’ll see a folder containing your project, including the README file that we created on GitHub, in the Files tab at the bottom-right of RStudio.\nNote that an .Rproj icon has appeared. Clicking on this icon outside of RStudio will open RStudio directly within the project.\nAdditionally, the project name now appears in the top-right corner. By opening that menu, you can easily switch between projects without leaving the RStudio IDE.\nYou’ll also notice a tab named Git in the top-right panel.\n\n\n\n3.3.1 Add your Data folder to .gitignore\nWe work with sensitive data. If working locally, create a data folder (e.g., click the + Folder icon in the Files tab). Move your data files into this folder.\nOpen the .gitignore file and add the line data/. This tells Git to ignore the contents of the data folder, preventing accidental data pushes.\nWe recommend creating at least two sub-folders within data/:\n\nraw/: Use this folder to store the original datasets.\nprocessed/: Use this folder to save any datasets generated as preliminary or final results from your analyses.\n\nIf data/ is listed in your .gitignore file, both subfolders will automatically be ignored by Git since they are located within the data/ folder.\nIf the folder is not in the project root or has a different name, adjust the .gitignore settings accordingly.\nYour project structure should look like this:\nproject-folder/ \n├── .gitignore # Specifies files and folders to ignore in version control \n├── README.md # Documentation about the project \n├── data/ # Folder to store datasets \n    ├── raw/ # Original datasets (never modified directly) │\n    └── processed/ # Cleaned and processed datasets\nand you .gitignore file should look like this:\n.Rproj.user\n.Rhistory\n.RData\n.Ruserdata\n/.quarto/\ndata/"
+    "title": "4  Starting a New Project",
+    "section": "4.3 Clone the repository and associate it with an RStudio Project",
+    "text": "4.3 Clone the repository and associate it with an RStudio Project\n\nOpen RStudio\nIf RStudio is not installed, complete first the installation instructions in the Onboarding section.\nClone the Repository\nIn RStudio:\nFile &gt; New Project &gt; Version Control &gt; Clone a Project from a Git Repository.\n\n \nGo back to the repository and copy the repository’s URL.\n\nAnd paste it in the correct field:\n\nIf successful, you’ll see a folder containing your project, including the README file that we created on GitHub, in the Files tab at the bottom-right of RStudio.\nNote that an .Rproj icon has appeared. Clicking on this icon outside of RStudio will open RStudio directly within the project.\nAdditionally, the project name now appears in the top-right corner. By opening that menu, you can easily switch between projects without leaving the RStudio IDE.\nYou’ll also notice a tab named Git in the top-right panel.\n\n\n\n4.3.1 Add your Data folder to .gitignore\nWe work with sensitive data. If working locally, create a data folder (e.g., click the + Folder icon in the Files tab). Move your data files into this folder.\nOpen the .gitignore file and add the line data/. This tells Git to ignore the contents of the data folder, preventing accidental data pushes.\nWe recommend creating at least two sub-folders within data/:\n\nraw/: Use this folder to store the original datasets.\nprocessed/: Use this folder to save any datasets generated as preliminary or final results from your analyses.\n\nIf data/ is listed in your .gitignore file, both subfolders will automatically be ignored by Git since they are located within the data/ folder.\nIf the folder is not in the project root or has a different name, adjust the .gitignore settings accordingly.\nYour project structure should look like this:\nproject-folder/ \n├── .gitignore # Specifies files and folders to ignore in version control \n├── README.md # Documentation about the project \n├── data/ # Folder to store datasets \n    ├── raw/ # Original datasets (never modified directly) │\n    └── processed/ # Cleaned and processed datasets\nand you .gitignore file should look like this:\n.Rproj.user\n.Rhistory\n.RData\n.Ruserdata\n/.quarto/\ndata/"
   },
   {
     "objectID": "start-project.html#complete-the-readme-using-the-template",
     "href": "start-project.html#complete-the-readme-using-the-template",
-    "title": "3  Starting a New Project",
-    "section": "3.4 Complete the README using the template",
-    "text": "3.4 Complete the README using the template\nBefore starting work, fill out the README.md file with the following information:\n# Title\n\n## Author  \n**Name:** [Your Name]  \n**Email:** [Your Email]  \n\n## Start Date  \n**Initial Commit:** [YYYY-MM-DD]  \n\n## Objective  \nThe objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  \n\n## Database Used and Version  \n**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  \n**Data Version:** [Specify version or date accessed]  \n\n-[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`\n-[] All analyses comply with CLSA data use agreements.\n\n## Project Structure  \n\nchronic-diseases/\n├── data/ # Folder for datasets\n│ ├── raw/ # Original datasets (never modified directly)\n│ └── processed/ # Cleaned and processed datasets\n├── scripts/ # R scripts for analysis\n├── outputs/ # Figures, tables, and other results\n├── README.md # Project overview and documentation\n└── .Rproj # RStudio project file\n\n\n## Reproducibility\n\nsessionInfo()\n\nNow you’re ready to start writing code! 🎉"
+    "title": "4  Starting a New Project",
+    "section": "4.4 Complete the README using the template",
+    "text": "4.4 Complete the README using the template\nBefore starting work, fill out the README.md file with the following information:\n# Title\n\n## Author  \n**Name:** [Your Name]  \n**Email:** [Your Email]  \n\n## Start Date  \n**Initial Commit:** [YYYY-MM-DD]  \n\n## Objective  \nThe objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  \n\n## Database Used and Version  \n**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  \n**Data Version:** [Specify version or date accessed]  \n\n-[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`\n-[] All analyses comply with CLSA data use agreements.\n\n## Project Structure  \n\nchronic-diseases/\n├── data/ # Folder for datasets\n│ ├── raw/ # Original datasets (never modified directly)\n│ └── processed/ # Cleaned and processed datasets\n├── scripts/ # R scripts for analysis\n├── outputs/ # Figures, tables, and other results\n├── README.md # Project overview and documentation\n└── .Rproj # RStudio project file\n\n\n## Reproducibility\n\nsessionInfo()\n\nNow you’re ready to start writing code! 🎉"
   },
   {
     "objectID": "start-project.html#references",
     "href": "start-project.html#references",
-    "title": "3  Starting a New Project",
-    "section": "3.5 References",
-    "text": "3.5 References"
+    "title": "4  Starting a New Project",
+    "section": "4.5 References",
+    "text": "4.5 References"
   },
   {
     "objectID": "dailytasks.html#checklist",
     "href": "dailytasks.html#checklist",
-    "title": "4  Regular Project Workflow",
+    "title": "5  Regular Project Workflow",
     "section": "Checklist ✅",
     "text": "Checklist ✅\n\nAdd all the files you want to commit to the staging area.\n\nCreate a commit message.\n\nPush the changes to the GitHub repository."
   },
   {
     "objectID": "dailytasks.html#how-to-use-the-git-tab-in-rstudio",
     "href": "dailytasks.html#how-to-use-the-git-tab-in-rstudio",
-    "title": "4  Regular Project Workflow",
-    "section": "4.1 How to use the Git tab in RStudio",
-    "text": "4.1 How to use the Git tab in RStudio\nPay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).\nKeep in mind that when we cloned the project from GitHub, two new files were added:\n\nThe .Rproj file, created because we based our RStudio project on the repository.\n\nThe .gitignore file, automatically generated as part of the project setup in RStudio.\n\nThese files will appear with a yellow question mark, indicating they are untracked—in other words, Git is aware of them but has not yet saved them under version control.\nThe README.md file initially did not appear in the Git tab. However, after adding the template and saving the changes, it now shows a blue “M,” which indicates that the file has been modified.\nIf you were to remove a file, you would see it next to a red ‘D’, indicating that it has been deleted from the project.\n\nThe next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.\n\n4.1.1 Add all the files you want to commit to the staging area.\nThe first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green ‘A’ appears. You can ignore this. The important part is that you check all the changes you want to save.\nIn our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there’s no need to focus too much on the details in this section.\n\n\n\n4.1.2 Create a commit message.\nAfter doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the Commit button.\n\n\nHow Often Should You Commit?\nThink of commits as checkpoints for related changes. If you might want to revert a set of changes later, commit them together."
+    "title": "5  Regular Project Workflow",
+    "section": "5.1 How to use the Git tab in RStudio",
+    "text": "5.1 How to use the Git tab in RStudio\nPay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).\nKeep in mind that when we cloned the project from GitHub, two new files were added:\n\nThe .Rproj file, created because we based our RStudio project on the repository.\n\nThe .gitignore file, automatically generated as part of the project setup in RStudio.\n\nThese files will appear with a yellow question mark, indicating they are untracked—in other words, Git is aware of them but has not yet saved them under version control.\nThe README.md file initially did not appear in the Git tab. However, after adding the template and saving the changes, it now shows a blue “M,” which indicates that the file has been modified.\nIf you were to remove a file, you would see it next to a red ‘D’, indicating that it has been deleted from the project.\n\nThe next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.\n\n5.1.1 Add all the files you want to commit to the staging area.\nThe first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green ‘A’ appears. You can ignore this. The important part is that you check all the changes you want to save.\nIn our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there’s no need to focus too much on the details in this section.\n\n\n\n5.1.2 Create a commit message.\nAfter doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the Commit button.\n\n\nHow Often Should You Commit?\nThink of commits as checkpoints for related changes. If you might want to revert a set of changes later, commit them together."
   },
   {
     "objectID": "dailytasks.html#push-the-changes-to-the-github-repository.",
     "href": "dailytasks.html#push-the-changes-to-the-github-repository.",
-    "title": "4  Regular Project Workflow",
-    "section": "4.2 Push the changes to the GitHub repository.",
-    "text": "4.2 Push the changes to the GitHub repository.\nFinally, to push the changes to GitHub, click the Push button.\n\nYou’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.\nIf everything went smoothly, you should navigate to the repository URL and see the changes you made.\n\nHow Often Should You Push?\nPush your changes at least once a day after completing your work."
+    "title": "5  Regular Project Workflow",
+    "section": "5.2 Push the changes to the GitHub repository.",
+    "text": "5.2 Push the changes to the GitHub repository.\nFinally, to push the changes to GitHub, click the Push button.\n\nYou’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.\nIf everything went smoothly, you should navigate to the repository URL and see the changes you made.\n\nHow Often Should You Push?\nPush your changes at least once a day after completing your work."
   },
   {
     "objectID": "dailytasks.html#references",
     "href": "dailytasks.html#references",
-    "title": "4  Regular Project Workflow",
-    "section": "4.3 References",
-    "text": "4.3 References\n\nArticle: Research Data Management\n\nUBC Research Data Management Guide"
+    "title": "5  Regular Project Workflow",
+    "section": "5.3 References",
+    "text": "5.3 References\n\nArticle: Research Data Management\n\nUBC Research Data Management Guide"
   },
   {
     "objectID": "offboarding.html",
     "href": "offboarding.html",
-    "title": "5  Offboarding",
+    "title": "6  Offboarding",
     "section": "",
     "text": "The Lab Member must be removed from the GitHub Lab Team."
   }

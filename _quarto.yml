@@ -9,7 +9,8 @@ book:
   date: "11/29/2024"
   chapters:
     - index.qmd
-    - mantainer.qmd
+    - lab-design.qmd
+    - roles.qmd
     - onboarding.qmd
     - start-project.qmd
     - dailytasks.qmd

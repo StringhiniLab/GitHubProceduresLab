@@ -1,0 +1,11 @@
+## Design for Technology Use in the Lab
+
+Most of the databases used in our lab are private and do not contain enough data to be considered big data. These databases are used locally. 
+
+- It is suggested to use a `raw/` folder and a `processed/` folder to separate unprocessed data from processed data.
+- To ensure that the data is not made public, it is recommended to use a `.gitignore` file and avoid pushing the folder where the data is stored to the repository.
+
+
+
+
+
