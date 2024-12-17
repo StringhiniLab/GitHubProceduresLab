@@ -22,9 +22,9 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4387-8943'
 identifiers:
   - type: doi
-    value: 10.1234/zenodo.4321
+    value: 10.5281/zenodo.14510774
 repository-code: 'https://github.com/StringhiniLab/GitHubProceduresLab'
-url: 'https://stringhinilab.github.io/GitHubProceduresLab/b'
+url: 'https://stringhinilab.github.io/GitHubProceduresLab/'
 abstract: >-
   This Quarto book aims to provide a basic usage guide for
   Dr.Strihghini's new lab members regarding the handling of
