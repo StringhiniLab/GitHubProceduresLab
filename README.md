@@ -1,6 +1,6 @@
 # GitHub Lab Procedures: <img src="img/logo.png" align="right" height="150"/> Onboarding Guide for New Lab Members 
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) [![DOI](https://zenodo.org/badge/896263653.svg)](https://doi.org/10.5281/zenodo.14510774)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) [![DOI](https://zenodo.org/badge/896263653.svg)](https://doi.org/10.5281/zenodo.14510774) [![pages-build-deployment](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment)
 
 ## Description
 This Quarto book aims to provide a **basic usage guide** for new lab members regarding the **handling of data and code** with the **GitHub** platform.
