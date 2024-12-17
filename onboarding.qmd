@@ -30,6 +30,10 @@ Notice that the organization's URL is different from your profile's:
 
 To gain access, you need to provide your GitHub username to the person managing the organization. Having access to the organization will enable you to create repositories within it.  
 
+::: {.callout-note appearance="simple"}
+Note that you have your personal GitHub url, and also there is the url of the GitHub organization.
+:::
+
 ## Request Access to the Lab Team 🔑
 
 Not all lab repositories are public. To access repositories owned by other lab members, you must also be added to the Lab Team.  
@@ -46,6 +50,15 @@ Please note that the installation process may vary depending on whether you have
 - **Git**: [Download Git](https://git-scm.com/downloads)  
 - **R**: [Download R](https://cran.r-project.org/)  
 - **RStudio**: [Download RStudio](https://posit.co/download/rstudio-desktop/)  
+
+::: {.callout-warning appearance="simple"}
+
+## Installation issues
+
+It could happen that you get into trouble during the installation process. Remember that we are a team and that you can use Slack to share your issues and look for support 🙌
+
+:::
+
 
 Once you've completed these steps, you can move on to the next section. 🎉
 

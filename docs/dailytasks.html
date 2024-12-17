@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GitHub Lab Procedures - 5&nbsp; Regular Project Workflow</title>
+<title>GitHub Lab Procedures - 3&nbsp; Regular Project Workflow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./offboarding.html" rel="next">
 <link href="./start-project.html" rel="prev">
+<link href="./img/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,6 +83,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="GitHub Lab Procedures - 3&nbsp; Regular Project Workflow">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://stringhinilab.github.io/GitHubProceduresLab/img/git-tab.png">
+<meta name="twitter:image-height" content="1358">
+<meta name="twitter:image-width" content="2858">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating">
@@ -74,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dailytasks.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dailytasks.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -93,6 +119,43 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Dr.&nbsp;Stringhini’s Lab School of Population and Public Health University of British Columbia</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/StringhiniLab/GitHubProceduresLab" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./GitHub-Lab-Procedures.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./GitHub-Lab-Procedures.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -111,37 +174,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lab-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Design for Technology Use in the Lab</span></span></a>
+ <span class="menu-text">Objectives</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./roles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Organization Owner on GitHub</span></span></a>
+ <span class="menu-text">Roles</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./start-project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dailytasks.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./offboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
   </div>
 </li>
     </ul>
@@ -155,22 +218,22 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist">Checklist ✅</a></li>
-  <li><a href="#how-to-use-the-git-tab-in-rstudio" id="toc-how-to-use-the-git-tab-in-rstudio" class="nav-link" data-scroll-target="#how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">5.1</span> How to use the Git tab in RStudio</a>
+  <li><a href="#how-to-use-the-git-tab-in-rstudio" id="toc-how-to-use-the-git-tab-in-rstudio" class="nav-link" data-scroll-target="#how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">3.1</span> How to use the Git tab in RStudio</a>
   <ul class="collapse">
-  <li><a href="#add-all-the-files-you-want-to-commit-to-the-staging-area." id="toc-add-all-the-files-you-want-to-commit-to-the-staging-area." class="nav-link" data-scroll-target="#add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">5.1.1</span> Add all the files you want to commit to the staging area.</a></li>
-  <li><a href="#create-a-commit-message." id="toc-create-a-commit-message." class="nav-link" data-scroll-target="#create-a-commit-message."><span class="header-section-number">5.1.2</span> Create a commit message.</a></li>
+  <li><a href="#add-all-the-files-you-want-to-commit-to-the-staging-area." id="toc-add-all-the-files-you-want-to-commit-to-the-staging-area." class="nav-link" data-scroll-target="#add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">3.1.1</span> Add all the files you want to commit to the staging area.</a></li>
+  <li><a href="#create-a-commit-message." id="toc-create-a-commit-message." class="nav-link" data-scroll-target="#create-a-commit-message."><span class="header-section-number">3.1.2</span> Create a commit message.</a></li>
   </ul></li>
-  <li><a href="#push-the-changes-to-the-github-repository." id="toc-push-the-changes-to-the-github-repository." class="nav-link" data-scroll-target="#push-the-changes-to-the-github-repository."><span class="header-section-number">5.2</span> Push the changes to the GitHub repository.</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5.3</span> References</a></li>
+  <li><a href="#push-the-changes-to-the-github-repository." id="toc-push-the-changes-to-the-github-repository." class="nav-link" data-scroll-target="#push-the-changes-to-the-github-repository."><span class="header-section-number">3.2</span> Push the changes to the GitHub repository.</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.3</span> References</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/edit/main/dailytasks.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></h1>
 </div>
 
 
@@ -198,8 +261,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="how-to-use-the-git-tab-in-rstudio" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">5.1</span> How to use the Git tab in RStudio</h2>
+<section id="how-to-use-the-git-tab-in-rstudio" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">3.1</span> How to use the Git tab in RStudio</h2>
 <p>Pay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).</p>
 <p>Keep in mind that when we cloned the project from GitHub, two new files were added:</p>
 <ul>
@@ -212,14 +275,14 @@ ul.task-list li input[type="checkbox"] {
 <p>If you were to remove a file, you would see it next to a red ‘D’, indicating that it has been <em>deleted</em> from the project.</p>
 <p><img src="img/git-tab.png" class="img-fluid" style="width:70.0%"></p>
 <p>The next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.</p>
-<section id="add-all-the-files-you-want-to-commit-to-the-staging-area." class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">5.1.1</span> Add all the files you want to commit to the staging area.</h3>
+<section id="add-all-the-files-you-want-to-commit-to-the-staging-area." class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">3.1.1</span> Add all the files you want to commit to the staging area.</h3>
 <p>The first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green ‘A’ appears. You can ignore this. The important part is that you check all the changes you want to save.</p>
 <p>In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there’s no need to focus too much on the details in this section.</p>
 <p><img src="img/git-tab-staged.png" class="img-fluid" style="width:70.0%"></p>
 </section>
-<section id="create-a-commit-message." class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="create-a-commit-message."><span class="header-section-number">5.1.2</span> Create a commit message.</h3>
+<section id="create-a-commit-message." class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="create-a-commit-message."><span class="header-section-number">3.1.2</span> Create a commit message.</h3>
 <p>After doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the <code>Commit</code> button.</p>
 <p><img src="img/commit.png" class="img-fluid" style="width:70.0%"></p>
 <div class="important">
@@ -228,8 +291,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="push-the-changes-to-the-github-repository." class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="push-the-changes-to-the-github-repository."><span class="header-section-number">5.2</span> Push the changes to the GitHub repository.</h2>
+<section id="push-the-changes-to-the-github-repository." class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="push-the-changes-to-the-github-repository."><span class="header-section-number">3.2</span> Push the changes to the GitHub repository.</h2>
 <p>Finally, to push the changes to GitHub, click the <code>Push</code> button.</p>
 <p><img src="img/push.png" class="img-fluid" style="width:70.0%"></p>
 <p>You’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.</p>
@@ -238,17 +301,46 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>How Often Should You Push?</strong></p>
 <p>Push your changes <strong>at least once a day</strong> after completing your work.</p>
 </div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Moving foward with Git and GitHUb
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you want to learn more about Git and GitHub, we recommend the following books and tutorials <span class="citation" data-cites="scarpentry"><span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup — Swcarpentry.github.io”</span></span>, <span class="citation" data-cites="bryan2018happy">Bryan (<a href="#ref-bryan2018happy" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="codingclub"><span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab — Ourcodingclub.github.io”</span></span>, <span class="citation" data-cites="datasciencebookcollaboration">Tiffany Timbers and Lee</span>, <span class="citation" data-cites="theturingwayGettingStarted"><span>“<span>G</span>etting <span>S</span>tarted <span>W</span>ith <span>G</span>it<span>H</span>ub &amp;#X2014; <span>T</span>he <span>T</span>uring <span>W</span>ay — Book.the-Turing-Way.org”</span></span></p>
+<p>Additionally, UBC Library offers some basic data management courses that might be helpful to you: <a href="https://libcal.library.ubc.ca/calendar/?t=g&amp;q=Data%20Bites&amp;cid=-1&amp;cal=-1&amp;ct=339">Short courses</a></p>
+</div>
+</div>
 <hr>
 </section>
-<section id="references" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="references"><span class="header-section-number">5.3</span> References</h2>
+<section id="references" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="references"><span class="header-section-number">3.3</span> References</h2>
 <ul>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/">Article: Research Data Management</a><br>
-</li>
-<li><a href="https://ubc-library-rc.github.io/rdm/">UBC Research Data Management Guide</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/">Article: Research Data Management</a></li>
 </ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bryan2018happy" class="csl-entry" role="listitem">
+Bryan, Jennifer. 2018. <em>Happy Git and GitHub for the useR</em>. GitHub.
+</div>
+<div id="ref-theturingwayGettingStarted" class="csl-entry" role="listitem">
+<span>“<span>G</span>etting <span>S</span>tarted <span>W</span>ith <span>G</span>it<span>H</span>ub &amp;#X2014; <span>T</span>he <span>T</span>uring <span>W</span>ay — Book.the-Turing-Way.org.”</span> <a href="https://book.the-turing-way.org/collaboration/github-novice" class="uri">https://book.the-turing-way.org/collaboration/github-novice</a>.
+</div>
+<div id="ref-codingclub" class="csl-entry" role="listitem">
+<span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab — Ourcodingclub.github.io.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
+</div>
+<div id="ref-datasciencebookcollaboration" class="csl-entry" role="listitem">
+Tiffany Timbers, Trevor Campbell, and Melissa Lee. <span>“<span>C</span>hapter 12 <span>C</span>ollaboration with Version Control | <span>D</span>ata <span>S</span>cience — Datasciencebook.ca.”</span> <a href="https://datasciencebook.ca/version-control.html" class="uri">https://datasciencebook.ca/version-control.html</a>.
+</div>
+<div id="ref-scarpentry" class="csl-entry" role="listitem">
+<span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup — Swcarpentry.github.io.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -488,12 +580,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./start-project.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./offboarding.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -3,6 +3,13 @@ project:
   output-dir: docs
 
 book:
+  favicon: img/logo.png
+  twitter-card: true
+  site-url: https://stringhinilab.github.io/GitHubProceduresLab/
+  repo-url: https://github.com/StringhiniLab/GitHubProceduresLab
+  repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   title: "GitHub Lab Procedures"
   subtitle: "A repository management start kit for new lab members"
   author: "Florencia D'Andrea"

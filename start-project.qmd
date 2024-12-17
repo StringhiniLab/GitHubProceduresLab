@@ -122,6 +122,14 @@ project-folder/
     └── processed/ # Cleaned and processed datasets
 ```
 
+::: {.callout-note appearance="simple"}
+
+## What file to use for your analysis?
+
+There are many files you can use for analyzing the data. You can use a basic R script, or files as RMarkdown and its more current version Quarto, that allow you to merge the code with blocks of text.
+
+:::
+
 and you `.gitignore` file should look like this:
 
 ```
@@ -144,20 +152,20 @@ Before starting work, fill out the `README.md` file with the following informati
 
 ## Author  
 **Name:** [Your Name]  
-**Email:** [Your Email]  
+**Email:** [Your Name]
 
 ## Start Date  
-**Initial Commit:** [YYYY-MM-DD]  
+[YYYY-MM-DD]  
 
 ## Objective  
-The objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  
+The objective of this project is to ...  
 
 ## Database Used and Version  
-**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  
+**Database Name:** [Name]
 **Data Version:** [Specify version or date accessed]  
 
--[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`
--[] All analyses comply with CLSA data use agreements.
+-[] Sensitive data is stored locally and excluded from version control using `.gitignore.`
+-[] All analyses comply with the data use agreements.
 
 ## Project Structure  
 
@@ -176,6 +184,8 @@ chronic-diseases/
 sessionInfo()
 
 ```
+
+There is more material available on organizing project structures @ubclibrary, using `.gitignore` @theturingwayKeepingSensitive or other resources listed [here](https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources), or creating good README files (The Turing Way - [Readme File](https://book.the-turing-way.org/project-design/project-repo/project-repo-readme)) and name conventions @ubclibrary if you want to explore further.
 
 Now you're ready to start writing code! 🎉
 

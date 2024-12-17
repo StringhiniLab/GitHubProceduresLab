@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GitHub Lab Procedures - 4&nbsp; Starting a New Project</title>
+<title>GitHub Lab Procedures - 2&nbsp; Starting a New Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./dailytasks.html" rel="next">
 <link href="./onboarding.html" rel="prev">
+<link href="./img/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,6 +83,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="GitHub Lab Procedures - 2&nbsp; Starting a New Project">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://stringhinilab.github.io/GitHubProceduresLab/img/create_repository.png">
+<meta name="twitter:image-height" content="1568">
+<meta name="twitter:image-width" content="1154">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating">
@@ -74,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./start-project.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting a New Project</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./start-project.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Starting a New Project</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -93,6 +119,43 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Dr.&nbsp;Stringhini’s Lab School of Population and Public Health University of British Columbia</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/StringhiniLab/GitHubProceduresLab" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./GitHub-Lab-Procedures.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./GitHub-Lab-Procedures.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -111,37 +174,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lab-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Design for Technology Use in the Lab</span></span></a>
+ <span class="menu-text">Objectives</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./roles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Organization Owner on GitHub</span></span></a>
+ <span class="menu-text">Roles</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./start-project.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Starting a New Project</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dailytasks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./offboarding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Offboarding</span></span></a>
   </div>
 </li>
     </ul>
@@ -155,23 +218,23 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist">Checklist ✅</a></li>
-  <li><a href="#create-a-private-repository-by-new-project" id="toc-create-a-private-repository-by-new-project" class="nav-link" data-scroll-target="#create-a-private-repository-by-new-project"><span class="header-section-number">4.1</span> Create a private repository by new project</a></li>
-  <li><a href="#add-the-lab-team-to-the-repository" id="toc-add-the-lab-team-to-the-repository" class="nav-link" data-scroll-target="#add-the-lab-team-to-the-repository"><span class="header-section-number">4.2</span> Add the Lab Team to the repository</a></li>
-  <li><a href="#clone-the-repository-and-associate-it-with-an-rstudio-project" id="toc-clone-the-repository-and-associate-it-with-an-rstudio-project" class="nav-link" data-scroll-target="#clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">4.3</span> Clone the repository and associate it with an RStudio Project</a>
+  <li><a href="#create-a-private-repository-by-new-project" id="toc-create-a-private-repository-by-new-project" class="nav-link" data-scroll-target="#create-a-private-repository-by-new-project"><span class="header-section-number">2.1</span> Create a private repository by new project</a></li>
+  <li><a href="#add-the-lab-team-to-the-repository" id="toc-add-the-lab-team-to-the-repository" class="nav-link" data-scroll-target="#add-the-lab-team-to-the-repository"><span class="header-section-number">2.2</span> Add the Lab Team to the repository</a></li>
+  <li><a href="#clone-the-repository-and-associate-it-with-an-rstudio-project" id="toc-clone-the-repository-and-associate-it-with-an-rstudio-project" class="nav-link" data-scroll-target="#clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">2.3</span> Clone the repository and associate it with an RStudio Project</a>
   <ul class="collapse">
-  <li><a href="#add-your-data-folder-to-.gitignore" id="toc-add-your-data-folder-to-.gitignore" class="nav-link" data-scroll-target="#add-your-data-folder-to-.gitignore"><span class="header-section-number">4.3.1</span> Add your Data folder to <code>.gitignore</code></a></li>
+  <li><a href="#add-your-data-folder-to-.gitignore" id="toc-add-your-data-folder-to-.gitignore" class="nav-link" data-scroll-target="#add-your-data-folder-to-.gitignore"><span class="header-section-number">2.3.1</span> Add your Data folder to <code>.gitignore</code></a></li>
   </ul></li>
-  <li><a href="#complete-the-readme-using-the-template" id="toc-complete-the-readme-using-the-template" class="nav-link" data-scroll-target="#complete-the-readme-using-the-template"><span class="header-section-number">4.4</span> Complete the README using the template</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4.5</span> References</a></li>
+  <li><a href="#complete-the-readme-using-the-template" id="toc-complete-the-readme-using-the-template" class="nav-link" data-scroll-target="#complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the README using the template</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.5</span> References</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/edit/main/start-project.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting a New Project</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Starting a New Project</span></h1>
 </div>
 
 
@@ -200,8 +263,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="create-a-private-repository-by-new-project" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="create-a-private-repository-by-new-project"><span class="header-section-number">4.1</span> Create a private repository by new project</h2>
+<section id="create-a-private-repository-by-new-project" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="create-a-private-repository-by-new-project"><span class="header-section-number">2.1</span> Create a private repository by new project</h2>
 <p>When starting to work on a new project, your first step is to create a <strong>private</strong> repository in the lab’s GitHub organization: <a href="https://github.com/StringhiniLab">StringhiniLab GitHub</a>.</p>
 <ol type="1">
 <li>Click the green <strong>New</strong> button to open a window like this:</li>
@@ -227,8 +290,8 @@ Add a <code>README.md</code>.</p></li>
 If everything works, you’ll see your repository within <a href="https://github.com/StringhiniLab">the GitHub organization</a> labeled as <code>Private</code>.</p>
 <hr>
 </section>
-<section id="add-the-lab-team-to-the-repository" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="add-the-lab-team-to-the-repository"><span class="header-section-number">4.2</span> Add the Lab Team to the repository</h2>
+<section id="add-the-lab-team-to-the-repository" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="add-the-lab-team-to-the-repository"><span class="header-section-number">2.2</span> Add the Lab Team to the repository</h2>
 <p><img src="img/teams.png" class="img-fluid" style="width:100.0%"></p>
 <ol type="1">
 <li><p><strong>Navigate to the repository’s <code>Settings</code> tab.</strong><br>
@@ -242,8 +305,8 @@ If you don’t want to share an analysis with other Lab Members, you can create 
 <p>All repositories in <code>StringhiniLab</code> should be accessible to the Lab Team, which is why these repositories are hosted in the organization instead of personal accounts. Remember that individuals who are Owners of the organization can view all repositories even if there are not part of the Team.</p>
 <hr>
 </section>
-<section id="clone-the-repository-and-associate-it-with-an-rstudio-project" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">4.3</span> Clone the repository and associate it with an RStudio Project</h2>
+<section id="clone-the-repository-and-associate-it-with-an-rstudio-project" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">2.3</span> Clone the repository and associate it with an RStudio Project</h2>
 <ol type="1">
 <li><p><strong>Open RStudio</strong><br>
 If RStudio is not installed, complete first the installation instructions in the Onboarding section.</p></li>
@@ -262,8 +325,8 @@ In RStudio:<br>
 <p>You’ll also notice a tab named Git in the top-right panel.</p>
 <p><img src="img/rstudio-project.png" class="img-fluid" style="width:100.0%"></p>
 <hr>
-<section id="add-your-data-folder-to-.gitignore" class="level3" data-number="4.3.1">
-<h3 data-number="4.3.1" class="anchored" data-anchor-id="add-your-data-folder-to-.gitignore"><span class="header-section-number">4.3.1</span> Add your Data folder to <code>.gitignore</code></h3>
+<section id="add-your-data-folder-to-.gitignore" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="add-your-data-folder-to-.gitignore"><span class="header-section-number">2.3.1</span> Add your Data folder to <code>.gitignore</code></h3>
 <p>We work with sensitive data. If working locally, create a <code>data</code> folder (e.g., click the <code>+ Folder</code> icon in the <code>Files</code> tab). Move your data files into this folder.</p>
 <p>Open the <code>.gitignore</code> file and add the line <code>data/</code>. This tells Git to ignore the contents of the <code>data</code> folder, preventing accidental data pushes.</p>
 <p>We recommend creating at least two sub-folders within <code>data/</code>:</p>
@@ -280,6 +343,19 @@ In RStudio:<br>
 ├── data/ # Folder to store datasets 
     ├── raw/ # Original datasets (never modified directly) │
     └── processed/ # Cleaned and processed datasets</code></pre>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What file to use for your analysis?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There are many files you can use for analyzing the data. You can use a basic R script, or files as RMarkdown and its more current version Quarto, that allow you to merge the code with blocks of text.</p>
+</div>
+</div>
 <p>and you <code>.gitignore</code> file should look like this:</p>
 <pre><code>.Rproj.user
 .Rhistory
@@ -290,27 +366,27 @@ data/</code></pre>
 <hr>
 </section>
 </section>
-<section id="complete-the-readme-using-the-template" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="complete-the-readme-using-the-template"><span class="header-section-number">4.4</span> Complete the README using the template</h2>
+<section id="complete-the-readme-using-the-template" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the README using the template</h2>
 <p>Before starting work, fill out the <code>README.md</code> file with the following information:</p>
 <pre><code># Title
 
 ## Author  
 **Name:** [Your Name]  
-**Email:** [Your Email]  
+**Email:** [Your Name]
 
 ## Start Date  
-**Initial Commit:** [YYYY-MM-DD]  
+[YYYY-MM-DD]  
 
 ## Objective  
-The objective of this project is to analyze and model chronic disease patterns using data from the Canadian Longitudinal Study of Aging (CLSA).  
+The objective of this project is to ...  
 
 ## Database Used and Version  
-**Database Name:** Canadian Longitudinal Study of Aging (CLSA)  
+**Database Name:** [Name]
 **Data Version:** [Specify version or date accessed]  
 
--[] Sensitive data from the CLSA database is stored locally and excluded from version control using `.gitignore.`
--[] All analyses comply with CLSA data use agreements.
+-[] Sensitive data is stored locally and excluded from version control using `.gitignore.`
+-[] All analyses comply with the data use agreements.
 
 ## Project Structure  
 
@@ -328,12 +404,21 @@ chronic-diseases/
 
 sessionInfo()
 </code></pre>
+<p>There is more material available on organizing project structures <span class="citation" data-cites="ubclibrary">Eugene Barsky</span>, using <code>.gitignore</code> <span class="citation" data-cites="theturingwayKeepingSensitive"><span>“<span>K</span>eeping Sensitive Files Secure &amp;#X2014; <span>T</span>he <span>T</span>uring <span>W</span>ay — Book.the-Turing-Way.org”</span></span> or other resources listed <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources">here</a>, or creating good README files (The Turing Way - <a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-readme">Readme File</a>) and name conventions <span class="citation" data-cites="ubclibrary">Eugene Barsky</span> if you want to explore further.</p>
 <p>Now you’re ready to start writing code! 🎉</p>
 </section>
-<section id="references" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="references"><span class="header-section-number">4.5</span> References</h2>
+<section id="references" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="references"><span class="header-section-number">2.5</span> References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ubclibrary" class="csl-entry" role="listitem">
+Eugene Barsky, Paul Lesack, Billie Hu. <span>“<span>I</span>ntroduction — Ubc-Library-Rc.github.io.”</span> <a href="https://ubc-library-rc.github.io/rdm/" class="uri">https://ubc-library-rc.github.io/rdm/</a>.
+</div>
+<div id="ref-theturingwayKeepingSensitive" class="csl-entry" role="listitem">
+<span>“<span>K</span>eeping Sensitive Files Secure &amp;#X2014; <span>T</span>he <span>T</span>uring <span>W</span>ay — Book.the-Turing-Way.org.”</span> <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-sensitive-files.html" class="uri">https://book.the-turing-way.org/project-design/sdpw/pd-sdp-sensitive-files.html</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -573,12 +658,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./onboarding.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Onboarding</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./dailytasks.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Regular Project Workflow</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

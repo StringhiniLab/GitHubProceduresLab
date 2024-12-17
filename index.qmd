@@ -1,4 +1,6 @@
-# Goal {.unnumbered}
+**GitHub Organization**: www.github.com/StringhiniLab
+
+## Goal {.unnumbered}
 
 The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 
 
@@ -20,11 +22,5 @@ When publishing scientific articles, maintaining reproducible results is conside
 
 It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
 
-## Objectives of this Manual
-
-- Provide a quick onboarding guide and basic data management practices for new lab members, including data analysis backup and how to maintain the privacy of datasets by having clear steps to prevent pushing data.  
-- Set guidelines on the use and management of code within the lab to facilitate sharing unpublished or complementary data analysis among current and former lab members.  
-- Establish basic rules to publish public repositories associated with scientific articles, ensuring transparency in analyses and reproducibility of results.  
-- Ensure consistency in managing data analyses over time and preserve and centralize the knowledge generated in the different projects.  
 
 ## References  

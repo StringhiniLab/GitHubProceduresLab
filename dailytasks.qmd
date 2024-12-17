@@ -65,10 +65,22 @@ If everything went smoothly, you should navigate to the repository URL and see t
 Push your changes **at least once a day** after completing your work.  
 :::  
 
+::: {.callout-tip appearance="simple"}
+## Moving foward with Git and GitHUb
+
+If you want to learn more about Git and GitHub, we recommend the following books and tutorials @scarpentry, @bryan2018happy, @codingclub, @datasciencebookcollaboration, @theturingwayGettingStarted
+
+
+Additionally, UBC Library offers some basic data management courses that might be helpful to you: [Short courses ](https://libcal.library.ubc.ca/calendar/?t=g&q=Data%20Bites&cid=-1&cal=-1&ct=339)
+
+:::
+
+
+
 ---
 
 ## References  
 
 - [Article: Research Data Management](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/)  
-- [UBC Research Data Management Guide](https://ubc-library-rc.github.io/rdm/)  
+
 

@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  GitHub Lab Procedures: Onboarding Guide for New Lab
+  Members
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Florencia
+    family-names: D'Andrea
+    email: florencia.dandrea@ubc.ca
+    affiliation: University of British Columbia
+    orcid: 'https://orcid.org/0000-0002-0041-097X'
+identifiers:
+  - type: url
+    value: 'https://stringhinilab.github.io/GitHubProceduresLab/'
+  - type: doi
+    value: 10.1234/zenodo.4321
+repository-code: 'https://github.com/StringhiniLab/GitHubProceduresLab'
+url: 'https://github.com/StringhiniLab/GitHubProceduresLab'
+abstract: >-
+  This Quarto book aims to provide a basic usage guide for
+  Dr.Strihghini's new lab members regarding the handling of
+  data and code with the GitHub platform.
+keywords:
+  - Quarto
+  - Onboarding
+  - Research Data Managment
+  - GitHub
+license: CC-BY-NC-4.0
