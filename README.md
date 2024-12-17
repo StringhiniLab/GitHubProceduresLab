@@ -25,17 +25,6 @@ renv::restore()
 ```bash
 quarto render
 ```
-
-## Book Structure
-The book is divided into the following chapters:
-
-1. **Introduction to the Laboratory**
-2. **Installation of Required Tools**
-3. **Git and GitHub Configuration**
-4. **Creating a Project**
-5. **GitHub Workflow with RStudio**
-6. **Best Practices for Code Management**
-
 ## Contact
 If you have any questions or suggestions, please contact open a [GitHub issue](https://github.com/StringhiniLab/GitHubProceduresLab/issues).
 
@@ -77,4 +66,3 @@ loaded via a namespace (and not attached):
 [21] tibble_3.2.1   
 ```
 
-**Happy Coding!** 🚀

@@ -1,31 +1,59 @@
 [
   {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "GitHub Lab Procedures",
+    "section": "Introduction",
+    "text": "Introduction\nThe use of programming languages for data analysis has made it even more necessary to apply computer science knowledge to ensure reliable and reproducible results. Currently, there are excellent and detailed materials and tutorials on various tools that can enhance computational reproducibility and transparency in research results (Carpentry, Club). However, there is a trade-off for scientists-in-training between adopting and practicing these techniques and dedicating time to studying their own disciplines, as it often requires significant effort.\nEach lab should prioritize data and code management for its research, making informed decisions about the tools in which its team should receive training. This approach can establish a general data quality standard for the lab, adopted by each new member and further developed individually, as needed."
+  },
+  {
     "objectID": "index.html#goal",
     "href": "index.html#goal",
     "title": "GitHub Lab Procedures",
     "section": "Goal",
-    "text": "Goal\nThe purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member."
-  },
-  {
-    "objectID": "index.html#why-use-github",
-    "href": "index.html#why-use-github",
-    "title": "GitHub Lab Procedures",
-    "section": "Why Use GitHub?",
-    "text": "Why Use GitHub?\nGit and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:\n\nBackup\nMaking it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.\nImproved Documentation Practices\nHaving a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.\nVersion Control\nIt is easy to see how the project has evolved over time and recover changes from previous versions.\nReproducibility\nWhen publishing scientific articles, maintaining reproducible results is considered a quality practice.\n\nIt’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed."
+    "text": "Goal\nThe goal of this guide is not to be an exhaustive course in data analysis but to provide the minimum necessary guidelines for new members of Dr. Silvia Stringhini’s lab to follow agreed-upon practices in data and code management."
   },
   {
     "objectID": "index.html#references",
     "href": "index.html#references",
     "title": "GitHub Lab Procedures",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\n\n\nCarpentry, Software. “Version Control with Git: Summary and Setup - Version Control with Git.” https://swcarpentry.github.io/git-novice/.\n\n\nClub, Our Coding. “Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub.” https://ourcodingclub.github.io/tutorials/git-for-labs/."
   },
   {
-    "objectID": "lab-design.html",
-    "href": "lab-design.html",
-    "title": "Objectives",
-    "section": "",
-    "text": "Provide a quick onboarding guide and basic data management practices for new lab members, including data analysis backup and how to maintain the privacy of datasets by having clear steps to prevent pushing data.\n\nSet guidelines on the use and management of code within the lab to facilitate sharing unpublished or complementary data analysis among current and former lab members.\n\nEstablish basic rules to publish public repositories associated with scientific articles, ensuring transparency in analyses and reproducibility of results.\n\nEnsure consistency in managing data analyses over time and preserve and centralize the knowledge generated in the different projects.\n\nMost of the databases used in our lab are private and do not contain enough data to be considered big data. These databases are used locally.\n\nIt is suggested to use a raw/ folder and a processed/ folder to separate unprocessed data from processed data.\nTo ensure that the data is not made public, it is recommended to use a .gitignore file and avoid pushing the folder where the data is stored to the repository."
+    "objectID": "lab-design.html#who-are-we-and-what-do-we-need",
+    "href": "lab-design.html#who-are-we-and-what-do-we-need",
+    "title": "What is the lab’s policy for data and code usage?",
+    "section": "Who are we and what do we need?",
+    "text": "Who are we and what do we need?\nDr. Silvia Stringhini is an epidemiologist with an extensive career. She has served as the Head of the Unit of Population Epidemiology at the Geneva University Hospitals and as an Assistant Professor at the University of Geneva, Switzerland. Her main research areas include social inequalities in chronic diseases and aging, the role of health behaviors in the genesis of social health inequalities, the biological consequences of social inequalities, and the role of environmental factors in social health disparities.\nRecently, she moved her lab to the School of Population and Public Health at the University of British Columbia in Canada, where she is creating a new team. Currently, she is in the process of welcoming new students and staff, making this an ideal time to outline how her new group will manage data and code in its publications.\nOne of the discussed priorities is centralizing the code generated by students in a single location. GitHub stands out as a valuable tool for this purpose. GitHub is also the preferred way for researchers to share repositories containing publicly released code as part of scientific publications."
+  },
+  {
+    "objectID": "lab-design.html#why-use-github",
+    "href": "lab-design.html#why-use-github",
+    "title": "What is the lab’s policy for data and code usage?",
+    "section": "Why Use GitHub?",
+    "text": "Why Use GitHub?\nGit and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:\n\nBackup\nMaking it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.\nImproved Documentation Practices\nHaving a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.\nVersion Control\nIt is easy to see how the project has evolved over time and recover changes from previous versions.\nReproducibility\nWhen publishing scientific articles, maintaining reproducible results is considered a quality practice.\n\nIt’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed."
+  },
+  {
+    "objectID": "lab-design.html#decisions",
+    "href": "lab-design.html#decisions",
+    "title": "What is the lab’s policy for data and code usage?",
+    "section": "Decisions",
+    "text": "Decisions\nWe recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a private GitHub repository by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code.\nMaintaining this initial private repository has other benefits besides functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and improves the overall documentation of the project.\nSpecific characteristics of the research area were also discussed, such as handling sensitive data. As a result, practices like using .gitignore and setting up a structured data folder with raw and processed subfolders were suggested to prevent sensitive data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a friendly for non programmers README template, to be sure that the relevant information, as the database version in use and computational environment, is captured.\nOne of the more challenging aspects to adopt is using Git, as it has multiple utilities and a considerable learning curve. Considering this, it was decided that, in this initial stage, Git and GitHub’s primary use would be to create an online and centralized backup of the projects, share repositories among team members, and manage version control instead of focusing in collaborative tools.\nSince R is the most widely used programming language in the discipline, the team decided to leverage the Git integration provided by RStudio IDE’s Git tab for committing changes and integrating students’ local work into the GitHub repositories."
+  },
+  {
+    "objectID": "lab-design.html#summary",
+    "href": "lab-design.html#summary",
+    "title": "What is the lab’s policy for data and code usage?",
+    "section": "Summary",
+    "text": "Summary\nMost of the databases used in our lab are private and do not contain enough data to be considered big data. These databases are used locally.\n\nIt is suggested to use a raw/ folder and a processed/ folder to separate unprocessed data from processed data.\nTo ensure that the data is not made public, it is recommended to use a .gitignore file and avoid pushing the folder where the data is stored to the repository.\nProvide a quick onboarding guide and basic data management practices for new lab members, including data analysis backup and how to maintain the privacy of datasets by having clear steps to prevent pushing data.\n\nSet guidelines on the use and management of code within the lab to facilitate sharing unpublished or complementary data analysis among current and former lab members.\n\nEstablish basic rules to publish public repositories associated with scientific articles, ensuring transparency in analyses and reproducibility of results.\n\nEnsure consistency in managing data analyses over time and preserve and centralize the knowledge generated in the different projects."
+  },
+  {
+    "objectID": "lab-design.html#references",
+    "href": "lab-design.html#references",
+    "title": "What is the lab’s policy for data and code usage?",
+    "section": "References",
+    "text": "References"
   },
   {
     "objectID": "roles.html#github-organization-management",
@@ -151,14 +179,14 @@
     "href": "dailytasks.html#push-the-changes-to-the-github-repository.",
     "title": "3  Regular Project Workflow",
     "section": "3.2 Push the changes to the GitHub repository.",
-    "text": "3.2 Push the changes to the GitHub repository.\nFinally, to push the changes to GitHub, click the Push button.\n\nYou’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.\nIf everything went smoothly, you should navigate to the repository URL and see the changes you made.\n\nHow Often Should You Push?\nPush your changes at least once a day after completing your work.\n\n\n\n\n\n\n\nMoving foward with Git and GitHUb\n\n\n\nIf you want to learn more about Git and GitHub, we recommend the following books and tutorials “Version Control with Git: Summary and Setup — Swcarpentry.github.io”, Bryan (2018), “Setting up a GitHub Repository for Your Lab — Ourcodingclub.github.io”, Tiffany Timbers and Lee, “Getting Started With GitHub &#X2014; The Turing Way — Book.the-Turing-Way.org”\nAdditionally, UBC Library offers some basic data management courses that might be helpful to you: Short courses"
+    "text": "3.2 Push the changes to the GitHub repository.\nFinally, to push the changes to GitHub, click the Push button.\n\nYou’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.\nIf everything went smoothly, you should navigate to the repository URL and see the changes you made.\n\nHow Often Should You Push?\nPush your changes at least once a day after completing your work.\n\n\n\n\n\n\n\nMoving foward with Git and GitHUb\n\n\n\nIf you want to learn more about Git and GitHub, we recommend the following books and tutorials Carpentry, Bryan (2018), Club, Tiffany Timbers and Lee, “Getting Started With GitHub &#X2014; The Turing Way — Book.the-Turing-Way.org”\nAdditionally, UBC Library offers some basic data management courses that might be helpful to you: Short courses"
   },
   {
     "objectID": "dailytasks.html#references",
     "href": "dailytasks.html#references",
     "title": "3  Regular Project Workflow",
     "section": "3.3 References",
-    "text": "3.3 References\n\nArticle: Research Data Management\n\n\n\n\n\nBryan, Jennifer. 2018. Happy Git and GitHub for the useR. GitHub.\n\n\n“Getting Started With GitHub &#X2014; The Turing Way — Book.the-Turing-Way.org.” https://book.the-turing-way.org/collaboration/github-novice.\n\n\n“Setting up a GitHub Repository for Your Lab — Ourcodingclub.github.io.” https://ourcodingclub.github.io/tutorials/git-for-labs/.\n\n\nTiffany Timbers, Trevor Campbell, and Melissa Lee. “Chapter 12 Collaboration with Version Control | Data Science — Datasciencebook.ca.” https://datasciencebook.ca/version-control.html.\n\n\n“Version Control with Git: Summary and Setup — Swcarpentry.github.io.” https://swcarpentry.github.io/git-novice/."
+    "text": "3.3 References\n\nArticle: Research Data Management\n\n\n\n\n\nBryan, Jennifer. 2018. Happy Git and GitHub for the useR. GitHub.\n\n\nCarpentry, Software. “Version Control with Git: Summary and Setup - Version Control with Git.” https://swcarpentry.github.io/git-novice/.\n\n\nClub, Our Coding. “Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub.” https://ourcodingclub.github.io/tutorials/git-for-labs/.\n\n\n“Getting Started With GitHub &#X2014; The Turing Way — Book.the-Turing-Way.org.” https://book.the-turing-way.org/collaboration/github-novice.\n\n\nTiffany Timbers, Trevor Campbell, and Melissa Lee. “Chapter 12 Collaboration with Version Control | Data Science — Datasciencebook.ca.” https://datasciencebook.ca/version-control.html."
   },
   {
     "objectID": "offboarding.html",

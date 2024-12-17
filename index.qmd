@@ -1,26 +1,13 @@
 **GitHub Organization**: www.github.com/StringhiniLab
 
+## Introduction {.unnumbered}
+
+The use of programming languages for data analysis has made it even more necessary to apply computer science knowledge to ensure reliable and reproducible results. Currently, there are excellent and detailed materials and tutorials on various tools that can enhance computational reproducibility and transparency in research results (@scarpentry, @codingclub). However, there is a trade-off for scientists-in-training between adopting and practicing these techniques and dedicating time to studying their own disciplines, as it often requires significant effort.
+
+Each lab should prioritize data and code management for its research, making informed decisions about the tools in which its team should receive training. This approach can establish a general data quality standard for the lab, adopted by each new member and further developed individually, as needed.
+
 ## Goal {.unnumbered}
 
-The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member. 
-
-## Why Use GitHub?
-
-Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:
-
-- **Backup**  
-Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.
-
-- **Improved Documentation Practices**  
-Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.
-
-- **Version Control**  
-It is easy to see how the project has evolved over time and recover changes from previous versions.
-
-- **Reproducibility**  
-When publishing scientific articles, maintaining reproducible results is considered a quality practice.  
-
-It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
-
+The goal of this guide is not to be an exhaustive course in data analysis but to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in data and code management. 
 
 ## References  

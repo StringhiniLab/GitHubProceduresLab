@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -79,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Goal</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -147,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Goal</span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lab-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Objectives</span></a>
+ <span class="menu-text">What is the lab’s policy for data and code usage?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -196,8 +215,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a></li>
-  <li><a href="#why-use-github" id="toc-why-use-github" class="nav-link" data-scroll-target="#why-use-github">Why Use GitHub?</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -236,29 +255,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><strong>GitHub Organization</strong>: www.github.com/StringhiniLab</p>
+<section id="introduction" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The use of programming languages for data analysis has made it even more necessary to apply computer science knowledge to ensure reliable and reproducible results. Currently, there are excellent and detailed materials and tutorials on various tools that can enhance computational reproducibility and transparency in research results (<span class="citation" data-cites="scarpentry">Carpentry</span>, <span class="citation" data-cites="codingclub">Club</span>). However, there is a trade-off for scientists-in-training between adopting and practicing these techniques and dedicating time to studying their own disciplines, as it often requires significant effort.</p>
+<p>Each lab should prioritize data and code management for its research, making informed decisions about the tools in which its team should receive training. This approach can establish a general data quality standard for the lab, adopted by each new member and further developed individually, as needed.</p>
+</section>
 <section id="goal" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="goal">Goal</h2>
-<p>The purpose of this manual is to summarize the steps necessary for using GitHub as a Lab Member.</p>
-</section>
-<section id="why-use-github" class="level2">
-<h2 class="anchored" data-anchor-id="why-use-github">Why Use GitHub?</h2>
-<p>Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:</p>
-<ul>
-<li><p><strong>Backup</strong><br>
-Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.</p></li>
-<li><p><strong>Improved Documentation Practices</strong><br>
-Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.</p></li>
-<li><p><strong>Version Control</strong><br>
-It is easy to see how the project has evolved over time and recover changes from previous versions.</p></li>
-<li><p><strong>Reproducibility</strong><br>
-When publishing scientific articles, maintaining reproducible results is considered a quality practice.</p></li>
-</ul>
-<p>It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.</p>
+<p>The goal of this guide is not to be an exhaustive course in data analysis but to provide the <strong>minimum necessary guidelines</strong> for new members of Dr.&nbsp;Silvia Stringhini’s lab to follow agreed-upon practices in data and code management.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-scarpentry" class="csl-entry" role="listitem">
+Carpentry, Software. <span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup - Version Control with Git.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
+</div>
+<div id="ref-codingclub" class="csl-entry" role="listitem">
+Club, Our Coding. <span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab - Version Control and Code Management with GitHub.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -500,7 +517,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./lab-design.html" class="pagination-link">
-        <span class="nav-page-text">Objectives</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">What is the lab’s policy for data and code usage?</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

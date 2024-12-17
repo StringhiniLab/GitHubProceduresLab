@@ -15,13 +15,16 @@ authors:
     email: florencia.dandrea@ubc.ca
     affiliation: University of British Columbia
     orcid: 'https://orcid.org/0000-0002-0041-097X'
+  - given-names: Silvia
+    family-names: Stringhini
+    email: silvia.stringhini@ubc.ca
+    affiliation: University of British Columbia
+    orcid: 'https://orcid.org/0000-0002-4387-8943'
 identifiers:
-  - type: url
-    value: 'https://stringhinilab.github.io/GitHubProceduresLab/'
   - type: doi
     value: 10.1234/zenodo.4321
 repository-code: 'https://github.com/StringhiniLab/GitHubProceduresLab'
-url: 'https://github.com/StringhiniLab/GitHubProceduresLab'
+url: 'https://stringhinilab.github.io/GitHubProceduresLab/b'
 abstract: >-
   This Quarto book aims to provide a basic usage guide for
   Dr.Strihghini's new lab members regarding the handling of
