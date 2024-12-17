@@ -15,7 +15,7 @@ It provides:
 ## Installation and Setup (in case you want to edit the book)
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/<user>/<repo>.git
+git clone git@github.com:StringhiniLab/GitHubProceduresLab.git
 ```
 2. **Install dependencies** using `renv`:
 ```r
@@ -33,10 +33,10 @@ If you have any questions or suggestions, please contact open a [GitHub issue](h
   
 Please note that the github_procedures project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
-## Cite Me
+## Inspired? Cite Us!
 If you use this book, please cite it as follows:
 
-**D'Andrea, F. GitHub Lab Procedures: Onboarding Guide for New Lab Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab**
+**D'Andrea, F., & Stringhini, S. GitHub Lab Procedures: Onboarding Guide for New Lab Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
 
 ## Session Info
 The current environment setup is managed using `renv` to ensure reproducibility. The session info is as follows:
