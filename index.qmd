@@ -2,12 +2,38 @@
 
 ## Introduction {.unnumbered}
 
-The use of programming languages for data analysis has made it even more necessary to apply computer science knowledge to ensure reliable and reproducible results. Currently, there are excellent and detailed materials and tutorials on various tools that can enhance computational reproducibility and transparency in research results (@scarpentry, @codingclub). However, there is a trade-off for scientists-in-training between adopting and practicing these techniques and dedicating time to studying their own disciplines, as it often requires significant effort.
+The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results (@bestenough). Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available (@scarpentry, @datacarpentry, @codingclub, @turing), there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own disciplines.
 
-Each lab should prioritize data and code management for its research, making informed decisions about the tools in which its team should receive training. This approach can establish a general data quality standard for the lab, adopted by each new member and further developed individually, as needed.
+In fact, one of the main barriers to sharing code at the time of publication is that scientists often do not know how to do it or have doubts about how to do it properly. Thus, the lack of training in computer science and best practices in data management impacts the reproducibility and transparency of scientific research (@ram2013, @sharma2024). This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the potential benefits of open science (@melvin2022, @tazare2024, @xu2025).
+
+## Where to Start? {.unnumbered}
+
+We believe that the early adoption of basic tools and techniques to improve research data analysis by early-career researchers is fundamental. For this to happen, **training cannot be solely individual but should also be fostered within research groups**. 
+
+There are several advantages to this approach:
+  
+- **Establish minimum documentation practices**  
+  Defining a set of group-level criteria for code and data management helps standardize documentation and facilitate exchange among researchers in the group, saving time and avoiding confusion.
+    
+- **Teach where to learn more Data Science**  
+  Supporting new members of the research group in adopting basic computational techniques from the beginning sets the stage for researchers to explore additional tools early, based on the needs of their study topics.
+    
+- **Focus on domain-specific skills**  
+  Identifying and preselecting domain-specific computational skills can save time for new researchers.  
+  This knowledge is sometimes shared in publications tailored to each discipline but is too specific to be addressed by general training courses and tutorials for scientists, being the exception for some fields @datacarpentry.
+  For example, it can be established that using a tool like GitHub is necessary for sharing code or collaborating, but learning to use a tool like Bash might not be essential.
+  
+- **Avoid messy projects from day one**  
+  Centralizing data analyses on a GitHub organization and creating standards for pushing code promotes improved repository structuring, version control, and better-documented code, ensuring a baseline quality of data analysis from the project's inception.
+  
+- **Early peer review**  
+  Sharing analyses from the beginning in private repositories shared only with team members enables peer review or feedback before publishing results. This should increase early-career researchers' confidence when sharing the code for publication and fuel open science practices.
+
+- **Maintain the group's research history**  
+  This approach helps create and standardize a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.
 
 ## Goal {.unnumbered}
 
-The goal of this guide is not to be an exhaustive course in data analysis but to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in data and code management. 
+The goal of this guide is not to be an exhaustive course in data analysis but to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in data and code management.
 
 ## References  

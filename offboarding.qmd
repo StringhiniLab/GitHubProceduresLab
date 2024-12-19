@@ -1,3 +1,5 @@
 # Offboarding
 
-The Lab Member must be removed from the GitHub Lab Team.
+- The Lab Member must be removed from the GitHub Lab Team.
+
+When leaving the organization, you will lose access to private repositories created by other team members but will retain access to those you created yourself.

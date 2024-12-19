@@ -216,6 +216,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#where-to-start" id="toc-where-to-start" class="nav-link" data-scroll-target="#where-to-start">Where to Start?</a></li>
   <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -257,8 +258,28 @@ div.csl-indent {
 <p><strong>GitHub Organization</strong>: www.github.com/StringhiniLab</p>
 <section id="introduction" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="introduction">Introduction</h2>
-<p>The use of programming languages for data analysis has made it even more necessary to apply computer science knowledge to ensure reliable and reproducible results. Currently, there are excellent and detailed materials and tutorials on various tools that can enhance computational reproducibility and transparency in research results (<span class="citation" data-cites="scarpentry">Carpentry</span>, <span class="citation" data-cites="codingclub">Club</span>). However, there is a trade-off for scientists-in-training between adopting and practicing these techniques and dedicating time to studying their own disciplines, as it often requires significant effort.</p>
-<p>Each lab should prioritize data and code management for its research, making informed decisions about the tools in which its team should receive training. This approach can establish a general data quality standard for the lab, adopted by each new member and further developed individually, as needed.</p>
+<p>The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results (<span class="citation" data-cites="bestenough">Wilson (<a href="#ref-bestenough" role="doc-biblioref">2017</a>)</span>). Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available (<span class="citation" data-cites="scarpentry">Carpentry</span>, <span class="citation" data-cites="datacarpentry">Carpentries</span>, <span class="citation" data-cites="codingclub">Club</span>, <span class="citation" data-cites="turing">Community (<a href="#ref-turing" role="doc-biblioref">2023</a>)</span>), there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own disciplines.</p>
+<p>In fact, one of the main barriers to sharing code at the time of publication is that scientists often do not know how to do it or have doubts about how to do it reproducibly. Thus, the lack of training in computer science and best practices in data management impacts the reproducibility and transparency of scientific research (<span class="citation" data-cites="ram2013">Ram (<a href="#ref-ram2013" role="doc-biblioref">2013</a>)</span>, <span class="citation" data-cites="sharma2024">Sharma et al. (<a href="#ref-sharma2024" role="doc-biblioref">2024</a>)</span>). This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the potential benefits of open science (<span class="citation" data-cites="melvin2022">Melvin et al. (<a href="#ref-melvin2022" role="doc-biblioref">2022</a>)</span>, <span class="citation" data-cites="tazare2024">Tazare et al. (<a href="#ref-tazare2024" role="doc-biblioref">2024</a>)</span>, <span class="citation" data-cites="xu2025">Xu et al. (<a href="#ref-xu2025" role="doc-biblioref">2025</a>)</span>).</p>
+</section>
+<section id="where-to-start" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="where-to-start">Where to Start?</h2>
+<p>We believe that the early adoption of basic tools and techniques to improve research data analysis by early-career researchers is fundamental. For this to happen, <strong>training cannot be solely individual but should also be fostered within research groups</strong>.</p>
+<p>There are several advantages to this approach:</p>
+<ul>
+<li><p><strong>Establish minimum documentation practices</strong><br>
+Defining a set of group-level criteria for code and data management helps standardize documentation and facilitate exchange among researchers in the group, saving time and avoiding confusion.</p></li>
+<li><p><strong>Teach where to learn more Data Science</strong><br>
+Supporting new members of the research group in adopting basic computational techniques from the beginning sets the stage for researchers to explore additional tools early, based on the needs of their study topics.</p></li>
+<li><p><strong>Focus on domain-specific skills</strong><br>
+Identifying and preselecting domain-specific computational skills can save time for new researchers.<br>
+This knowledge is sometimes shared in publications tailored to each discipline but is too specific to be addressed by general training courses and tutorials for scientists, being the exception for some fields <span class="citation" data-cites="datacarpentry">Carpentries</span>. For example, it can be established that using a tool like GitHub is necessary for sharing code or collaborating, but learning to use a tool like Bash might not be essential.</p></li>
+<li><p><strong>Avoid messy projects from day one</strong><br>
+Centralizing data analyses on a GitHub organization and creating standards for pushing code promotes improved repository structuring, version control, and better-documented code, ensuring a baseline quality of data analysis from the project’s inception.</p></li>
+<li><p><strong>Early peer review</strong><br>
+Sharing analyses from the beginning in private repositories shared only with team members enables peer review or feedback before publishing results. This should increase early-career researchers’ confidence when sharing the code for publication and fuel open science practices.</p></li>
+<li><p><strong>Maintain the group’s research history</strong><br>
+This approach helps create and standardize a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.</p></li>
+</ul>
 </section>
 <section id="goal" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="goal">Goal</h2>
@@ -269,11 +290,35 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-datacarpentry" class="csl-entry" role="listitem">
+Carpentries, The. <span>“Data Carpentry.”</span> <a href="https://datacarpentry.org/" class="uri">https://datacarpentry.org/</a>.
+</div>
 <div id="ref-scarpentry" class="csl-entry" role="listitem">
 Carpentry, Software. <span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup - Version Control with Git.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
 </div>
 <div id="ref-codingclub" class="csl-entry" role="listitem">
 Club, Our Coding. <span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab - Version Control and Code Management with GitHub.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
+</div>
+<div id="ref-turing" class="csl-entry" role="listitem">
+Community, The Turing Way. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
+</div>
+<div id="ref-melvin2022" class="csl-entry" role="listitem">
+Melvin, Ryan L, Steven J Barker, Joe Kiani, and Dan E Berkowitz. 2022. <span>“Pro-Con Debate: Should Code Sharing Be Mandatory for Publication?”</span> <em>Anesthesia &amp; Analgesia</em> 135 (2): 241–45.
+</div>
+<div id="ref-ram2013" class="csl-entry" role="listitem">
+Ram, Karthik. 2013. <span>“Git Can Facilitate Greater Reproducibility and Increased Transparency in Science.”</span> <em>Source Code for Biology and Medicine</em> 8: 1–8.
+</div>
+<div id="ref-sharma2024" class="csl-entry" role="listitem">
+Sharma, Nitesh Kumar, Ram Ayyala, Dhrithi Deshpande, Yesha Patel, Viorel Munteanu, Dumitru Ciorba, Viorel Bostan, et al. 2024. <span>“Analytical Code Sharing Practices in Biomedical Research.”</span> <em>PeerJ Computer Science</em> 10: e2066.
+</div>
+<div id="ref-tazare2024" class="csl-entry" role="listitem">
+Tazare, John, Shirley V Wang, Rosa Gini, Daniel Prieto-Alhambra, Peter Arlett, Daniel R Morales Leaver, Caroline Morton, et al. 2024. <span>“Sharing Is Caring? International Society for Pharmacoepidemiology Review and Recommendations for Sharing Programming Code.”</span> <em>Pharmacoepidemiology and Drug Safety</em> 33 (9): e5856.
+</div>
+<div id="ref-bestenough" class="csl-entry" role="listitem">
+Wilson, Jennifer AND Cranston, Greg AND Bryan. 2017. <span>“Good Enough Practices in Scientific Computing.”</span> <em>PLOS Computational Biology</em> 13 (6): 1–20. <a href="https://doi.org/10.1371/journal.pcbi.1005510">https://doi.org/10.1371/journal.pcbi.1005510</a>.
+</div>
+<div id="ref-xu2025" class="csl-entry" role="listitem">
+Xu, Edward, Anna Catharina V. Armond, David Moher, and Kelly Cobey. 2025. <span>“Key Challenges in Epidemiology: Embracing Open Science.”</span> <em>Journal of Clinical Epidemiology</em> 178: 111618. https://doi.org/<a href="https://doi.org/10.1016/j.jclinepi.2024.111618">https://doi.org/10.1016/j.jclinepi.2024.111618</a>.
 </div>
 </div>
 </section>
