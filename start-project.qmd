@@ -20,7 +20,7 @@ When starting to work on a new project, your first step is to create a **private
 
 1. Click the green **New** button to open a window like this:
 
-![](img/create_repository.png){width=70%}
+![](img/create_repository.png){width=70%}{fig-alt: }
 
 2. Complete/select using the following criteria:
 
