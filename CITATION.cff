@@ -3,8 +3,7 @@
 
 cff-version: 1.2.0
 title: >-
-  GitHub Lab Procedures: Onboarding Guide for New Lab
-  Members
+  Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -26,12 +25,14 @@ identifiers:
 repository-code: 'https://github.com/StringhiniLab/GitHubProceduresLab'
 url: 'https://stringhinilab.github.io/GitHubProceduresLab/'
 abstract: >-
-  This Quarto book aims to provide a basic usage guide for
+  This book aims to provide a basic usage guide for
   Dr.Strihghini's new lab members regarding the handling of
-  data and code with the GitHub platform.
+  data and code with R and GitHub.
 keywords:
   - Quarto
   - Onboarding
   - Research Data Managment
   - GitHub
+  - R
+  - Research Code Managment
 license: CC-BY-NC-4.0

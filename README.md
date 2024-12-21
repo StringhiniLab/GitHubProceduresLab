@@ -1,18 +1,25 @@
-# GitHub Lab Procedures: <img src="img/logo.png" align="right" height="150"/> Onboarding Guide for New Lab Members 
+# Code and Data Lab Management Guidelines: <img src="img/logo.png" align="right" height="150"/> R and GitHub Starter Kit for New Team Members
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) [![DOI](https://zenodo.org/badge/896263653.svg)](https://doi.org/10.5281/zenodo.14510774) [![pages-build-deployment](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment)
 
 ## Description
-This Quarto book aims to provide a **basic usage guide** for new lab members regarding the **handling of data and code** with the **GitHub** platform.
+This book aims to provide a **basic usage guide** for new lab members regarding the **handling of data and code** with **R** and **GitHub** platform.
 
 It provides:
+
 - A series of steps for **onboarding**.
+
 - Instructions on **programs to install**.
+
 - A guide to **starting a project**.
+
 - Recommendations on **best practices**.
+
 - Instructions on how to **push** locally created code to GitHub using **RStudio**.
 
-## Installation and Setup (in case you want to edit the book)
+## Installation and Setup 
+Follow these steps only in case you want to edit the book:
+
 1. **Clone the repository**:
 ```bash
 git clone git@github.com:StringhiniLab/GitHubProceduresLab.git
@@ -36,7 +43,7 @@ Please note that the github_procedures project is released with a [Contributor C
 ## Inspired? Cite Us!
 If you use this book, please cite it as follows:
 
-**D'Andrea, F., & Stringhini, S. GitHub Lab Procedures: Onboarding Guide for New Lab Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
+**D'Andrea, F., & Stringhini, S. Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
 
 ## Session Info
 The current environment setup is managed using `renv` to ensure reproducibility. The session info is as follows:

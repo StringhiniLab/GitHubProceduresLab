@@ -9,19 +9,21 @@ book:
   repo-url: https://github.com/StringhiniLab/GitHubProceduresLab
   repo-actions: [edit, issue]
   downloads: [pdf, epub]
-  sharing: [twitter, facebook]
-  title: "GitHub Lab Procedures"
-  subtitle: "A repository management start kit for new lab members"
+  title: "Code and Data Lab Management Guidelines"
+  subtitle: "R and GitHub Starter Kit for New Team Members"
   author: "Florencia D'Andrea"
   date: "11/29/2024"
   chapters:
-    - index.qmd
-    - lab-design.qmd
-    - roles.qmd
-    - onboarding.qmd
-    - start-project.qmd
-    - dailytasks.qmd
-    - offboarding.qmd
+    - part: index.qmd
+      chapters:
+      - lab-design.qmd
+      - roles.qmd
+    - part: "Practical Steps"
+      chapters:
+      - onboarding.qmd
+      - start-project.qmd
+      - dailytasks.qmd
+      - offboarding.qmd
   sidebar:
     title: |
       Dr. Stringhini's Lab
@@ -30,7 +32,7 @@ book:
     search: true
     logo: img/logo.png
 
-bibliography: references.bib
+bibliography: references.bibtex
 bibliographystyle: apa
 
 format:

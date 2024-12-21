@@ -2,9 +2,9 @@
 
 ## Introduction {.unnumbered}
 
-The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results [@bestenough]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@scarpentry, @datacarpentry, @codingclub, @turing], there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own disciplines.
+The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results [@bestenough]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@scarpentry; @datacarpentry; @codingclub; @turing], there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own disciplines.
 
-In fact, one of the main barriers to sharing code at the time of publication is that scientists often do not know how to do it or have doubts about how to do it properly. Thus, the lack of training in computer science and best practices in data management impacts the reproducibility and transparency of scientific research [@ram2013, @sharma2024]. This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the potential benefits of open science [@allen2019, @melvin2022, @tazare2024, @xu2025].
+In fact, one of the main barriers to sharing code at the time of publication is that scientists often do not know how to do it or have doubts about how to do it properly. Thus, the lack of training in computer science and best practices in data management impacts the reproducibility and transparency of scientific research [@ram2013; @sharma2024]. This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the potential benefits of open science [@allen2019; @melvin2022; @tazare2024; @xu2025].
 
 ## Where to Start? {.unnumbered}
 
@@ -36,4 +36,14 @@ There are several advantages to this approach:
 
 The goal of this guide is not to be an exhaustive course in data analysis but to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in data and code management.
 
+::: {.callout-note appearance="simple"}
+
+## How to cite this book?
+D'Andrea, F., & Stringhini, S. Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members. https://github.com/StringhiniLab/GitHubProceduresLab.
+Available at: https://stringhinilab.github.io/GitHubProceduresLab/ DOI: *https://doi.org/10.5281/zenodo.14510774*
+
+:::
+
+
 ## References  
+
