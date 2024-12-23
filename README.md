@@ -40,10 +40,10 @@ If you have any questions or suggestions, please contact open a [GitHub issue](h
   
 Please note that the github_procedures project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
-## Inspired? Cite Us!
-If you use this book, please cite it as follows:
+## Cite Us
+If you use this manual, please cite it as follows:
 
-**D'Andrea, F., & Stringhini, S. Code Lab Management Guidelines: R and GitHub Starter Kit for New Team Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
+**D'Andrea, F., & Stringhini, S. Code Management Guidelines: R and GitHub Starter Kit for New Team Members. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
 
 ## Session Info
 The current environment setup is managed using `renv` to ensure reproducibility. The session info is as follows:
