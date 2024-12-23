@@ -20,7 +20,7 @@ When starting to work on a new project, your first step is to create a **private
 
 1. Click the green **New** button to open a window like this:
 
-![](img/create_repository.png){width=70%}{fig-alt: }
+![](img/create_repository.png){width=70%}
 
 2. Complete/select using the following criteria:
 
@@ -66,6 +66,13 @@ All repositories in `StringhiniLab` should be accessible to the Lab Team, which 
 
 ## Clone the repository and associate it with an RStudio Project
 
+::: {.callout-note appearance="simple"}
+
+## Before start using RStudio:
+We recommend changing the default option `Restore .RData into workspace at startup` as explained [in this section](https://docs.posit.co/ide/user/ide/get-started/index.html#blank-slate). [@rstudio_user_guide]
+
+:::
+
 1. **Open RStudio**  
    If RStudio is not installed, complete first the installation instructions in the Onboarding section.  
 
@@ -94,6 +101,16 @@ Additionally, the project name now appears in the top-right corner. By opening t
 You’ll also notice a tab named Git in the top-right panel.
 
 ![](img/rstudio-project.png){width=100%}
+
+::: {.callout-note appearance="simple"}
+
+## Do you want to learn more about the use of RStudio and how to create projects?
+
+- Check the [RStudio IDE User Guide](https://docs.posit.co/ide/user/) [@rstudio_user_guide]
+
+- Read the [Projects section in Chapter 6](https://r4ds.hadley.nz/workflow-scripts.html#projects) of R for Data Science [@r4ds]
+:::
+
 ---
 
 ### Add your Data folder to `.gitignore` 
@@ -124,9 +141,16 @@ project-folder/
 
 ::: {.callout-note appearance="simple"}
 
-## What file to use for your analysis?
+## What type of document should you use for your data analysis?
 
-There are many files you can use for analyzing the data. You can use a basic R script, or files as RMarkdown and its more current version Quarto, that allow you to merge the code with blocks of text.
+There are many files you can use run your code. You can use a [basic R script](https://r4ds.hadley.nz/workflow-scripts.html#scripts) [@r4ds], an RMarkdown document or its more current version Quarto.
+
+A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.
+
+- To use Quarto, you must first [install it](https://quarto.org/docs/get-started/)
+- [Tutorial to learn how to create a document with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html) [@quarto_hello_rstudio] 
+
+It's important to note that there is a learning curve for using tools like this. [Creating a simple R script](https://r4ds.hadley.nz/workflow-scripts.html#scripts) might be a good enough option if you're looking to start your analysis more straightforwardly.
 
 :::
 
@@ -137,7 +161,6 @@ and you `.gitignore` file should look like this:
 .Rhistory
 .RData
 .Ruserdata
-/.quarto/
 data/
 ```
 
@@ -147,7 +170,7 @@ data/
 
 Before starting work, fill out the `README.md` file with the following information:  
 
-```
+````
 # Title
 
 ## Author  
@@ -178,16 +201,17 @@ chronic-diseases/
 ├── README.md # Project overview and documentation
 └── .Rproj # RStudio project file
 
-
 ## Reproducibility
-
-sessionInfo()
+Run `sessionInfo()` in the console and paste the output between the two lines with backticks:
 
 ```
 
-There is more material available on organizing project structures @ubclibrary, using `.gitignore` @theturingwayKeepingSensitive or other resources listed [here](https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources), or creating good README files (The Turing Way - [Readme File](https://book.the-turing-way.org/project-design/project-repo/project-repo-readme)) and name conventions @ubclibrary if you want to explore further.
+```  
 
-Now you're ready to start writing code! 🎉
+````
+
+There is more material available on organizing project structures [@ubclibrary], using `.gitignore` [@turing] or other resources listed [here](https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources), or creating good [README files](https://book.the-turing-way.org/project-design/project-repo/project-repo-readme) [@turing] and name conventions [@ubclibrary] if you want to explore further.
+
 
 ## References
 

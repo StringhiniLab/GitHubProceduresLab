@@ -14,6 +14,15 @@ These steps should be completed every day you work on the project. Although they
 
 ## How to use the Git tab in RStudio  
 
+
+::: {.callout-warning appearance="simple"}
+ 
+## Why Use GitHub?
+
+Git and GitHub were originally created for professional software development. It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
+
+:::  
+
 Pay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).  
 
 Keep in mind that when we cloned the project from GitHub, two new files were added:  
@@ -27,7 +36,7 @@ The `README.md` file initially did not appear in the Git tab. However, after add
 
 If you were to remove a file, you would see it next to a red 'D', indicating that it has been *deleted* from the project.  
 
-![](img/git-tab.png){width=70%}
+![](img/git-tab.png){width=100%}
 
 The next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.  
 
@@ -68,19 +77,25 @@ Push your changes **at least once a day** after completing your work.
 ::: {.callout-tip appearance="simple"}
 ## Moving foward with Git and GitHUb
 
-If you want to learn more about Git and GitHub, we recommend the following books and tutorials @scarpentry, @bryan2018happy, @codingclub, @datasciencebookcollaboration, @theturingwayGettingStarted
+If you want to learn more about Git and GitHub, we recommend the following books and tutorials: 
 
+- Software Carpentry Lessons [@scarpentry]
 
-Additionally, UBC Library offers some basic data management courses that might be helpful to you: [Short courses ](https://libcal.library.ubc.ca/calendar/?t=g&q=Data%20Bites&cid=-1&cal=-1&ct=339)
+- Happy Git and GitHub for the useR book [@bryan_happy_git]
+
+- Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub [@codingclub]
+
+- The book Data Science: A First Introduction [@datasciencebookcollaboration]
+
+- The Turing Way Handbook [@turing] and the Code Refinery Lessons [@coderefinery_lessons]
+
+Additionally, UBC Library offers some basic data management courses that might be helpful to you: [Short courses](https://libcal.library.ubc.ca/calendar/?t=g&q=Data%20Bites&cid=-1&cal=-1&ct=339) [@ubclibrary]
 
 :::
-
-
 
 ---
 
 ## References  
 
-- [Article: Research Data Management](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/)  
 
 

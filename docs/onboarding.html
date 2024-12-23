@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -280,10 +299,11 @@ Dr.&nbsp;Stringhini, as the owner of the organization, always has access to all 
 Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.</p>
 <ul>
 <li><strong>Git</strong>: <a href="https://git-scm.com/downloads">Download Git</a><br>
-</li>
+You can read more about options on how to <a href="https://happygitwithr.com/install-git">install Git</a> in the book Happy Git and GitHub for the useR <span class="citation" data-cites="bryan_happy_git">(<a href="#ref-bryan_happy_git" role="doc-biblioref">Bryan and Hester 2024</a>)</span></li>
 <li><strong>R</strong>: <a href="https://cran.r-project.org/">Download R</a><br>
 </li>
-<li><strong>RStudio</strong>: <a href="https://posit.co/download/rstudio-desktop/">Download RStudio</a></li>
+<li><strong>RStudio</strong>: <a href="https://posit.co/download/rstudio-desktop/">Download RStudio</a><br>
+If you want to read some more details about basic use of R and RStudio you can read the <a href="https://r4ds.had.co.nz/introduction.html#prerequisites">preqrequisites</a> section of the book R for Data Science <span class="citation" data-cites="r4ds">(<a href="#ref-r4ds" role="doc-biblioref">Wickham and Grolemund 2024</a>)</span></li>
 </ul>
 <div class="callout callout-style-simple callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -295,18 +315,23 @@ Installation issues
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>It could happen that you get into trouble during the installation process. Remember that we are a team and that you can use Slack to share your issues and look for support 🙌</p>
+<p>It could happen that you find issues during the installation process. Remember that we are a team and that you can use Slack to share the problem and look for support 🙌</p>
 </div>
 </div>
 <p>Once you’ve completed these steps, you can move on to the next section. 🎉</p>
 </section>
 <section id="references" class="level2" data-number="1.5">
 <h2 data-number="1.5" class="anchored" data-anchor-id="references"><span class="header-section-number">1.5</span> References</h2>
-<ul>
-<li><a href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations">Best practices for organizations</a></li>
-</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bryan_happy_git" class="csl-entry" role="listitem">
+Bryan, Jennifer, and Jim Hester. 2024. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
+</div>
+<div id="ref-r4ds" class="csl-entry" role="listitem">
+Wickham, Hadley, and Garrett Grolemund. 2024. <em>R for Data Science</em>. <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

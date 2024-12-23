@@ -20,31 +20,13 @@ We discussed with Dr. Stringhini the basic requirements that can be expected fro
 
 Additionally, considering the lab's long-term evolution, onboarding and offboarding procedures were defined.
 
-## Why Use GitHub?
-
-Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:
-
-- **Backup**  
-Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.
-
-- **Improved Documentation Practices**  
-Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.
-
-- **Version Control**  
-It is easy to see how the project has evolved over time and recover changes from previous versions.
-
-- **Reproducibility**  
-When publishing scientific articles, maintaining reproducible results is considered a quality practice.  
-
-It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
-
 ## Notes on Instructional Design
 
-We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a **private GitHub repository** by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article's code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code (@gomes2022, @tazare2024). 
+We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a **private GitHub repository** by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article's code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code [@gomes2022, @tazare2024]. 
 
 Maintaining this initial private repository has other benefits besides functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and **improves the overall documentation of the project**.  
 
-Specific characteristics of the research area were also discussed (@maya2023), such as handling **sensitive data** (@turing). As a result, practices like using `.gitignore` and setting up a structured data folder with `raw` and `processed` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a friendly for non programmers README template, to be sure that the relevant information, as the database version in use and computational environment, is captured.  
+Specific characteristics of the research area were also discussed [@maya2023], such as handling **sensitive data** [@turing]. As a result, practices like using `.gitignore` and setting up a structured data folder with `raw` and `processed` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a friendly for non programmers README template, to be sure that the relevant information, as the database version in use and computational environment, is captured.  
 
 One of the more challenging aspects to adopt is using Git, as it has multiple utilities and a considerable learning curve. Considering this, it was decided that, in this initial stage, Git and GitHub's primary use would be to create an online and centralized backup of the projects, share repositories among team members, and manage version control instead of focusing in collaborative tools.
 

@@ -214,7 +214,6 @@ div.csl-indent {
    
   <ul>
   <li><a href="#statement-of-need" id="toc-statement-of-need" class="nav-link active" data-scroll-target="#statement-of-need">Statement of Need</a></li>
-  <li><a href="#why-use-github" id="toc-why-use-github" class="nav-link" data-scroll-target="#why-use-github">Why Use GitHub?</a></li>
   <li><a href="#notes-on-instructional-design" id="toc-notes-on-instructional-design" class="nav-link" data-scroll-target="#notes-on-instructional-design">Notes on Instructional Design</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -291,26 +290,11 @@ div.csl-indent {
 </div>
 <p>Additionally, considering the lab’s long-term evolution, onboarding and offboarding procedures were defined.</p>
 </section>
-<section id="why-use-github" class="level2">
-<h2 class="anchored" data-anchor-id="why-use-github">Why Use GitHub?</h2>
-<p>Git and GitHub were originally created for professional software development. However, their use has extended into the scientific field for various reasons:</p>
-<ul>
-<li><p><strong>Backup</strong><br>
-Making it a habit to push to GitHub at least once a day allows you to keep an online copy of your data analysis.</p></li>
-<li><p><strong>Improved Documentation Practices</strong><br>
-Having a complete README and knowing that your colleagues have access to your code encourages better organization of the project, making it clearer, more concise, and well-documented.</p></li>
-<li><p><strong>Version Control</strong><br>
-It is easy to see how the project has evolved over time and recover changes from previous versions.</p></li>
-<li><p><strong>Reproducibility</strong><br>
-When publishing scientific articles, maintaining reproducible results is considered a quality practice.</p></li>
-</ul>
-<p>It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.</p>
-</section>
 <section id="notes-on-instructional-design" class="level2">
 <h2 class="anchored" data-anchor-id="notes-on-instructional-design">Notes on Instructional Design</h2>
-<p>We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a <strong>private GitHub repository</strong> by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code (<span class="citation" data-cites="gomes2022">Gomes et al. (<a href="#ref-gomes2022" role="doc-biblioref">2022</a>)</span>, <span class="citation" data-cites="tazare2024">Tazare et al. (<a href="#ref-tazare2024" role="doc-biblioref">2024</a>)</span>).</p>
+<p>We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a <strong>private GitHub repository</strong> by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code <span class="citation" data-cites="gomes2022">Tazare et al. (<a href="#ref-tazare2024" role="doc-biblioref">2024</a>)</span>.</p>
 <p>Maintaining this initial private repository has other benefits besides functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and <strong>improves the overall documentation of the project</strong>.</p>
-<p>Specific characteristics of the research area were also discussed (<span class="citation" data-cites="maya2023">Mathur and Fox (<a href="#ref-maya2023" role="doc-biblioref">2023</a>)</span>), such as handling <strong>sensitive data</strong> (<span class="citation" data-cites="turing">Community (<a href="#ref-turing" role="doc-biblioref">2023</a>)</span>). As a result, practices like using <code>.gitignore</code> and setting up a structured data folder with <code>raw</code> and <code>processed</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a friendly for non programmers README template, to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
+<p>Specific characteristics of the research area were also discussed <span class="citation" data-cites="maya2023">(<a href="#ref-maya2023" role="doc-biblioref">Mathur and Fox 2023</a>)</span>, such as handling <strong>sensitive data</strong> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span>. As a result, practices like using <code>.gitignore</code> and setting up a structured data folder with <code>raw</code> and <code>processed</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a friendly for non programmers README template, to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
 <p>One of the more challenging aspects to adopt is using Git, as it has multiple utilities and a considerable learning curve. Considering this, it was decided that, in this initial stage, Git and GitHub’s primary use would be to create an online and centralized backup of the projects, share repositories among team members, and manage version control instead of focusing in collaborative tools.</p>
 <p>Since R is the most widely used programming language in the discipline, the team decided to leverage the Git integration provided by RStudio IDE’s Git tab for committing changes and integrating students’ local work into the GitHub repositories.</p>
 </section>
@@ -319,9 +303,6 @@ When publishing scientific articles, maintaining reproducible results is conside
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-turing" class="csl-entry" role="listitem">
-Community, The Turing Way. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
-</div>
 <div id="ref-gomes2022" class="csl-entry" role="listitem">
 Gomes, Dylan GE, Patrice Pottier, Robert Crystal-Ornelas, Emma J Hudgins, Vivienne Foroughirad, Luna L Sánchez-Reyes, Rachel Turba, et al. 2022. <span>“Why Don’t We Share Data and Code? Perceived Barriers and Benefits to Public Archiving Practices.”</span> <em>Proceedings of the Royal Society B</em> 289 (1987): 20221113.
 </div>
@@ -330,6 +311,9 @@ Mathur, Maya B, and Matthew P Fox. 2023. <span>“Toward Open and Reproducible E
 </div>
 <div id="ref-tazare2024" class="csl-entry" role="listitem">
 Tazare, John, Shirley V Wang, Rosa Gini, Daniel Prieto-Alhambra, Peter Arlett, Daniel R Morales Leaver, Caroline Morton, et al. 2024. <span>“Sharing Is Caring? International Society for Pharmacoepidemiology Review and Recommendations for Sharing Programming Code.”</span> <em>Pharmacoepidemiology and Drug Safety</em> 33 (9): e5856.
+</div>
+<div id="ref-turing" class="csl-entry" role="listitem">
+The Turing Way Community. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
 </div>
 </div>
 </section>

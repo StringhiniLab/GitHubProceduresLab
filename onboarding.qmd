@@ -48,21 +48,20 @@ To work in the lab, you will need to have Git, R, and RStudio installed.
 Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.  
 
 - **Git**: [Download Git](https://git-scm.com/downloads)  
+You can read more about options on how to [install Git](https://happygitwithr.com/install-git) in the book Happy Git and GitHub for the useR [@bryan_happy_git]
 - **R**: [Download R](https://cran.r-project.org/)  
 - **RStudio**: [Download RStudio](https://posit.co/download/rstudio-desktop/)  
+If you want to read some more details about basic use of R and RStudio you can read the [preqrequisites](https://r4ds.had.co.nz/introduction.html#prerequisites) section of the book R for Data Science [@r4ds]
 
 ::: {.callout-warning appearance="simple"}
 
 ## Installation issues
 
-It could happen that you get into trouble during the installation process. Remember that we are a team and that you can use Slack to share your issues and look for support 🙌
+It could happen that you find issues during the installation process. Remember that we are a team and that you can use Slack to share the problem and look for support 🙌
 
 :::
-
 
 Once you've completed these steps, you can move on to the next section. 🎉
 
 ## References
-
-- [Best practices for organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations)
 

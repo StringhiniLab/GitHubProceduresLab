@@ -1,8 +1,15 @@
 # Roles {.unnumbered}
 
-## GitHub Organization Management
+## GitHub Organization Manager
 
-- **Adding new members**: Ensure that new lab members join the GitHub Organization once they have created their GitHub account.
+The Owner of the organization can add new members. Ensure that new lab members join the GitHub Organization. Follow the instructions on how to do it in [Inviting users to join your organization](https://docs.github.com/en/organizations/managing-membership-in-your-organization/inviting-users-to-join-your-organization). 
+
+::: {.callout-warning appearance="simple"}
+You will need to wait for the new member to create a GitHub account before you can add them. They should share their username with you.
+:::
+
+### Responsibilities 🎯
+- Add new lab members to the GitHub Organization.
 
 ## GitHub Team Maintainer 
 
@@ -13,9 +20,8 @@ Follow the instructions in [Assigning the team maintainer role to a team member]
 
 If properly assigned the label `mantainer` should appear next to they name in this repository: [https://github.com/orgs/StringhiniLab/teams/lab-team](https://github.com/orgs/StringhiniLab/teams/lab-team).
 
-### Responsibilities of the Maintainer 🎯
+### Responsibilities 🎯
 - Add new lab members to the Lab Team.
 - Remove team members who are no longer part of the lab.
 - Assign other members as Team Maintainers if necessary.
 
-## References

@@ -268,7 +268,7 @@ div.csl-indent {
 <ol type="1">
 <li>Click the green <strong>New</strong> button to open a window like this:</li>
 </ol>
-<p><img src="img/create_repository.png" class="img-fluid" style="width:70.0%">{fig-alt: }</p>
+<p><img src="img/create_repository.png" class="img-fluid" style="width:70.0%"></p>
 <ol start="2" type="1">
 <li>Complete/select using the following criteria:</li>
 </ol>
@@ -306,6 +306,19 @@ If you don’t want to share an analysis with other Lab Members, you can create 
 </section>
 <section id="clone-the-repository-and-associate-it-with-an-rstudio-project" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="clone-the-repository-and-associate-it-with-an-rstudio-project"><span class="header-section-number">2.3</span> Clone the repository and associate it with an RStudio Project</h2>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Before start using RStudio:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We recommend changing the default option <code>Restore .RData into workspace at startup</code> as explained <a href="https://docs.posit.co/ide/user/ide/get-started/index.html#blank-slate">in this section</a>. <span class="citation" data-cites="rstudio_user_guide">(<a href="#ref-rstudio_user_guide" role="doc-biblioref">Posit 2024</a>)</span></p>
+</div>
+</div>
 <ol type="1">
 <li><p><strong>Open RStudio</strong><br>
 If RStudio is not installed, complete first the installation instructions in the Onboarding section.</p></li>
@@ -323,6 +336,22 @@ In RStudio:<br>
 <p>Additionally, the project name now appears in the top-right corner. By opening that menu, you can easily switch between projects without leaving the RStudio IDE.</p>
 <p>You’ll also notice a tab named Git in the top-right panel.</p>
 <p><img src="img/rstudio-project.png" class="img-fluid" style="width:100.0%"></p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Do you want to learn more about the use of RStudio and how to create projects?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Check the <a href="https://docs.posit.co/ide/user/">RStudio IDE User Guide</a> <span class="citation" data-cites="rstudio_user_guide">(<a href="#ref-rstudio_user_guide" role="doc-biblioref">Posit 2024</a>)</span></p></li>
+<li><p>Read the <a href="https://r4ds.hadley.nz/workflow-scripts.html#projects">Projects section in Chapter 6</a> of R for Data Science <span class="citation" data-cites="r4ds">(<a href="#ref-r4ds" role="doc-biblioref">Wickham and Grolemund 2024</a>)</span></p></li>
+</ul>
+</div>
+</div>
 <hr>
 <section id="add-your-data-folder-to-.gitignore" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="add-your-data-folder-to-.gitignore"><span class="header-section-number">2.3.1</span> Add your Data folder to <code>.gitignore</code></h3>
@@ -348,11 +377,17 @@ In RStudio:<br>
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What file to use for your analysis?
+What type of document should you use for your data analysis?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>There are many files you can use for analyzing the data. You can use a basic R script, or files as RMarkdown and its more current version Quarto, that allow you to merge the code with blocks of text.</p>
+<p>There are many files you can use run your code. You can use a <a href="https://r4ds.hadley.nz/workflow-scripts.html#scripts">basic R script</a> <span class="citation" data-cites="r4ds">(<a href="#ref-r4ds" role="doc-biblioref">Wickham and Grolemund 2024</a>)</span>, an RMarkdown document or its more current version Quarto.</p>
+<p>A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.</p>
+<ul>
+<li>To use Quarto, you must first <a href="https://quarto.org/docs/get-started/">install it</a></li>
+<li><a href="https://quarto.org/docs/get-started/hello/rstudio.html">Tutorial to learn how to create a document with Quarto</a> <span class="citation" data-cites="quarto_hello_rstudio">(<a href="#ref-quarto_hello_rstudio" role="doc-biblioref">Quarto Project 2024</a>)</span></li>
+</ul>
+<p>It’s important to note that there is a learning curve for using tools like this. <a href="https://r4ds.hadley.nz/workflow-scripts.html#scripts">Creating a simple R script</a> might be a good enough option if you’re looking to start your analysis more straightforwardly.</p>
 </div>
 </div>
 <p>and you <code>.gitignore</code> file should look like this:</p>
@@ -360,7 +395,6 @@ What file to use for your analysis?
 .Rhistory
 .RData
 .Ruserdata
-/.quarto/
 data/</code></pre>
 <hr>
 </section>
@@ -398,13 +432,14 @@ chronic-diseases/
 ├── README.md # Project overview and documentation
 └── .Rproj # RStudio project file
 
-
 ## Reproducibility
+Run `sessionInfo()` in the console and paste the output between the two lines with backticks:
 
-sessionInfo()
+```
+
+```  
 </code></pre>
-<p>There is more material available on organizing project structures <span class="citation" data-cites="ubclibrary">Eugene Barsky</span>, using <code>.gitignore</code> <span class="citation" data-cites="theturingwayKeepingSensitive">(<a href="#ref-theturingwayKeepingSensitive" role="doc-biblioref"><strong>theturingwayKeepingSensitive?</strong></a>)</span> or other resources listed <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources">here</a>, or creating good README files (The Turing Way - <a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-readme">Readme File</a>) and name conventions <span class="citation" data-cites="ubclibrary">Eugene Barsky</span> if you want to explore further.</p>
-<p>Now you’re ready to start writing code! 🎉</p>
+<p>There is more material available on organizing project structures <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span>, using <code>.gitignore</code> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> or other resources listed <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources">here</a>, or creating good <a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-readme">README files</a> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> and name conventions <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span> if you want to explore further.</p>
 </section>
 <section id="references" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="references"><span class="header-section-number">2.5</span> References</h2>
@@ -413,6 +448,18 @@ sessionInfo()
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-ubclibrary" class="csl-entry" role="listitem">
 Eugene Barsky, Paul Lesack, Billie Hu. <span>“Introduction to Research Data Management.”</span> <a href="https://ubc-library-rc.github.io/rdm/" class="uri">https://ubc-library-rc.github.io/rdm/</a>.
+</div>
+<div id="ref-rstudio_user_guide" class="csl-entry" role="listitem">
+Posit. 2024. <em>RStudio IDE User Guide</em>. <a href="https://docs.posit.co/ide/user/">https://docs.posit.co/ide/user/</a>.
+</div>
+<div id="ref-quarto_hello_rstudio" class="csl-entry" role="listitem">
+Quarto Project. 2024. <em>Hello, Quarto: Using Quarto with RStudio</em>. <a href="https://quarto.org/docs/get-started/hello/rstudio.html">https://quarto.org/docs/get-started/hello/rstudio.html</a>.
+</div>
+<div id="ref-turing" class="csl-entry" role="listitem">
+The Turing Way Community. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
+</div>
+<div id="ref-r4ds" class="csl-entry" role="listitem">
+Wickham, Hadley, and Garrett Grolemund. 2024. <em>R for Data Science</em>. <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>.
 </div>
 </div>
 </section>

@@ -262,6 +262,19 @@ div.csl-indent {
 </section>
 <section id="how-to-use-the-git-tab-in-rstudio" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="how-to-use-the-git-tab-in-rstudio"><span class="header-section-number">3.1</span> How to use the Git tab in RStudio</h2>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Why Use GitHub?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Git and GitHub were originally created for professional software development. It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.</p>
+</div>
+</div>
 <p>Pay attention to the Git tab located in the top-right corner. Git will only display files that have been added, modified, or deleted since the project was initialized or since the last commit (we’ll cover what that means shortly).</p>
 <p>Keep in mind that when we cloned the project from GitHub, two new files were added:</p>
 <ul>
@@ -272,7 +285,7 @@ div.csl-indent {
 <p>These files will appear with a yellow question mark, indicating they are <em>untracked</em>—in other words, Git is aware of them but has not yet saved them under version control.</p>
 <p>The <code>README.md</code> file initially did not appear in the Git tab. However, after adding the template and saving the changes, it now shows a blue “M,” which indicates that the file has been <em>modified</em>.</p>
 <p>If you were to remove a file, you would see it next to a red ‘D’, indicating that it has been <em>deleted</em> from the project.</p>
-<p><img src="img/git-tab.png" class="img-fluid" style="width:70.0%"></p>
+<p><img src="img/git-tab.png" class="img-fluid" style="width:100.0%"></p>
 <p>The next step is to save these changes in the project and add a descriptive title. Each time you save a new version of the project, we say you are making a commit, which you label with a title.</p>
 <section id="add-all-the-files-you-want-to-commit-to-the-staging-area." class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">3.1.1</span> Add all the files you want to commit to the staging area.</h3>
@@ -310,31 +323,44 @@ Moving foward with Git and GitHUb
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If you want to learn more about Git and GitHub, we recommend the following books and tutorials <span class="citation" data-cites="scarpentry">Carpentry</span>, <span class="citation" data-cites="bryan2018happy">Bryan (<a href="#ref-bryan2018happy" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="codingclub">Club</span>, <span class="citation" data-cites="datasciencebookcollaboration">Tiffany Timbers and Lee</span>, <span class="citation" data-cites="theturingwayGettingStarted">(<a href="#ref-theturingwayGettingStarted" role="doc-biblioref"><strong>theturingwayGettingStarted?</strong></a>)</span></p>
-<p>Additionally, UBC Library offers some basic data management courses that might be helpful to you: <a href="https://libcal.library.ubc.ca/calendar/?t=g&amp;q=Data%20Bites&amp;cid=-1&amp;cal=-1&amp;ct=339">Short courses</a></p>
+<p>If you want to learn more about Git and GitHub, we recommend the following books and tutorials:</p>
+<ul>
+<li><p>Software Carpentry Lessons <span class="citation" data-cites="scarpentry">(<a href="#ref-scarpentry" role="doc-biblioref">Software Carpentry</a>)</span></p></li>
+<li><p>Happy Git and GitHub for the useR book <span class="citation" data-cites="bryan_happy_git">(<a href="#ref-bryan_happy_git" role="doc-biblioref">Bryan and Hester 2024</a>)</span></p></li>
+<li><p>Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub <span class="citation" data-cites="codingclub">(<a href="#ref-codingclub" role="doc-biblioref">Our Coding Club</a>)</span></p></li>
+<li><p>The book Data Science: A First Introduction <span class="citation" data-cites="datasciencebookcollaboration">(<a href="#ref-datasciencebookcollaboration" role="doc-biblioref">Timbers, Campbell, and Lee 2022</a>)</span></p></li>
+<li><p>The Turing Way Handbook <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> and the Code Refinery Lessons <span class="citation" data-cites="coderefinery_lessons">(<a href="#ref-coderefinery_lessons" role="doc-biblioref">CodeRefinery Project 2024</a>)</span></p></li>
+</ul>
+<p>Additionally, UBC Library offers some basic data management courses that might be helpful to you: <a href="https://libcal.library.ubc.ca/calendar/?t=g&amp;q=Data%20Bites&amp;cid=-1&amp;cal=-1&amp;ct=339">Short courses</a> <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span></p>
 </div>
 </div>
 <hr>
 </section>
 <section id="references" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="references"><span class="header-section-number">3.3</span> References</h2>
-<ul>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10529918/">Article: Research Data Management</a></li>
-</ul>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-bryan2018happy" class="csl-entry" role="listitem">
-Bryan, Jennifer. 2018. <em>Happy Git and GitHub for the useR</em>. GitHub.
+<div id="ref-bryan_happy_git" class="csl-entry" role="listitem">
+Bryan, Jennifer, and Jim Hester. 2024. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
 </div>
-<div id="ref-scarpentry" class="csl-entry" role="listitem">
-Carpentry, Software. <span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup - Version Control with Git.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
+<div id="ref-coderefinery_lessons" class="csl-entry" role="listitem">
+CodeRefinery Project. 2024. <em>CodeRefinery Lessons</em>. <a href="https://coderefinery.org/lessons/">https://coderefinery.org/lessons/</a>.
+</div>
+<div id="ref-ubclibrary" class="csl-entry" role="listitem">
+Eugene Barsky, Paul Lesack, Billie Hu. <span>“Introduction to Research Data Management.”</span> <a href="https://ubc-library-rc.github.io/rdm/" class="uri">https://ubc-library-rc.github.io/rdm/</a>.
 </div>
 <div id="ref-codingclub" class="csl-entry" role="listitem">
-Club, Our Coding. <span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab - Version Control and Code Management with GitHub.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
+Our Coding Club. <span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab - Version Control and Code Management with GitHub.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
+</div>
+<div id="ref-scarpentry" class="csl-entry" role="listitem">
+Software Carpentry. <span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup - Version Control with Git.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
+</div>
+<div id="ref-turing" class="csl-entry" role="listitem">
+The Turing Way Community. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
 </div>
 <div id="ref-datasciencebookcollaboration" class="csl-entry" role="listitem">
-Tiffany Timbers, Trevor Campbell, and Melissa Lee. <span>“<span>C</span>hapter 12 <span>C</span>ollaboration with Version Control | <span>D</span>ata <span>S</span>cience — Datasciencebook.ca.”</span> <a href="https://datasciencebook.ca/version-control.html" class="uri">https://datasciencebook.ca/version-control.html</a>.
+Timbers, Tiffany, Trevor Campbell, and Melissa Lee. 2022. <em>Data Science: A First Introduction - Version Control</em>. Chapman and Hall/CRC. <a href="https://datasciencebook.ca/version-control.html">https://datasciencebook.ca/version-control.html</a>.
 </div>
 </div>
 </section>
