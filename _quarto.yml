@@ -12,7 +12,7 @@ book:
   title: "Code Management Guidelines"
   subtitle: "R and GitHub Starter Kit for New Team Members"
   author: "Florencia D'Andrea"
-  date: "11/29/2024"
+  date: "12/23/2024"
   chapters:
     - part: index.qmd
       chapters:

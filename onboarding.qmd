@@ -45,7 +45,7 @@ Dr. Stringhini, as the owner of the organization, always has access to all repos
 ## Installation Instructions 🛠️
 
 To work in the lab, you will need to have Git, R, and RStudio installed.  
-Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel), or Mac (Apple Silicon) operating systems.  
+Please note that the installation process may vary depending on whether you have a computer with Windows, Linux, Mac (Intel chip), or Mac M1, M2 and M3 (Apple Silicon chip) operating systems.  
 
 - **Git**: [Download Git](https://git-scm.com/downloads)  
 You can read more about options on how to [install Git](https://happygitwithr.com/install-git) in the book Happy Git and GitHub for the useR [@bryan_happy_git]
@@ -60,8 +60,6 @@ If you want to read some more details about basic use of R and RStudio you can r
 It could happen that you find issues during the installation process. Remember that we are a team and that you can use Slack to share the problem and look for support 🙌
 
 :::
-
-Once you've completed these steps, you can move on to the next section. 🎉
 
 ## References {.unnumbered}
 

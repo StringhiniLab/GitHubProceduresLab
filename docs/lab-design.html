@@ -213,7 +213,7 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-do-we-need" id="toc-what-do-we-need" class="nav-link active" data-scroll-target="#what-do-we-need">What do we need?</a></li>
+  <li><a href="#who-are-we-and-what-do-we-need" id="toc-who-are-we-and-what-do-we-need" class="nav-link active" data-scroll-target="#who-are-we-and-what-do-we-need">Who are we, and what do we need?</a></li>
   <li><a href="#justification" id="toc-justification" class="nav-link" data-scroll-target="#justification">Justification</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -239,11 +239,11 @@ div.csl-indent {
 
 </header>
 
-<section id="what-do-we-need" class="level2">
-<h2 class="anchored" data-anchor-id="what-do-we-need">What do we need?</h2>
-<p><a href="https://spph.ubc.ca/faculty/associate-professors/silvia-stringhini/">Dr.&nbsp;Silvia Stringhini</a> is an epidemiologist with an extensive career. She has served as the Head of the Unit of Population Epidemiology at the Geneva University Hospitals and as an Assistant Professor at the University of Geneva, Switzerland. Her main research areas include social inequalities in chronic diseases and aging, the role of health behaviors in the genesis of social health inequalities, the biological consequences of social inequalities, and the role of environmental factors in social health disparities.</p>
+<section id="who-are-we-and-what-do-we-need" class="level2">
+<h2 class="anchored" data-anchor-id="who-are-we-and-what-do-we-need">Who are we, and what do we need?</h2>
+<p><a href="https://spph.ubc.ca/faculty/associate-professors/silvia-stringhini/">Dr.&nbsp;Silvia Stringhini</a> is an epidemiologist with an extensive career. She has served as the Head of the Unit of Population Epidemiology at the Geneva University Hospitals. Her main research areas include social inequalities in chronic diseases and aging, the role of health behaviors in the genesis of social health inequalities, the biological consequences of social inequalities, and the role of environmental factors in social health disparities.</p>
 <p>Recently, she moved her lab to the <a href="https://spph.ubc.ca/">School of Population and Public Health</a> at the <a href="https://www.ubc.ca/">University of British Columbia</a> in Canada, where she is establishing a new team. She is in the process of welcoming new students and staff, making this an ideal time to outline how her new group will manage data and code in its publications.</p>
-<p>We discussed with Dr.&nbsp;Stringhini the minimal requirements regarding code and data management that someone joining the lab should learn. A summary of the agreements reached and how they influenced the creation of this book can be found in <a href="#tbl-book">Table&nbsp;<span>1</span></a>. Many of these requirements focus on creating a GitHub organization for the lab.</p>
+<p>We discussed with Dr.&nbsp;Stringhini the minimal requirements regarding code management that someone joining the lab should learn. A summary of the agreements reached and how they influenced the creation of this manual can be found in <a href="#tbl-book">Table&nbsp;<span>1</span></a>. Many of these requirements focus on creating a GitHub Organization for the lab.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -254,8 +254,8 @@ Definitions: Git, GitHub and GitHub Organization
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Git</strong> is a tool that helps you track changes to your files, like a digital history of your work</p>
-<p><strong>GitHub</strong> is an online platform that uses Git where you can store the files AND their changes, collaborate with others, and manage your code in a centralized location. It’s like having a shared folder with built-in tools to see what’s been changed and by whom. Each project can be stored in its own <strong>repository</strong>.</p>
+<p><strong>Git</strong> is a tool that helps you track changes to your files, like a digital history of your work.</p>
+<p><strong>GitHub</strong> is an online platform that uses Git to store files and manage changes, collaborate with others, and manage your code in a centralized location. It’s like having a shared folder with built-in tools to see what’s been changed and by whom. Each project can be stored in its own <strong>repository</strong>.</p>
 <p>A <strong>GitHub organization</strong> is a group on GitHub that allows teams to collaborate and manage repositories together.</p>
 </div>
 </div>
@@ -292,7 +292,7 @@ Definitions: Git, GitHub and GitHub Organization
 </tr>
 <tr class="odd">
 <td>Store the code associated with scientific publications publicly in a GitHub repository</td>
-<td>The benefits of conducting <a href="https://book.the-turing-way.org/reproducible-research/open.html">open science</a> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span>.</td>
+<td>The benefits of leaving code <a href="https://book.the-turing-way.org/reproducible-research/open.html">open source</a> <span class="citation" data-cites="turing">Bertram et al. (<a href="#ref-bertram2023" role="doc-biblioref">2023</a>)</span>.</td>
 <td>This section will be developed at the time of the first paper’s publication</td>
 </tr>
 </tbody>
@@ -302,9 +302,9 @@ Definitions: Git, GitHub and GitHub Organization
 </section>
 <section id="justification" class="level2">
 <h2 class="anchored" data-anchor-id="justification">Justification</h2>
-<p>We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a <strong>private GitHub repository</strong> by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code <span class="citation" data-cites="gomes2022 tazare2024">(<a href="#ref-gomes2022" role="doc-biblioref">Gomes et al. 2022</a>; <a href="#ref-tazare2024" role="doc-biblioref">Tazare et al. 2024</a>)</span>.</p>
-<p>Maintaining this initial private repository has other benefits besides functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and <strong>improves the overall documentation of the project</strong>.</p>
-<p>Specific characteristics of the research area were also discussed <span class="citation" data-cites="maya2023">(<a href="#ref-maya2023" role="doc-biblioref">Mathur and Fox 2023</a>)</span>, such as handling <strong>sensitive data</strong> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span>. As a result, practices like using <code>.gitignore</code> and setting up a structured data folder with <code>raw</code> and <code>processed</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a <code>README</code> template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
+<p>We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a <strong>private GitHub repository</strong> by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code. Publicly sharing the code and data management process can be more challenging for early-career researchers <span class="citation" data-cites="gomes2022 tazare2024">(<a href="#ref-gomes2022" role="doc-biblioref">Gomes et al. 2022</a>; <a href="#ref-tazare2024" role="doc-biblioref">Tazare et al. 2024</a>)</span>.</p>
+<p>Maintaining this initial private repository has other benefits in addition to functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and <strong>improves the overall documentation of the project</strong>.</p>
+<p>Characteristics specific to the research area were discussed, including handling <strong>sensitive data</strong> <span class="citation" data-cites="maya2023 turing">(<a href="#ref-maya2023" role="doc-biblioref">Mathur and Fox 2023</a>; <a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span>. As a result, practices like using <code>.gitignore</code> and and creating a <code>data/</code> folder with <code>raw/</code> and <code>processed/</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a <code>README</code> template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -340,6 +340,9 @@ What is the difference between R and RStudio?
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bertram2023" class="csl-entry" role="listitem">
+Bertram, Michael G, Josefin Sundin, Dominique G Roche, Alfredo Sánchez-Tójar, Eli SJ Thoré, and Tomas Brodin. 2023. <span>“Open Science.”</span> <em>Current Biology</em> 33 (15): R792–97.
+</div>
 <div id="ref-gomes2022" class="csl-entry" role="listitem">
 Gomes, Dylan GE, Patrice Pottier, Robert Crystal-Ornelas, Emma J Hudgins, Vivienne Foroughirad, Luna L Sánchez-Reyes, Rachel Turba, et al. 2022. <span>“Why Don’t We Share Data and Code? Perceived Barriers and Benefits to Public Archiving Practices.”</span> <em>Proceedings of the Royal Society B</em> 289 (1987): 20221113.
 </div>

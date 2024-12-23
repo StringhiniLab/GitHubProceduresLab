@@ -1,19 +1,19 @@
 # What are the lab’s basic guidelines for data and code usage? {.unnumbered}  
 
-## What do we need?
+## Who are we, and what do we need?
 
-[Dr. Silvia Stringhini](https://spph.ubc.ca/faculty/associate-professors/silvia-stringhini/) is an epidemiologist with an extensive career. She has served as the Head of the Unit of Population Epidemiology at the Geneva University Hospitals and as an Assistant Professor at the University of Geneva, Switzerland. Her main research areas include social inequalities in chronic diseases and aging, the role of health behaviors in the genesis of social health inequalities, the biological consequences of social inequalities, and the role of environmental factors in social health disparities. 
+[Dr. Silvia Stringhini](https://spph.ubc.ca/faculty/associate-professors/silvia-stringhini/) is an epidemiologist with an extensive career. She has served as the Head of the Unit of Population Epidemiology at the Geneva University Hospitals. Her main research areas include social inequalities in chronic diseases and aging, the role of health behaviors in the genesis of social health inequalities, the biological consequences of social inequalities, and the role of environmental factors in social health disparities. 
 
 Recently, she moved her lab to the [School of Population and Public Health](https://spph.ubc.ca/) at the [University of British Columbia](https://www.ubc.ca/) in Canada, where she is establishing a new team. She is in the process of welcoming new students and staff, making this an ideal time to outline how her new group will manage data and code in its publications.  
 
-We discussed with Dr. Stringhini the minimal requirements regarding code and data management that someone joining the lab should learn. A summary of the agreements reached and how they influenced the creation of this book can be found in @tbl-book. Many of these requirements focus on creating a GitHub organization for the lab.
+We discussed with Dr. Stringhini the minimal requirements regarding code management that someone joining the lab should learn. A summary of the agreements reached and how they influenced the creation of this manual can be found in @tbl-book. Many of these requirements focus on creating a GitHub Organization for the lab.
 
 ::: {.callout-note appearance="simple"}
 ## Definitions: Git, GitHub and GitHub Organization
 
-**Git** is a tool that helps you track changes to your files, like a digital history of your work
+**Git** is a tool that helps you track changes to your files, like a digital history of your work. 
 
-**GitHub** is an online platform that uses Git where you can store the files AND their changes, collaborate with others, and manage your code in a centralized location. It’s like having a shared folder with built-in tools to see what’s been changed and by whom. Each project can be stored in its own **repository**.
+**GitHub** is an online platform that uses Git to store files and manage changes, collaborate with others, and manage your code in a centralized location. It’s like having a shared folder with built-in tools to see what’s been changed and by whom. Each project can be stored in its own **repository**.
 
 A **GitHub organization** is a group on GitHub that allows teams to collaborate and manage repositories together.
 :::
@@ -25,7 +25,7 @@ A **GitHub organization** is a group on GitHub that allows teams to collaborate 
 | Avoid sending confidential data to GitHub  | Protection of sensitive data | - Use of `.gitignore` </br> - Project structure recommendations including how to organize the data folder |  
 | Select R as the primary programming language and RStudio as the IDE | Standardize the software used in the lab | - Installation instructions </br> - Recommendations on learning resources and good practices |  
 | Share a copy of each lab member's analyses in a private GitHub repository | - Create an initial version of the project that is organized and minimally documented so another lab member can understand it </br> - Foster the habit of performing code backups </br> - Receive feedback from colleagues early in the project development </br> - Have access to analyses from other lab members that have not been published | - How to create a private GitHub repository and what information to include </br> - Basic information to include in the `README` </br> - Creating a GitHub team and defining procedures to manage access to private repositories </br> - Develop a basic workflow for everyday use of Git and GitHub.  | 
-| Store the code associated with scientific publications publicly in a GitHub repository | The benefits of conducting [open science](https://book.the-turing-way.org/reproducible-research/open.html) [@turing]. | This section will be developed at the time of the first paper's publication |
+| Store the code associated with scientific publications publicly in a GitHub repository | The benefits of leaving code [open source](https://book.the-turing-way.org/reproducible-research/open.html) [@turing, @bertram2023]. | This section will be developed at the time of the first paper's publication |
 
 : **Book content overview.** This table presents the benefits and selected topics included in the book to guide the team on each prioritized action. {#tbl-book}
 
@@ -33,11 +33,11 @@ Additionally, considering the lab's long-term evolution, onboarding and offboard
 
 ## Justification
 
-We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a **private GitHub repository** by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article's code. Also, publicly exposing the behind-the-scenes details of data management and analysis can be more challenging for early-career researchers, who can fear of public scrutiny of code [@gomes2022; @tazare2024]. 
+We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a **private GitHub repository** by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article's code. Publicly sharing the code and data management process can be more challenging for early-career researchers [@gomes2022; @tazare2024]. 
 
-Maintaining this initial private repository has other benefits besides functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and **improves the overall documentation of the project**.  
+Maintaining this initial private repository has other benefits in addition to functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and **improves the overall documentation of the project**.  
 
-Specific characteristics of the research area were also discussed [@maya2023], such as handling **sensitive data** [@turing]. As a result, practices like using `.gitignore` and setting up a structured data folder with `raw` and `processed` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a `README` template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.  
+Characteristics specific to the research area were discussed, including handling **sensitive data** [@maya2023; @turing]. As a result, practices like using `.gitignore` and and creating a `data/` folder with `raw/` and `processed/` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a `README` template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.  
 
 ::: {.callout-note appearance="simple"}
 ## What is a `.gitignore` file

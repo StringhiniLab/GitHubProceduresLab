@@ -17,7 +17,7 @@ These steps should be completed every day you work on the project. Although they
 
 ::: {.callout-warning appearance="simple"}
  
-## Why Use GitHub?
+## Why GitHub?
 
 Git and GitHub were originally created for professional software development. It’s important to clarify that lab members are not expected to be expert users of Git and GitHub, but rather to handle basic commands necessary to achieve the use proposed.
 
@@ -46,7 +46,7 @@ The first thing you need to do is check in the Staged section of the Git tab all
 
 In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup. If at any point you need to learn more, at the end of this page, there are some recommended materials that might be helpful.
 
-![](img/git-tab-staged.png){width=70%}  
+![](img/git-tab-staged.png){width=100%}  
 
 ### Create a commit message.  
 After doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the `Commit` button.  
@@ -62,7 +62,7 @@ Think of commits as checkpoints for related changes. If you might want to revert
 ## Push the changes to the GitHub repository.  
 Finally, to push the changes to GitHub, click the `Push` button.  
 
-![](img/push.png){width=70%}  
+![](img/push.png){width=100%}  
 
 You'll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don't click the green arrow representing push, the changes will not take effect on GitHub.  
 

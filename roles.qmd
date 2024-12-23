@@ -18,7 +18,7 @@ At least one person in the lab will be assigned as the Team Maintainer of the Gi
 For this, it’s important to assign the Lab Member in charge the **Team Maintainer** role for the Lab Team.  
 Follow the instructions in [Assigning the team maintainer role to a team member](https://docs.github.com/en/organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member#about-team-maintainers) 
 
-If properly assigned the label `mantainer` should appear next to they name in this repository: [https://github.com/orgs/StringhiniLab/teams/lab-team](https://github.com/orgs/StringhiniLab/teams/lab-team).
+If properly assigned the label `maintainer` should appear next to their name in this repository: [https://github.com/orgs/StringhiniLab/teams/lab-team](https://github.com/orgs/StringhiniLab/teams/lab-team).
 
 ### Responsibilities 🎯
 - Add new lab members to the Lab Team.
