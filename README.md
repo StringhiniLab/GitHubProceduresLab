@@ -1,4 +1,4 @@
-# Code and Data Lab Management Guidelines: <img src="img/logo.png" align="right" height="150"/> R and GitHub Starter Kit for New Team Members
+# Code Management Guidelines: <img src="img/logo.png" align="right" height="150"/> R and GitHub Starter Kit for New Team Members
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) [![DOI](https://zenodo.org/badge/896263653.svg)](https://doi.org/10.5281/zenodo.14510774) [![pages-build-deployment](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/StringhiniLab/GitHubProceduresLab/actions/workflows/pages/pages-build-deployment)
 
@@ -43,7 +43,7 @@ Please note that the github_procedures project is released with a [Contributor C
 ## Inspired? Cite Us!
 If you use this book, please cite it as follows:
 
-**D'Andrea, F., & Stringhini, S. Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
+**D'Andrea, F., & Stringhini, S. Code Lab Management Guidelines: R and GitHub Starter Kit for New Team Members [Computer software]. https://github.com/StringhiniLab/GitHubProceduresLab. *https://doi.org/10.5281/zenodo.14510774***
 
 ## Session Info
 The current environment setup is managed using `renv` to ensure reproducibility. The session info is as follows:

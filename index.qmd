@@ -1,49 +1,65 @@
-**GitHub Organization**: www.github.com/StringhiniLab
+**GitHub Organization**: [www.github.com/StringhiniLab](www.github.com/StringhiniLab)
 
-## Introduction {.unnumbered}
-
-The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results [@bestenough]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@scarpentry; @datacarpentry; @codingclub; @turing; @coderefinery_lessons], there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own disciplines.
-
-In fact, one of the main barriers to sharing code at the time of publication is that scientists often do not know how to do it or have doubts about how to do it properly. Thus, the lack of training in computer science and best practices in data management impacts the reproducibility and transparency of scientific research [@ram2013; @sharma2024]. This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the potential benefits of open science [@allen2019; @melvin2022; @tazare2024; @xu2025].
-
-## Where to Start? {.unnumbered}
-
-We believe that the early adoption of basic tools and techniques to improve research data analysis by early-career researchers is fundamental. For this to happen, **training cannot be solely individual but should also be fostered within research groups**. 
-
-There are several advantages to this approach:
-  
-- **Establish minimum documentation practices**  
-  Defining a set of group-level criteria for code and data management helps standardize documentation and facilitate exchange among researchers in the group, saving time and avoiding confusion.
-    
-- **Teach where to learn more Data Science**  
-  Supporting new members of the research group in adopting basic computational techniques from the beginning sets the stage for researchers to explore additional tools early, based on the needs of their study topics.
-    
-- **Focus on domain-specific skills**  
-  Identifying and preselecting domain-specific computational skills can save time for new researchers.  
-  This knowledge is sometimes shared in publications tailored to each discipline but is too specific to be addressed by general training courses and tutorials for scientists, being the exception for some fields @datacarpentry.
-  For example, it can be established that using a tool like GitHub is necessary for sharing code or collaborating, but learning to use a tool like Bash might not be essential.
-  
-- **Avoid messy projects from day one**  
-  Centralizing data analyses on a GitHub organization and creating standards for pushing code promotes improved repository structuring, version control, and better-documented code, ensuring a baseline quality of data analysis from the project's inception.
-  
-- **Early peer review**  
-  Sharing analyses from the beginning in private repositories shared only with team members enables peer review or feedback before publishing results. This should increase early-career researchers' confidence when sharing the code for publication and fuel open science practices.
-
-- **Maintain the group's research history**  
-  This approach helps create and standardize a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.
 
 ## Goal {.unnumbered}
 
-The goal of this guide is not to be an exhaustive course in data analysis but to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in data and code management.
+The goal of this manual is to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in code management.
+
+## Introduction {.unnumbered}
+
+The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science knowledge is key to ensuring reliable and reproducible results [@bestenough; @hicks2023; @abdill2024]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@carpentries; @codingclub; @turing; @coderefinery_lessons], there is a trade-off: adopting and practicing these techniques often requires significant effort, which researchers must take from the time dedicated to studying their own fields [@goldsmith2021; @hicks2023].
+
+One consequence of the lack of training is the uncertainty researchers may have about how to write code correctly, which negatively impacts their willingness to share their analyses [@gomes2022]. Thus, this results in a decrease in the number of publications with available code, impacting the reproducibility and transparency of scientific research [@gomes2022; @sharma2024]. This issue is compounded by the lack of incentives from the scientific system, leading to a high number of publications in the not sharing their code despite the benefits of open science [@allen2019; @melvin2022; @bertram2023; @tazare2024; @xu2025].
+
+Encouraging researchers to actively adopting best practices and seek training in the use of computational tools that facilitate or enhance their work is desirable and should be promoted. However, leaving code management decisions entirely in their hands could have negative consequences for a research group.
+
+## Ten reasons to define code management practices and guide researchers in learning computational skills from the start {.unnumbered}
+
+It is likely that in the future, new researchers will arrive with stronger foundational training in data science. Even so, we believe the research group should still define its priorities when it comes to managing code.
+
+There are several benefits to defining clear minimum guidelines and basic computational skills from the moment new members join the lab:
+
+1. **Avoid messy projects from day one**  
+  Centralizing data analyses on a GitHub organization and creating standards for pushing code promotes improved repository structuring, version control, and better-documented code, ensuring a baseline quality of data analysis from the project's inception.
+  
+2. **Implement minimum documentation and project management best practices**.   
+  Defining a set of group-level criteria for code and data management facilitate exchange among researchers in the group, saving time and avoiding errors.
+
+3. **Focus on domain-specific skills first**.   
+  Identifying domain-specific computational skills can save time for new researchers.  
+  This knowledge is sometimes shared in publications tailored to each discipline but is too specific to be addressed by general training courses and tutorials for scientists, being the only exception we know Data Carpentry [@datacarpentry].
+
+4. **Early peer review**.    
+  Sharing analyses from the beginning in private repositories shared only with team members enables peer review or feedback before publishing results. This should increase early-career researchers' confidence when sharing the code for publication and fuel open science practices.
+  
+5. **Define a set of practices that that should not be overlooked**. 
+  Not all researchers who take a course in Git and GitHub will make their code available if there are no guidelines on whether it is expected of them to do it or not and how. Failing to define certain guidelines will result in each researcher adopting these practices in varying degrees.
+
+6. **More efficient use of time**. 
+  Taking a workshop on a computational tool may occur at an advanced stage of the project. As a result, decisions about code organization, documentation, and file structure could have been made more effectively from the beginning, saving valuable time. 
+
+7. **Maintain the group's research history**.   
+  This approach helps create and standardize a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.
+  
+8. **Facilitate the exchange of ideas about data and code management among team members**. 
+  Creating guidelines helps build a body of knowledge that can be improved over time with contributions from students/researchers, allowing for discussions on which practices should be added or removed.
+
+9. **Make informed decisions about what to learn next**.   
+  A researcher may hear that they should learn to use GitHub. By explaining from the beginning what GitHub is and the minimum knowledge required, it becomes easier for them to assess if they should focus on learning additional skills or not. Supporting new members of the research group in adopting basic computational techniques from the start lowers the barrier for researchers to explore other tools early.
+  
+10. **Adoption of open science practices.**
+If the group aims to start making research code available, these guidelines and training will definitely promote leaving the code open source.
+
+
 
 ::: {.callout-note appearance="simple"}
 
 ## How to cite this book?
-D'Andrea, F., & Stringhini, S. Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members. https://github.com/StringhiniLab/GitHubProceduresLab.
+D'Andrea, F., & Stringhini, S. Code Management Guidelines: R and GitHub Starter Kit for New Team Members. https://github.com/StringhiniLab/GitHubProceduresLab.
 Available at: https://stringhinilab.github.io/GitHubProceduresLab/ DOI: *https://doi.org/10.5281/zenodo.14510774*
 
 :::
 
 
-## References  
+## References {.unnumbered}   
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Code and Data Lab Management Guidelines - 3&nbsp; Regular Project Workflow</title>
+<title>Code Management Guidelines - 3&nbsp; Regular Project Workflow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ div.csl-indent {
 }</script>
 
 
-<meta name="twitter:title" content="Code and Data Lab Management Guidelines - 3&nbsp; Regular Project Workflow">
+<meta name="twitter:title" content="Code Management Guidelines - 3&nbsp; Regular Project Workflow">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://stringhinilab.github.io/GitHubProceduresLab/img/git-tab.png">
 <meta name="twitter:image-height" content="1358">
@@ -125,13 +125,13 @@ div.csl-indent {
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Code-and-Data-Lab-Management-Guidelines.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Code-Management-Guidelines.pdf">
               <i class="bi bi-bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Code-and-Data-Lab-Management-Guidelines.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Code-Management-Guidelines.epub">
               <i class="bi bi-bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -151,7 +151,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+ <span class="menu-text">Goal</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -160,13 +160,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lab-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">What is the lab’s policy for data and code usage?</span></a>
+ <span class="menu-text">What are the lab’s basic guidelines for data and code usage?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./roles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Roles</span></a>
+ <span class="menu-text">Defining roles</span></a>
   </div>
 </li>
       </ul>
@@ -223,7 +223,8 @@ div.csl-indent {
   <li><a href="#create-a-commit-message." id="toc-create-a-commit-message." class="nav-link" data-scroll-target="#create-a-commit-message."><span class="header-section-number">3.1.2</span> Create a commit message.</a></li>
   </ul></li>
   <li><a href="#push-the-changes-to-the-github-repository." id="toc-push-the-changes-to-the-github-repository." class="nav-link" data-scroll-target="#push-the-changes-to-the-github-repository."><span class="header-section-number">3.2</span> Push the changes to the GitHub repository.</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.3</span> References</a></li>
+  <li><a href="#moving-foward-with-git-and-github" id="toc-moving-foward-with-git-and-github" class="nav-link" data-scroll-target="#moving-foward-with-git-and-github"><span class="header-section-number">3.3</span> Moving foward with Git and GitHub 📚</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/edit/main/dailytasks.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -290,16 +291,23 @@ Why Use GitHub?
 <section id="add-all-the-files-you-want-to-commit-to-the-staging-area." class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="add-all-the-files-you-want-to-commit-to-the-staging-area."><span class="header-section-number">3.1.1</span> Add all the files you want to commit to the staging area.</h3>
 <p>The first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green ‘A’ appears. You can ignore this. The important part is that you check all the changes you want to save.</p>
-<p>In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there’s no need to focus too much on the details in this section.</p>
+<p>In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup. If at any point you need to learn more, at the end of this page, there are some recommended materials that might be helpful.</p>
 <p><img src="img/git-tab-staged.png" class="img-fluid" style="width:70.0%"></p>
 </section>
 <section id="create-a-commit-message." class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="create-a-commit-message."><span class="header-section-number">3.1.2</span> Create a commit message.</h3>
 <p>After doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the <code>Commit</code> button.</p>
-<p><img src="img/commit.png" class="img-fluid" style="width:70.0%"></p>
-<div class="important">
-<p><strong>How Often Should You Commit?</strong></p>
+<p><img src="img/commit.png" class="img-fluid" style="width:100.0%"></p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>How often should you commit?</strong></p>
 <p>Think of commits as checkpoints for related changes. If you might want to revert a set of changes later, commit them together.</p>
+</div>
+</div>
 </div>
 </section>
 </section>
@@ -309,35 +317,37 @@ Why Use GitHub?
 <p><img src="img/push.png" class="img-fluid" style="width:70.0%"></p>
 <p>You’ll notice that the files in the Git tab disappear after you commit. This is expected, as Git only tracks changes between commits. Remember, if you don’t click the green arrow representing push, the changes will not take effect on GitHub.</p>
 <p>If everything went smoothly, you should navigate to the repository URL and see the changes you made.</p>
-<div class="important">
-<p><strong>How Often Should You Push?</strong></p>
-<p>Push your changes <strong>at least once a day</strong> after completing your work.</p>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Moving foward with Git and GitHUb
+<div class="callout-body-container">
+<p><strong>How often should you push?</strong></p>
+<p>Push your changes <strong>at least once a day</strong> after completing your work.</p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
+</div>
+</section>
+<section id="moving-foward-with-git-and-github" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="moving-foward-with-git-and-github"><span class="header-section-number">3.3</span> Moving foward with Git and GitHub 📚</h2>
 <p>If you want to learn more about Git and GitHub, we recommend the following books and tutorials:</p>
+<p><strong>Books</strong></p>
 <ul>
-<li><p>Software Carpentry Lessons <span class="citation" data-cites="scarpentry">(<a href="#ref-scarpentry" role="doc-biblioref">Software Carpentry</a>)</span></p></li>
-<li><p>Happy Git and GitHub for the useR book <span class="citation" data-cites="bryan_happy_git">(<a href="#ref-bryan_happy_git" role="doc-biblioref">Bryan and Hester 2024</a>)</span></p></li>
-<li><p>Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub <span class="citation" data-cites="codingclub">(<a href="#ref-codingclub" role="doc-biblioref">Our Coding Club</a>)</span></p></li>
-<li><p>The book Data Science: A First Introduction <span class="citation" data-cites="datasciencebookcollaboration">(<a href="#ref-datasciencebookcollaboration" role="doc-biblioref">Timbers, Campbell, and Lee 2022</a>)</span></p></li>
-<li><p>The Turing Way Handbook <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> and the Code Refinery Lessons <span class="citation" data-cites="coderefinery_lessons">(<a href="#ref-coderefinery_lessons" role="doc-biblioref">CodeRefinery Project 2024</a>)</span></p></li>
+<li><p><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> book <span class="citation" data-cites="bryan_happy_git">(<a href="#ref-bryan_happy_git" role="doc-biblioref">Bryan and Hester 2024</a>)</span></p></li>
+<li><p>Chapter 12 - <a href="https://datasciencebook.ca/version-control.html">Collaboration with version control</a> from the book Data Science: A First Introduction <span class="citation" data-cites="datasciencebookcollaboration">(<a href="#ref-datasciencebookcollaboration" role="doc-biblioref">Timbers, Campbell, and Lee 2022</a>)</span></p></li>
+<li><p>The Turing Way Handbook: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-in-research.html">Git for research projects</a> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span></p></li>
 </ul>
-<p>Additionally, UBC Library offers some basic data management courses that might be helpful to you: <a href="https://libcal.library.ubc.ca/calendar/?t=g&amp;q=Data%20Bites&amp;cid=-1&amp;cal=-1&amp;ct=339">Short courses</a> <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span></p>
-</div>
-</div>
+<p><strong>Tutorials</strong></p>
+<ul>
+<li><p>Software Carpentry: <a href="https://swcarpentry.github.io/git-novice/">Version Control with Git</a> <span class="citation" data-cites="gonzalez2019">(<a href="#ref-gonzalez2019" role="doc-biblioref">Gonzalez et al. 2019</a>)</span></p></li>
+<li><p><a href="https://ourcodingclub.github.io/tutorials/git-for-labs/">Setting up a GitHub Repository for Your Lab</a> - Version Control and Code Management with GitHub <span class="citation" data-cites="codingclub">(<a href="#ref-codingclub" role="doc-biblioref">Our Coding Club</a>)</span></p></li>
+<li><p>Code Refinery - <a href="https://coderefinery.github.io/git-intro/">Introduction to version control with Git</a> <span class="citation" data-cites="coderefinery_lessons">(<a href="#ref-coderefinery_lessons" role="doc-biblioref">CodeRefinery Project</a>)</span></p></li>
+</ul>
 <hr>
 </section>
-<section id="references" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="references"><span class="header-section-number">3.3</span> References</h2>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
@@ -345,16 +355,13 @@ Moving foward with Git and GitHUb
 Bryan, Jennifer, and Jim Hester. 2024. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
 </div>
 <div id="ref-coderefinery_lessons" class="csl-entry" role="listitem">
-CodeRefinery Project. 2024. <em>CodeRefinery Lessons</em>. <a href="https://coderefinery.org/lessons/">https://coderefinery.org/lessons/</a>.
+CodeRefinery Project. <span>“CodeRefinery Lessons.”</span> <a href="https://coderefinery.org/lessons/">https://coderefinery.org/lessons/</a>.
 </div>
-<div id="ref-ubclibrary" class="csl-entry" role="listitem">
-Eugene Barsky, Paul Lesack, Billie Hu. <span>“Introduction to Research Data Management.”</span> <a href="https://ubc-library-rc.github.io/rdm/" class="uri">https://ubc-library-rc.github.io/rdm/</a>.
+<div id="ref-gonzalez2019" class="csl-entry" role="listitem">
+Gonzalez, Ivan, Daisie Huang, Nima Hejazi, Katherine Koziar, and Madicken Munk. 2019. <span>“<span class="nocase">Software Carpentry: Version Control with Git</span>.”</span> Edited by Ivan Gonzalez, Daisie Huang, Nima Hejazi, Katherine Koziar, and Madicken Munk. <a href="https://doi.org/10.5281/zenodo.3264950">https://doi.org/10.5281/zenodo.3264950</a>.
 </div>
 <div id="ref-codingclub" class="csl-entry" role="listitem">
 Our Coding Club. <span>“<span>S</span>etting up a <span>G</span>it<span>H</span>ub Repository for Your Lab - Version Control and Code Management with GitHub.”</span> <a href="https://ourcodingclub.github.io/tutorials/git-for-labs/" class="uri">https://ourcodingclub.github.io/tutorials/git-for-labs/</a>.
-</div>
-<div id="ref-scarpentry" class="csl-entry" role="listitem">
-Software Carpentry. <span>“<span>V</span>ersion <span>C</span>ontrol with <span>G</span>it: <span>S</span>ummary and <span>S</span>etup - Version Control with Git.”</span> <a href="https://swcarpentry.github.io/git-novice/" class="uri">https://swcarpentry.github.io/git-novice/</a>.
 </div>
 <div id="ref-turing" class="csl-entry" role="listitem">
 The Turing Way Community. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.

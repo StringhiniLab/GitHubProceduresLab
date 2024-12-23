@@ -3,7 +3,7 @@
 
 cff-version: 1.2.0
 title: >-
-  Code and Data Lab Management Guidelines: R and GitHub Starter Kit for New Team Members
+  Code Management Guidelines: R and GitHub Starter Kit for New Team Members
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -25,9 +25,8 @@ identifiers:
 repository-code: 'https://github.com/StringhiniLab/GitHubProceduresLab'
 url: 'https://stringhinilab.github.io/GitHubProceduresLab/'
 abstract: >-
-  This book aims to provide a basic usage guide for
-  Dr.Strihghini's new lab members regarding the handling of
-  data and code with R and GitHub.
+  A set of guidelines to essential R programming and GitHub usage
+  for efficient code management.
 keywords:
   - Quarto
   - Onboarding

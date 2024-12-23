@@ -63,5 +63,5 @@ It could happen that you find issues during the installation process. Remember t
 
 Once you've completed these steps, you can move on to the next section. 🎉
 
-## References
+## References {.unnumbered}
 

@@ -1,4 +1,4 @@
-# Roles {.unnumbered}
+# Defining roles {.unnumbered}
 
 ## GitHub Organization Manager
 

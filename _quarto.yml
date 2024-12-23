@@ -9,7 +9,7 @@ book:
   repo-url: https://github.com/StringhiniLab/GitHubProceduresLab
   repo-actions: [edit, issue]
   downloads: [pdf, epub]
-  title: "Code and Data Lab Management Guidelines"
+  title: "Code Management Guidelines"
   subtitle: "R and GitHub Starter Kit for New Team Members"
   author: "Florencia D'Andrea"
   date: "11/29/2024"
@@ -33,7 +33,6 @@ book:
     logo: img/logo.png
 
 bibliography: references.bibtex
-bibliographystyle: apa
 
 format:
   html:

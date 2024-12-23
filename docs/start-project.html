@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Code and Data Lab Management Guidelines - 2&nbsp; Starting a New Project</title>
+<title>Code Management Guidelines - 2&nbsp; Starting a New Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ div.csl-indent {
 }</script>
 
 
-<meta name="twitter:title" content="Code and Data Lab Management Guidelines - 2&nbsp; Starting a New Project">
+<meta name="twitter:title" content="Code Management Guidelines - 2&nbsp; Starting a New Project">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://stringhinilab.github.io/GitHubProceduresLab/img/create_repository.png">
 <meta name="twitter:image-height" content="1568">
@@ -125,13 +125,13 @@ div.csl-indent {
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Code-and-Data-Lab-Management-Guidelines.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Code-Management-Guidelines.pdf">
               <i class="bi bi-bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Code-and-Data-Lab-Management-Guidelines.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Code-Management-Guidelines.epub">
               <i class="bi bi-bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -151,7 +151,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+ <span class="menu-text">Goal</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -160,13 +160,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lab-design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">What is the lab’s policy for data and code usage?</span></a>
+ <span class="menu-text">What are the lab’s basic guidelines for data and code usage?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./roles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Roles</span></a>
+ <span class="menu-text">Defining roles</span></a>
   </div>
 </li>
       </ul>
@@ -223,8 +223,8 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#add-your-data-folder-to-.gitignore" id="toc-add-your-data-folder-to-.gitignore" class="nav-link" data-scroll-target="#add-your-data-folder-to-.gitignore"><span class="header-section-number">2.3.1</span> Add your Data folder to <code>.gitignore</code></a></li>
   </ul></li>
-  <li><a href="#complete-the-readme-using-the-template" id="toc-complete-the-readme-using-the-template" class="nav-link" data-scroll-target="#complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the README using the template</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.5</span> References</a></li>
+  <li><a href="#complete-the-readme-using-the-template" id="toc-complete-the-readme-using-the-template" class="nav-link" data-scroll-target="#complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the <code>README</code> using the template</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/edit/main/start-project.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -261,6 +261,16 @@ div.csl-indent {
 <li><input type="checkbox">Complete the <code>README</code> file using the template.</li>
 </ul>
 <hr>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The most comprehensive book on using Git and GitHub for R users is <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> <span class="citation" data-cites="bryan_happy_git">(<a href="#ref-bryan_happy_git" role="doc-biblioref">Bryan and Hester 2024</a>)</span></p>
+</div>
+</div>
+</div>
 </section>
 <section id="create-a-private-repository-by-new-project" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="create-a-private-repository-by-new-project"><span class="header-section-number">2.1</span> Create a private repository by new project</h2>
@@ -382,12 +392,13 @@ What type of document should you use for your data analysis?
 </div>
 <div class="callout-body-container callout-body">
 <p>There are many files you can use run your code. You can use a <a href="https://r4ds.hadley.nz/workflow-scripts.html#scripts">basic R script</a> <span class="citation" data-cites="r4ds">(<a href="#ref-r4ds" role="doc-biblioref">Wickham and Grolemund 2024</a>)</span>, an RMarkdown document or its more current version Quarto.</p>
-<p>A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.</p>
+<p>If you’re unsure where to start, we recommend using a Quarto Document. A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.</p>
 <ul>
 <li>To use Quarto, you must first <a href="https://quarto.org/docs/get-started/">install it</a></li>
 <li><a href="https://quarto.org/docs/get-started/hello/rstudio.html">Tutorial to learn how to create a document with Quarto</a> <span class="citation" data-cites="quarto_hello_rstudio">(<a href="#ref-quarto_hello_rstudio" role="doc-biblioref">Quarto Project 2024</a>)</span></li>
 </ul>
-<p>It’s important to note that there is a learning curve for using tools like this. <a href="https://r4ds.hadley.nz/workflow-scripts.html#scripts">Creating a simple R script</a> might be a good enough option if you’re looking to start your analysis more straightforwardly.</p>
+<p>It’s important to note that there is a learning curve for using tools like Quarto. <a href="https://r4ds.hadley.nz/workflow-scripts.html#scripts">Creating a simple R script</a> might be a good enough option if you’re looking to start your analysis more straightforwardly.</p>
+<p><strong>We encourage you to discuss this on the lab Slack to hear the experiences of other researchers. If any consensus emerges, feel free to open a New Issue <a href="https://github.com/StringhiniLab/GitHubProceduresLab/issues">here</a> to improve this guide.</strong></p>
 </div>
 </div>
 <p>and you <code>.gitignore</code> file should look like this:</p>
@@ -400,7 +411,7 @@ data/</code></pre>
 </section>
 </section>
 <section id="complete-the-readme-using-the-template" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the README using the template</h2>
+<h2 data-number="2.4" class="anchored" data-anchor-id="complete-the-readme-using-the-template"><span class="header-section-number">2.4</span> Complete the <code>README</code> using the template</h2>
 <p>Before starting work, fill out the <code>README.md</code> file with the following information:</p>
 <pre><code># Title
 
@@ -439,21 +450,25 @@ Run `sessionInfo()` in the console and paste the output between the two lines wi
 
 ```  
 </code></pre>
-<p>There is more material available on organizing project structures <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span>, using <code>.gitignore</code> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> or other resources listed <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources">here</a>, or creating good <a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-readme">README files</a> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> and name conventions <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky</a>)</span> if you want to explore further.</p>
+<p>There is more material available on organizing project structures <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky 2024</a>)</span>, using <code>.gitignore</code> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> or other resources listed <a href="https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources">here</a>, or creating good <a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-readme">README files</a> <span class="citation" data-cites="turing">(<a href="#ref-turing" role="doc-biblioref">The Turing Way Community 2023</a>)</span> and name conventions <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky 2024</a>)</span> if you want to explore further.</p>
+<p>Additionally, UBC Library offers some basic data management courses that might be helpful to you: <a href="https://libcal.library.ubc.ca/calendar/?t=g&amp;q=Data%20Bites&amp;cid=-1&amp;cal=-1&amp;ct=339">Short courses</a> <span class="citation" data-cites="ubclibrary">(<a href="#ref-ubclibrary" role="doc-biblioref">Eugene Barsky 2024</a>)</span></p>
 </section>
-<section id="references" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="references"><span class="header-section-number">2.5</span> References</h2>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bryan_happy_git" class="csl-entry" role="listitem">
+Bryan, Jennifer, and Jim Hester. 2024. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
+</div>
 <div id="ref-ubclibrary" class="csl-entry" role="listitem">
-Eugene Barsky, Paul Lesack, Billie Hu. <span>“Introduction to Research Data Management.”</span> <a href="https://ubc-library-rc.github.io/rdm/" class="uri">https://ubc-library-rc.github.io/rdm/</a>.
+Eugene Barsky, Paul Lesack, Billie Hu. 2024. <span>“Introduction to Research Data Management.”</span> <a href="https://github.com/ubc-library-rc/rdm/" class="uri">https://github.com/ubc-library-rc/rdm/</a>.
 </div>
 <div id="ref-rstudio_user_guide" class="csl-entry" role="listitem">
-Posit. 2024. <em>RStudio IDE User Guide</em>. <a href="https://docs.posit.co/ide/user/">https://docs.posit.co/ide/user/</a>.
+Posit. 2024. <span>“RStudio IDE User Guide.”</span> 2024. <a href="https://docs.posit.co/ide/user/">https://docs.posit.co/ide/user/</a>.
 </div>
 <div id="ref-quarto_hello_rstudio" class="csl-entry" role="listitem">
-Quarto Project. 2024. <em>Hello, Quarto: Using Quarto with RStudio</em>. <a href="https://quarto.org/docs/get-started/hello/rstudio.html">https://quarto.org/docs/get-started/hello/rstudio.html</a>.
+Quarto Project. 2024. <span>“Hello, Quarto: Using Quarto with RStudio.”</span> 2024. <a href="https://quarto.org/docs/get-started/hello/rstudio.html">https://quarto.org/docs/get-started/hello/rstudio.html</a>.
 </div>
 <div id="ref-turing" class="csl-entry" role="listitem">
 The Turing Way Community. 2023. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.

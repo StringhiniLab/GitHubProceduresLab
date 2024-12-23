@@ -44,17 +44,17 @@ The next step is to save these changes in the project and add a descriptive titl
 
 The first thing you need to do is check in the Staged section of the Git tab all the changes you want to save under the same title. You will notice that sometimes a green 'A' appears. You can ignore this. The important part is that you check all the changes you want to save.  
 
-In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup, there's no need to focus too much on the details in this section.  
+In our case, since we are working with non-collaborative repositories and the main purpose of using GitHub is to share data with other coworkers and maintain a backup. If at any point you need to learn more, at the end of this page, there are some recommended materials that might be helpful.
 
 ![](img/git-tab-staged.png){width=70%}  
 
 ### Create a commit message.  
 After doing this, you need to click the commit button to make these changes permanent in the project. You will then choose a message for the commit and click the `Commit` button.  
 
-![](img/commit.png){width=70%}  
+![](img/commit.png){width=100%}  
 
-::: {.important}
-**How Often Should You Commit?**  
+::: {.callout-tip appearance="simple"}
+**How often should you commit?**  
 
 Think of commits as checkpoints for related changes. If you might want to revert a set of changes later, commit them together.  
 :::  
@@ -68,34 +68,36 @@ You'll notice that the files in the Git tab disappear after you commit. This is 
 
 If everything went smoothly, you should navigate to the repository URL and see the changes you made.  
 
-::: {.important}
-**How Often Should You Push?**  
+::: {.callout-tip appearance="simple"}
+**How often should you push?**  
 
 Push your changes **at least once a day** after completing your work.  
 :::  
 
-::: {.callout-tip appearance="simple"}
-## Moving foward with Git and GitHUb
+## Moving foward with Git and GitHub 📚
 
 If you want to learn more about Git and GitHub, we recommend the following books and tutorials: 
 
-- Software Carpentry Lessons [@scarpentry]
+**Books**
 
-- Happy Git and GitHub for the useR book [@bryan_happy_git]
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/) book [@bryan_happy_git]
 
-- Setting up a GitHub Repository for Your Lab - Version Control and Code Management with GitHub [@codingclub]
+- Chapter 12 - [Collaboration with version control](https://datasciencebook.ca/version-control.html) from the book Data Science: A First Introduction [@datasciencebookcollaboration]
 
-- The book Data Science: A First Introduction [@datasciencebookcollaboration]
+- The Turing Way Handbook: [Git for research projects](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-in-research.html) [@turing] 
 
-- The Turing Way Handbook [@turing] and the Code Refinery Lessons [@coderefinery_lessons]
+**Tutorials**
 
-Additionally, UBC Library offers some basic data management courses that might be helpful to you: [Short courses](https://libcal.library.ubc.ca/calendar/?t=g&q=Data%20Bites&cid=-1&cal=-1&ct=339) [@ubclibrary]
+- Software Carpentry: [Version Control with Git](https://swcarpentry.github.io/git-novice/) [@gonzalez2019]
 
-:::
+- [Setting up a GitHub Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/) - Version Control and Code Management with GitHub [@codingclub]
+
+- Code Refinery - [Introduction to version control with Git](https://coderefinery.github.io/git-intro/) [@coderefinery_lessons]
+
 
 ---
 
-## References  
+## References {.unnumbered}
 
 
 

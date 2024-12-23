@@ -14,6 +14,11 @@ These steps only need to be completed once, at the beginning of a project.
 
 ---
 
+::: {.callout-note appearance="simple"}
+The most comprehensive book on using Git and GitHub for R users is [Happy Git and GitHub for the useR](https://happygitwithr.com/) [@bryan_happy_git]
+:::
+
+
 ## Create a private repository by new project 
 
 When starting to work on a new project, your first step is to create a **private** repository in the lab's GitHub organization: [StringhiniLab GitHub](https://github.com/StringhiniLab).
@@ -145,12 +150,14 @@ project-folder/
 
 There are many files you can use run your code. You can use a [basic R script](https://r4ds.hadley.nz/workflow-scripts.html#scripts) [@r4ds], an RMarkdown document or its more current version Quarto.
 
-A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.
+If you're unsure where to start, we recommend using a Quarto Document. A Quarto document, just like RMarkdown, allows you to include code chunks throughout a text and save it as a Word, PDF, or HTML report. Combining text where you explain your reasoning and the details of the analysis with the code chunks makes it much easier to understand each section of code, both for yourself and for other readers.
 
 - To use Quarto, you must first [install it](https://quarto.org/docs/get-started/)
 - [Tutorial to learn how to create a document with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html) [@quarto_hello_rstudio] 
 
-It's important to note that there is a learning curve for using tools like this. [Creating a simple R script](https://r4ds.hadley.nz/workflow-scripts.html#scripts) might be a good enough option if you're looking to start your analysis more straightforwardly.
+It's important to note that there is a learning curve for using tools like Quarto. [Creating a simple R script](https://r4ds.hadley.nz/workflow-scripts.html#scripts) might be a good enough option if you're looking to start your analysis more straightforwardly.
+
+**We encourage you to discuss this on the lab Slack to hear the experiences of other researchers. If any consensus emerges, feel free to open a New Issue [here](https://github.com/StringhiniLab/GitHubProceduresLab/issues) to improve this guide.**
 
 :::
 
@@ -166,7 +173,7 @@ data/
 
 ---
 
-## Complete the README using the template
+## Complete the `README` using the template
 
 Before starting work, fill out the `README.md` file with the following information:  
 
@@ -212,6 +219,7 @@ Run `sessionInfo()` in the console and paste the output between the two lines wi
 
 There is more material available on organizing project structures [@ubclibrary], using `.gitignore` [@turing] or other resources listed [here](https://book.the-turing-way.org/project-design/sdpw/pd-sdp-resources), or creating good [README files](https://book.the-turing-way.org/project-design/project-repo/project-repo-readme) [@turing] and name conventions [@ubclibrary] if you want to explore further.
 
+Additionally, UBC Library offers some basic data management courses that might be helpful to you: [Short courses](https://libcal.library.ubc.ca/calendar/?t=g&q=Data%20Bites&cid=-1&cal=-1&ct=339) [@ubclibrary]
 
-## References
+## References {.unnumbered}
 
