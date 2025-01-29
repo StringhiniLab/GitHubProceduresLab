@@ -19,8 +19,6 @@ Would the problem be solved if future new members of the lab arrived with better
 
 There are several benefits to defining clear minimum guidelines and basic computational skills from the moment new members join the lab:
 
-# Ten Reasons to Define Code Management Practices for Your Research Group from Day One
-
 1. **Avoid messy projects from the start**.   
    Centralizing data analyses on a GitHub Organization and creating standards for pushing code promotes improved repository structuring, version control, and better-documented code, ensuring reproducibility from the project's inception.
 
@@ -36,13 +34,13 @@ There are several benefits to defining clear minimum guidelines and basic comput
 5. **Define a consistent set of practices from all the different schools of thought**.   
    Different educational materials and training tutorials offer diverse sets of good management practices. Researchers, coming from varied backgrounds, may adopt practices they deem best. Therefore, providing clear guidelines on expectations and methodologies ensures consistency in management practices throughout the project.
 
-6. **More efficient use of time**.   
+6. **More efficient use of time**.     
    Taking a workshop on a computational tool may occur at an advanced stage of the project. As a result, decisions about code organization, documentation, and file structure could have been made more effectively from the beginning, saving valuable time.
 
 7. **Maintain the group's research history**.   
    This approach helps create and standardize a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.
 
-8. **Facilitate exchange of ideas about data and code management among team members**.   
+8. **Facilitate exchange of ideas about data and code management among team members**.     
    Creating guidelines helps build a body of knowledge that can be improved over time with contributions from students/researchers, allowing for discussions on which practices should be added, prioritized, and/or removed.
 
 9. **Make informed decisions about what to learn next**.   
