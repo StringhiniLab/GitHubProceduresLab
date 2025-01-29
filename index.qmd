@@ -32,8 +32,8 @@ There are several benefits to defining clear minimum guidelines and basic comput
 4. **Early peer review**.    
   Sharing analyses with team members in private repositories allows for valuable feedback. Although initially restricted, this practice fosters confidence in making code publicly accessible upon publication.
   
-5. **Define a set of practices that should not be overlooked**.   
-  Not all researchers who take a course in Git and GitHub will make their code available if there are no guidelines on whether it is expected of them to do it or not and how. Failing to define certain guidelines will result in each researcher adopting these practices in varying degrees.
+5. **Define a consistent set of practices from all the different schools of thought**. 
+  Different educational materials and training tutorials offer diverse sets of good management practices. Researchers, coming from varied backgrounds, may adopt practices they deem best. Therefore, providing clear guidelines on expectations and methodologies ensures consistency in management practices throughout the project.
 
 6. **More efficient use of time**. 
   Taking a workshop on a computational tool may occur at an advanced stage of the project. As a result, decisions about code organization, documentation, and file structure could have been made more effectively from the beginning, saving valuable time. 
@@ -58,6 +58,9 @@ Available at: https://stringhinilab.github.io/GitHubProceduresLab/ DOI: *https:/
 
 :::
 
+## Acknowledgments
+
+We thank [Kelvin Lee](https://hykelvinlee.com/) for their time and thoughtful feedback. Their insights and suggestions have improved the quality of this manual.
 
 ## References {.unnumbered}   
 
