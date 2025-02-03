@@ -8,6 +8,8 @@ Recently, she moved her lab to the [School of Population and Public Health](http
 
 We discussed with Dr. Stringhini the minimal requirements regarding code management that someone joining the lab should learn. A summary of the agreements reached and how they influenced the creation of this manual can be found in @tbl-book. Many of these requirements focus on creating a GitHub Organization for the lab.
 
+There is public material covering how and why to create a lab manual [@Aly2018; @tendler2023; @turing]. If you're looking for a practical example that incorporates code management, check out @compgeolab_manual.
+
 ::: {.callout-note appearance="simple"}
 ## Definitions: Git, GitHub and GitHub Organization
 
