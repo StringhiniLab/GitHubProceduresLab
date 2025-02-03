@@ -53,7 +53,7 @@
     "href": "lab-design.html#about-lab-manuals",
     "title": "What are the lab’s basic guidelines for data and code usage?",
     "section": "About lab manuals",
-    "text": "About lab manuals\nThere is public material covering how and why to create a lab manual (Aly 2018; Tendler et al. 2023; The Turing Way Community). If you’re looking for a practical example that incorporates code management, check out Computer-Oriented Geoscience Lab Manual (2025)."
+    "text": "About lab manuals\nIn our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual (Aly 2018; Tendler et al. 2023; The Turing Way Community). If you’re looking for a practical example that incorporates code management, see Computer-Oriented Geoscience Lab Manual (2025)."
   },
   {
     "objectID": "lab-design.html#references",

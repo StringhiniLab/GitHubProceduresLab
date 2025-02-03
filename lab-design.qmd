@@ -58,7 +58,9 @@ Since R is the most widely used programming language in the discipline, the team
 
 ## About lab manuals
 
-There is public material covering how and why to create a lab manual [@Aly2018; @tendler2023; @turing]. If you're looking for a practical example that incorporates code management, check out @compgeolab_manual.
+In our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual [@Aly2018; @tendler2023; @turing]. If you're looking for a practical example that incorporates code management, see @compgeolab_manual.
+
+
 
 ## References {.unnumbered}
 
