@@ -37,7 +37,7 @@ We recognize that creating the code for a scientific publication takes time and 
 
 Maintaining this initial private repository has other benefits in addition to functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and **improves the overall documentation of the project**.  
 
-Characteristics specific to the research area were discussed, including handling **sensitive data** [@maya2023; @turing]. As a result, practices like using `.gitignore` and and creating a `data/` folder with `raw/` and `processed/` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a `README` template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.  
+Characteristics specific to the research area were discussed, including handling **sensitive data** [@maya2023; @turingway2022sdp]. As a result, practices like using `.gitignore` and and creating a `data/` folder with `raw/` and `processed/` sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a `README` template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.  
 
 ::: {.callout-note appearance="simple"}
 ## What is a `.gitignore` file
@@ -58,9 +58,7 @@ Since R is the most widely used programming language in the discipline, the team
 
 ## About lab manuals
 
-In our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual [@Aly2018; @tendler2023; @turing]. If you're looking for a practical example that incorporates code management, check the @compgeolab_manual.
-
-
+In our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual [@Aly2018; @tendler2023; @turingway2022tm; @prosper2025]. If you're looking for a practical example that incorporates code management, check this [Lab Manual](https://www.compgeolab.org/manual/) [@compgeolab_manual].
 
 ## References {.unnumbered}
 

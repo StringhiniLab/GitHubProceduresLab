@@ -305,7 +305,7 @@ Definitions: Git, GitHub and GitHub Organization
 <h2 class="anchored" data-anchor-id="justification">Justification</h2>
 <p>We recognize that creating the code for a scientific publication takes time and involves numerous attempts before deciding what figures and results effectively will be published. Keeping this in mind, it was decided that each student would generate a <strong>private GitHub repository</strong> by project to maintain a backup of daily data analyses conducted in the lab. This private repository could then serve as the foundation for a public version for the final GitHub repository with the scientific article’s code. Publicly sharing the code and data management process can be more challenging for early-career researchers <span class="citation" data-cites="gomes2022 tazare2024">(<a href="#ref-gomes2022" role="doc-biblioref">Gomes et al. 2022</a>; <a href="#ref-tazare2024" role="doc-biblioref">Tazare et al. 2024</a>)</span>.</p>
 <p>Maintaining this initial private repository has other benefits in addition to functioning as a backup: it allows sharing the code with other lab members (as part of a GitHub lab team), makes available analyses that may not be included in the final paper but could be relevant for another publication, helps keeping a clearer project structure from the beginning and <strong>improves the overall documentation of the project</strong>.</p>
-<p>Characteristics specific to the research area were discussed, including handling <strong>sensitive data</strong> <span class="citation" data-cites="maya2023 turing">(<a href="#ref-maya2023" role="doc-biblioref">Mathur and Fox 2023</a>; <a href="#ref-turing" role="doc-biblioref">The Turing Way Community</a>)</span>. As a result, practices like using <code>.gitignore</code> and and creating a <code>data/</code> folder with <code>raw/</code> and <code>processed/</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a <code>README</code> template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
+<p>Characteristics specific to the research area were discussed, including handling <strong>sensitive data</strong> <span class="citation" data-cites="maya2023 turingway2022sdp">(<a href="#ref-maya2023" role="doc-biblioref">Mathur and Fox 2023</a>; <a href="#ref-turingway2022sdp" role="doc-biblioref">The Turing Way Community 2022a</a>)</span>. As a result, practices like using <code>.gitignore</code> and and creating a <code>data/</code> folder with <code>raw/</code> and <code>processed/</code> sub folders were suggested to prevent private data from being pushed to GitHub and to maintain an orderly system for storing such information within the project. Also, we created a <code>README</code> template designed to be accessible to non-programmers to be sure that the relevant information, as the database version in use and computational environment, is captured.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -338,7 +338,7 @@ What is the difference between R and RStudio?
 </section>
 <section id="about-lab-manuals" class="level2">
 <h2 class="anchored" data-anchor-id="about-lab-manuals">About lab manuals</h2>
-<p>In our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual <span class="citation" data-cites="Aly2018 tendler2023 turing">(<a href="#ref-Aly2018" role="doc-biblioref">Aly 2018</a>; <a href="#ref-tendler2023" role="doc-biblioref">Tendler et al. 2023</a>; <a href="#ref-turing" role="doc-biblioref">The Turing Way Community</a>)</span>. If you’re looking for a practical example that incorporates code management, check the <span class="citation" data-cites="compgeolab_manual">Computer-Oriented Geoscience Lab Manual (<a href="#ref-compgeolab_manual" role="doc-biblioref">2025</a>)</span>.</p>
+<p>In our case, we focused this manual on code management, but lab manuals vary in scope: some include code management, while others do not. Public resources discuss how and/or why to create a lab manual <span class="citation" data-cites="Aly2018 tendler2023 turingway2022tm prosper2025">(<a href="#ref-Aly2018" role="doc-biblioref">Aly 2018</a>; <a href="#ref-tendler2023" role="doc-biblioref">Tendler et al. 2023</a>; <a href="#ref-turingway2022tm" role="doc-biblioref">The Turing Way Community 2022b</a>; <a href="#ref-prosper2025" role="doc-biblioref">Prosper 2025</a>)</span>. If you’re looking for a practical example that incorporates code management, check this <a href="https://www.compgeolab.org/manual/">Lab Manual</a> <span class="citation" data-cites="compgeolab_manual">(<a href="#ref-compgeolab_manual" role="doc-biblioref">Computer-Oriented Geoscience Lab 2025</a>)</span>.</p>
 </section>
 <section id="references" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
@@ -352,13 +352,16 @@ Aly, Mohamed. 2018. <span>“The Key to a Happy Lab Life Is in the Manual.”</s
 Bertram, Michael G, Josefin Sundin, Dominique G Roche, Alfredo Sánchez-Tójar, Eli SJ Thoré, and Tomas Brodin. 2023. <span>“Open Science.”</span> <em>Current Biology</em> 33 (15): R792–97.
 </div>
 <div id="ref-compgeolab_manual" class="csl-entry" role="listitem">
-Computer-Oriented Geoscience Lab Manual. 2025. <span>“Lab Manual. Computer-Oriented Geoscience Lab. University of São Pablo.”</span> <a href="https://www.compgeolab.org/manual/">https://www.compgeolab.org/manual/</a>.
+Computer-Oriented Geoscience Lab. 2025. <span>“<span>Lab Manual</span>.”</span> <a href="https://www.compgeolab.org/manual/">https://www.compgeolab.org/manual/</a>.
 </div>
 <div id="ref-gomes2022" class="csl-entry" role="listitem">
 Gomes, Dylan GE, Patrice Pottier, Robert Crystal-Ornelas, Emma J Hudgins, Vivienne Foroughirad, Luna L Sánchez-Reyes, Rachel Turba, et al. 2022. <span>“Why Don’t We Share Data and Code? Perceived Barriers and Benefits to Public Archiving Practices.”</span> <em>Proceedings of the Royal Society B</em> 289 (1987): 20221113.
 </div>
 <div id="ref-maya2023" class="csl-entry" role="listitem">
 Mathur, Maya B, and Matthew P Fox. 2023. <span>“Toward Open and Reproducible Epidemiology.”</span> <em>American Journal of Epidemiology</em> 192 (4): 658–64. <a href="https://doi.org/10.1093/aje/kwad007">https://doi.org/10.1093/aje/kwad007</a>.
+</div>
+<div id="ref-prosper2025" class="csl-entry" role="listitem">
+Prosper, University of Liverpool. 2025. <span>“Prosper: The PI Network - How Lab Handbooks Can Help Shape Research Culture in Your Team.”</span> <a href="https://prosper.liverpool.ac.uk/manager-of-researchers-resources/the-pi-network/how-lab-handbooks-can-help-shape-research-culture-in-your-team/">https://prosper.liverpool.ac.uk/manager-of-researchers-resources/the-pi-network/how-lab-handbooks-can-help-shape-research-culture-in-your-team/</a>.
 </div>
 <div id="ref-tazare2024" class="csl-entry" role="listitem">
 Tazare, John, Shirley V Wang, Rosa Gini, Daniel Prieto-Alhambra, Peter Arlett, Daniel R Morales Leaver, Caroline Morton, et al. 2024. <span>“Sharing Is Caring? International Society for Pharmacoepidemiology Review and Recommendations for Sharing Programming Code.”</span> <em>Pharmacoepidemiology and Drug Safety</em> 33 (9): e5856.
@@ -368,6 +371,12 @@ Tendler, Benjamin C, Maddie Welland, Karla L Miller, and The WIN Handbook Team. 
 </div>
 <div id="ref-turing" class="csl-entry" role="listitem">
 The Turing Way Community. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
+</div>
+<div id="ref-turingway2022sdp" class="csl-entry" role="listitem">
+———. 2022a. <span>“Sensitive Data Projects.”</span> In <em>The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research</em>. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
+</div>
+<div id="ref-turingway2022tm" class="csl-entry" role="listitem">
+———. 2022b. <span>“Team Manuals.”</span> In <em>The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research</em>. <a href="https://doi.org/10.5281/zenodo.7625728">https://doi.org/10.5281/zenodo.7625728</a>.
 </div>
 </div>
 </section>

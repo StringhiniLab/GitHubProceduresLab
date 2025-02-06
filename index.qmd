@@ -40,7 +40,7 @@ There are several benefits to defining clear minimum guidelines and basic comput
 7. **Maintain the group's research history.**  
    Centralizing data analyses on a repository hosting organization, such as a GitHub Organization, creates a historical archive of the group’s data analyses, ensuring continuity and avoiding dependence on researchers leaving behind their code and data when they move on.
 
-8. **Facilitate exchange of ideas about data and code management among team members.**  
+8. **Facilitate the exchange of ideas about data and code management among team members.**  
    Creating guidelines helps build a body of knowledge that can be improved over time with contributions from students/researchers, allowing for discussions on which practices should be added, prioritized, or removed.
 
 9. **Make informed decisions about what to learn next.**  
@@ -58,9 +58,8 @@ Finally, beyond these ten reasons, there is an additional benefit: demonstrating
 
 ::: {.callout-note appearance="simple"}
 
-## How to cite this book?
-D'Andrea, F., & Stringhini, S. Code Management Guidelines: R and GitHub Starter Kit for New Team Members. https://github.com/StringhiniLab/GitHubProceduresLab.
-Available at: https://stringhinilab.github.io/GitHubProceduresLab/ DOI: *https://doi.org/10.5281/zenodo.14510774*
+## How to cite this manual?
+D'Andrea, F., & Stringhini, S. (2025). Code Management Guidelines: R and GitHub Starter Kit for New Team Members (v1.0). Zenodo. [https://doi.org/10.5281/zenodo.14775421](https://doi.org/10.5281/zenodo.14775421)
 
 :::
 
