@@ -1,13 +1,12 @@
 **GitHub Organization**: [www.github.com/StringhiniLab](https://github.com/StringhiniLab)
 
-
 ## Goal {.unnumbered}
 
 The goal of this manual is to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in code management.
 
 ## Introduction {.unnumbered}
 
-The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science is key to ensuring reliable and reproducible results [@bestenough; @hicks2023; @abdill2024]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@carpentries; @codingclub; @turing; @coderefinery_lessons; @macmaster2024], there is a trade-off: adopting and practicing these techniques often requires significant effort, taking time away from researchers' primary fields of study [@allen2019; @goldsmith2021; @hicks2023].
+The use of programming languages has become an essential part of data analysis for most researchers today. In this context, a basic skill set in computer science is key to ensuring reliable and reproducible results [@bestenough; @hicks2023; @abdill2024]. Although a variety of educational materials, tutorials, and recommended practices specifically designed to train researchers are available [@carpentries; @codingclub; @turing; @coderefinery_lessons; @mcmaster2024], there is a trade-off: adopting and practicing these techniques often requires significant effort, taking time away from researchers' primary fields of study [@allen2019; @goldsmith2021; @hicks2023].
 
 One consequence of the deficiency in training is the uncertainty researchers may have about how to write code correctly, which negatively impacts their willingness to share their analyses [@gomes2022]. Thus, this results in a decrease in the number of publications with available code, impacting the reproducibility and transparency of scientific research [@gomes2022; @sharma2024]. This issue is exacerbated by the lack of incentives from the scientific system, leading to a high number of publications where authors do not share their code, despite the benefits of making their code open source [@allen2019; @melvin2022; @bertram2023; @tazare2024; @xu2025].
 
