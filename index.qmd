@@ -59,7 +59,7 @@ Finally, beyond these ten reasons, there is an additional benefit: demonstrating
 ::: {.callout-note appearance="simple"}
 
 ## How to cite this manual?
-D'Andrea, F., & Stringhini, S. (2025). Code Management Guidelines: R and GitHub Starter Kit for New Team Members (v1.0). Zenodo. [https://doi.org/10.5281/zenodo.14775421](https://doi.org/10.5281/zenodo.14775421)
+D'Andrea, F., and Silvia Stringhini. *Code Management Guidelines: R and GitHub Starter Kit for New Team Members* (v1.0). Zenodo, 2025. [https://stringhinilab.github.io/GitHubProceduresLab/.](https://stringhinilab.github.io/GitHubProceduresLab/) [https://doi.org/10.5281/zenodo.14775421](https://doi.org/10.5281/zenodo.14775421)
 
 :::
 
