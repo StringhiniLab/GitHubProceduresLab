@@ -1,6 +1,5 @@
 **GitHub Organization**: [www.github.com/StringhiniLab](https://www.github.com/StringhiniLab)
 
-
 ## Goal {.unnumbered}
 
 The goal of this manual is to provide the **minimum necessary guidelines** for new members of Dr. Silvia Stringhini's lab to follow agreed-upon practices in code management.
