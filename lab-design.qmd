@@ -19,7 +19,7 @@ A **GitHub organization** is a group on GitHub that allows teams to collaborate 
 :::
 
 
-| **Action** | **Benefit** | **What does this book cover?** |  
+| **Action** | **Benefit** | **What does this manual cover?** |  
 |---|---|---|  
 | Centralize the data analysis of the group in a GitHub organization | Preserve copies of the group's data analyses | - Steps to create a GitHub account and be added to the lab's organization </br> - How to create a GitHub repository |  
 | Avoid sending confidential data to GitHub  | Protection of sensitive data | - Use of `.gitignore` </br> - Project structure recommendations including how to organize the data folder |  
@@ -27,7 +27,7 @@ A **GitHub organization** is a group on GitHub that allows teams to collaborate 
 | Share a copy of each lab member's analyses in a private GitHub repository | - Create an initial version of the project that is organized and minimally documented so another lab member can understand it </br> - Foster the habit of performing code backups </br> - Receive feedback from colleagues early in the project development </br> - Have access to analyses from other lab members that have not been published | - How to create a private GitHub repository and what information to include </br> - Basic information to include in the `README` </br> - Creating a GitHub team and defining procedures to manage access to private repositories </br> - Develop a basic workflow for everyday use of Git and GitHub.  | 
 | Store the code associated with scientific publications publicly in a GitHub repository | The benefits of leaving code [open source](https://book.the-turing-way.org/reproducible-research/open.html) [@bertram2023]. | This section will be developed at the time of the first paper's publication |
 
-: **Book content overview.** This table presents the benefits and selected topics included in the book to guide the team on each prioritized action. {#tbl-book}
+: **Manual content overview.** This table presents the benefits and selected topics included in the book to guide the team on each prioritized action. {#tbl-book}
 
 Additionally, considering the lab's long-term evolution, onboarding and offboarding procedures were defined.
 
